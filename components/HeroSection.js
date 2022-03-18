@@ -1,0 +1,211 @@
+import React from "react";
+import Navbar from "./Navbar";
+import {
+  
+  Flex,
+  Image,
+  
+  Text,
+  
+  Heading,
+  
+  Button,
+  Icon,
+
+} from "@chakra-ui/react";
+import { AiOutlineDownload } from "react-icons/ai";
+import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
+import { ImTwitter } from "react-icons/im";
+
+
+export default function HeroSection({ children }) {
+  return (
+    /* mother flex */
+
+    <Flex
+      flexDir="column"
+      h="78.12rem"
+      backgroundImage="url('/blue.png')"
+      backgroundPosition="center"
+      backgroundRepeat="no-repeat"
+      backgroundSize="cover"
+      w="100vw"
+    >
+      {children}
+
+      {/*   flex  for heading */}
+
+      <Flex w="100%" ml="1rem">
+        <Heading as="h2" size="2xl" mt="1rem" fontWeight={"bold"} color="#fff">
+          Join the
+          <br />
+          Noluverse
+        </Heading>
+      </Flex>
+
+      {/*   flex  for headingParagraph */}
+
+      <Flex w="100%" ml="1rem">
+        <Text mt="2rem" color="#fff" fontSize="lg">
+          The most exciting virtual reality <br /> project is about to launch.
+          Be part <br /> of it!
+        </Text>
+      </Flex>
+
+      {/*   flex  for buttons */}
+
+      <Flex flexDir="column" w="100%" ml="1rem" my="4">
+        <Button
+          w="90%"
+          borderRadius="0.5rem"
+          h="3.18rem"
+          colorScheme="pink"
+          variant="solid"
+          bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
+        >
+          Learn More
+        </Button>
+
+        {/*   flex  for white paper ( child flex of buttons flex) */}
+        <Flex flexDir="row" gap="4" mt="1rem">
+          <Icon
+            as={AiOutlineDownload}
+            background="rgba(255, 255, 255, 0.14);"
+            w="20%"
+            h="4rem"
+            borderRadius="0.5rem"
+            fontSize="2xl"
+            color="#fff"
+          />
+
+          <Text color="#fff" w="80%" fontSize="lg" py="1rem" fontWeight="bold">
+            View the White Paper
+          </Text>
+        </Flex>
+      </Flex>
+
+      {/*   flex  for social media icon */}
+
+      <Flex w="100%" ml="1rem" mt="2rem" color="#fff" flexDir="row">
+        <Icon w="15%" as={FaDiscord} fontSize="2xl" />
+
+        <Icon w="15%" as={ImTwitter} fontSize="2xl" />
+
+        <Icon w="15%" as={FaTelegramPlane} borderRadius="8px" fontSize="2xl" />
+      </Flex>
+
+      {/*   flex  for heroImage*/}
+
+      <Flex w="100%" alignItems="center" mt="0.5rem" justifyContent="center">
+        <Image w="80%" src="hero.png" alt="hero" />
+      </Flex>
+
+      {/*   flex  for sale time*/}
+
+      <Flex
+        w="100%"
+        flexDir="column"
+        alignItems="center"
+        justifyContent="center"
+        mt="1rem"
+      >
+        <Heading as="h4" size="md" fontWeight="600" color="white" mt="10">
+          TOTAL SALE START IN
+        </Heading>
+
+        {/*   child flex of sale time flex */}
+
+        <Flex w="100%" py="2rem" >
+          <Flex
+            w="25%"
+            flexDir="column"
+            alignItems="center"
+            justifyContent="center"
+          >
+            <Text
+              fontSize="lg"
+              color="white"
+              borderRadius="10px"
+              background=" rgba(255, 255, 255, 0.1);"
+              px="2rem"
+              py="0.5rem"
+              fontWeight="bold"
+            >
+              3
+            </Text>
+            <Text fontSize="xs" px="3" py="1" color="white">
+              DAYS
+            </Text>
+          </Flex>
+
+          <Flex
+            flexDir="column"
+            w="25%"
+            alignItems="center"
+            justifyContent="center"
+          >
+            <Text
+              fontSize="lg"
+              color="white"
+              borderRadius="10px"
+              background=" rgba(255, 255, 255, 0.1);"
+              px="2rem"
+              py="0.5rem"
+              fontWeight="bold"
+            >
+              12
+            </Text>
+            <Text fontSize="xs" px="4" py="1" color="white">
+              HRS
+            </Text>
+          </Flex>
+          <Flex
+            flexDir="column"
+            w="25%"
+            alignItems="center"
+            justifyContent="center"
+          >
+            <Text
+              fontSize="lg"
+              color="white"
+              borderRadius="10px"
+              background=" rgba(255, 255, 255, 0.1);"
+              px="2rem"
+              py="0.5rem"
+              fontWeight="bold"
+            >
+              31
+            </Text>
+            <Text fontSize="xs" px="4" py="1" color="white">
+              MIN
+            </Text>
+          </Flex>
+
+          <Flex
+            flexDir="column"
+            w="25%"
+            alignItems="center"
+            justifyContent="center"
+          >
+            <Text
+              fontSize="lg"
+              color="white"
+              borderRadius="10px"
+              background=" rgba(255, 255, 255, 0.1);"
+              px="2rem"
+              py="0.5rem"
+              fontWeight="bold"
+            >
+              28
+            </Text>
+            <Text fontSize="xs" px="4" py="1" color="white">
+              SEC
+            </Text>
+          </Flex>
+        </Flex>
+      </Flex>
+
+      {/*  mother sale flex end*/}
+    </Flex>
+  );
+}
