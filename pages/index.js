@@ -4,6 +4,7 @@ import NoluFeatures from "../components/NoluFeatures";
 import TokenSaleTerms from "../components/TokenSaleTerms";
 import BinanceSmartChain from "../components/BinanceSmartChain";
 import Tokenomics from "../components/Tokenomics";
+import NoluSaleRoadmap from "../components/NoluSaleRoadmap";
 
 
 import {
@@ -40,6 +41,8 @@ export default function App() {
       <BinanceSmartChain/>
 
       <Tokenomics/>
+
+      <NoluSaleRoadmap/>
 
    
 
