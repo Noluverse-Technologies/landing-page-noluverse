@@ -1,22 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import {
-  
-  Flex,
-  Image,
-  
-  Text,
-  
-  Heading,
-  
-  Button,
-  Icon,
-
-} from "@chakra-ui/react";
+import { Flex, Image, Text, Heading, Button, Icon } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
-
 
 export default function HeroSection({ children }) {
   return (
@@ -115,7 +102,7 @@ export default function HeroSection({ children }) {
 
         {/*   child flex of sale time flex */}
 
-        <Flex w="100%" py="2rem" >
+        <Flex w="100%" py="2rem">
           <Flex
             w="25%"
             flexDir="column"

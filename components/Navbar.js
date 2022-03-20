@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import {
   chakra,
   Avatar,
@@ -15,11 +14,9 @@ import {
   VStack,
   IconButton,
   CloseButton,
-  Image ,
-
+  Image,
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
-
 
 export default function Navbar() {
   const bg = useColorModeValue("white", "gray.800");
@@ -28,9 +25,7 @@ export default function Navbar() {
   return (
     <React.Fragment>
       <chakra.header
-      bgColor= "transparent"
-      
-       
+        bgColor="transparent"
         px={{ base: 2, sm: 4 }}
         py={4}
         shadow="md"
@@ -43,34 +38,35 @@ export default function Navbar() {
               display="flex"
               alignItems="center"
             >
-         
-         <Image src='logo.png' alt='logo.png' ml={5}/>
+              <Image src="logo.png" alt="logo.png" ml={5} />
 
-    
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="lg" fontWeight="medium" ml="3" color={"white"}>
-              NOLUVERSE <Text fontSize="xs" ml={1}> --Technologies--</Text>
+              NOLUVERSE{" "}
+              <Text fontSize="xs" ml={1}>
+                {" "}
+                --Technologies--
+              </Text>
             </chakra.h1>
-            
           </Flex>
-          
+
           <HStack display="flex" alignItems="center" spacing={1}>
             <HStack
               spacing={4}
               mr={20}
-              color="#FFFFFF"
+           
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button variant="link">Features</Button>
-              <Button variant="link">Terms</Button>
-              <Button variant="link">Timelines</Button>
-              <Button variant="link">Roadmap</Button>
-              <Button variant="link">Monetization</Button>
-              <Button variant="link">Team</Button>
-              <Button variant="link">Milestones</Button>
+              <Button variant="link"  color="#FFFFFF">Features</Button>
+              <Button variant="link"  color="#FFFFFF">Terms</Button>
+              <Button variant="link" color="#FFFFFF">Timelines</Button>
+              <Button variant="link"  color="#FFFFFF">Roadmap</Button>
+              <Button variant="link"  color="#FFFFFF">Monetization</Button>
+              <Button variant="link"  color="#FFFFFF">Team</Button>
+              <Button variant="link"  color="#FFFFFF">Milestones</Button>
             </HStack>
-           
+
             <Box display={{ base: "inline-flex", md: "none" }}>
               <IconButton
                 display={{ base: "flex", md: "none" }}
@@ -122,10 +118,6 @@ export default function Navbar() {
           </HStack>
         </Flex>
       </chakra.header>
-    
     </React.Fragment>
-   
-    
-  
   );
 }

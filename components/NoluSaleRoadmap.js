@@ -4,22 +4,33 @@ export default function NoluSaleRoadmap() {
     /*      mother flex for all */
 
     <Flex flexDir="column" w="100vw" my="3rem">
-      {/*   flex for roadmap heading  */}
+ 
 
-      <Flex color={"black"} flexDir="column" w="100%">
-        <Text px="3.5rem" fontSize="3xl" fontWeight="bold" color="#151855">
-          Nolu Sale Roadmap
-        </Text>
-        <Text
-          px="6rem"
-          mt="1rem"
-          fontSize="lg"
-          fontWeight="bold"
-          color="#5F72DB"
-        >
-          Explore Development
-        </Text>
-      </Flex>
+     {/*   flex for roadmap heading  */}
+     <Flex
+     alignItems="center"
+     justifyContent="center"
+     flexDir="column"
+     w="100%"
+   >
+     <Text fontSize="3xl" fontWeight="bold" color="#151855">
+       Nolu Sale Roadmap
+     </Text>
+   </Flex>
+
+   {/*   flex for roadmap sub heading  */}
+
+   <Flex
+     alignItems="center"
+     justifyContent="center"
+     px="2.2rem"
+     flexDir="column"
+     w="100%"
+   >
+     <Text fontSize="xl" my="1rem" fontWeight="bold" color="#4169E1">
+     Explore development
+     </Text>
+   </Flex>
 
       {/*   flex for mother phase 1  */}
 

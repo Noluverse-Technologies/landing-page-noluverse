@@ -6,25 +6,15 @@ import BinanceSmartChain from "../components/BinanceSmartChain";
 import Tokenomics from "../components/Tokenomics";
 import NoluSaleRoadmap from "../components/NoluSaleRoadmap";
 import ProjectMonetization from "../components/ProjectMonetization";
+import MilestoneNolu from "../components/MilestoneNolu";
+
+import MeetNoluTeam from "../components/MeetNoluTeam";
 
 
-import {
-  chakra,
-  Avatar,
-  Text,
-  Box,
-  Flex,
-  useColorModeValue,
-  VisuallyHidden,
-  HStack,
-  Button,
-  useDisclosure,
-  VStack,
-  IconButton,
-  CloseButton,
-  Image,
-} from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
+
+
 
 export default function App() {
   return (
@@ -46,6 +36,10 @@ export default function App() {
       <NoluSaleRoadmap/>
 
       <ProjectMonetization/>
+      <MilestoneNolu/>
+      
+
+    
 
    
 
