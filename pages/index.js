@@ -11,7 +11,7 @@ import MilestoneNolu from "../components/MilestoneNolu";
 import MeetNoluTeam from "../components/MeetNoluTeam";
 
 
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 
 
@@ -36,6 +36,7 @@ export default function App() {
       <NoluSaleRoadmap/>
 
       <ProjectMonetization/>
+      <MeetNoluTeam/>
       <MilestoneNolu/>
       
 
