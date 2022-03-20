@@ -70,7 +70,7 @@ export default function NoluFeatures() {
 
       <Flex my="1rem" w="100%">
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
-          <Image w="3.50rem" h="3.50rem" src="noluPay.png" alt="noluPay" />
+          <Image w="3.50rem" h="3.50rem" src="pixel.png" alt="pixel" />
         </Flex>
 
         <Flex flexDir="column" w="70%" mt="1rem">
@@ -90,7 +90,7 @@ export default function NoluFeatures() {
 
       <Flex my="1rem" w="100%">
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
-          <Image w="3.50rem" h="3.50rem" src="nolu+.png" alt="nolu+" />
+          <Image w="3.50rem" h="3.50rem" src="noluVerse.png" alt="noluVerse" />
         </Flex>
 
         <Flex flexDir="column" w="70%" mt="1rem">
@@ -110,7 +110,7 @@ export default function NoluFeatures() {
 
       <Flex my="1rem" w="100%">
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
-          <Image w="3.50rem" h="3.50rem" src="noluPay.png" alt="noluPay" />
+          <Image w="3.50rem" h="3.50rem" src="nft.png" alt="nft" />
         </Flex>
 
         <Flex flexDir="column" w="70%" mt="1rem">

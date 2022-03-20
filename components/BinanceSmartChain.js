@@ -4,7 +4,7 @@ export default function BinanceSmartChain() {
   return (
     /*      mother flex for all */
 
-    <Flex flexDir="column" w="100vw" my="3rem">
+    <Flex flexDir="column" w="100vw" my="1rem">
       {/*   flex for smart heading  */}
 
       <Flex
@@ -88,7 +88,7 @@ export default function BinanceSmartChain() {
       {/*   flex for terms image  */}
 
       <Flex w="100%" my="2rem" alignItems="center" justifyContent="center">
-        <Image w="50%" src="smartchain.png" alt="smartchain" />
+        <Image w="90%" src="binancechain.png" alt="binancechain" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */

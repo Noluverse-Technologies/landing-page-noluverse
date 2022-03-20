@@ -139,7 +139,7 @@ export default function ProjectMonetization() {
      {/*   flex for terms image  */}
 
      <Flex w="100%" my="2.5rem" alignItems="center" justifyContent="center">
-     <Image w="70%" src="monetization.png" alt="monetization" />
+     <Image w="90%" src="monetization.png" alt="monetization" />
    </Flex>
 
 

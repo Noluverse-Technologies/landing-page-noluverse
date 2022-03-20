@@ -83,7 +83,7 @@ export default function TokenSaleTerms() {
       {/*   flex for terms image  */}
 
       <Flex w="100%" mt="2rem" alignItems="center" justifyContent="center">
-        <Image w="50%" src="termsman.png" alt="termsman" />
+        <Image w="90%" src="tokensalesterm.png" alt="tokensalesterm" />
       </Flex>
 
      
