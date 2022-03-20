@@ -4,33 +4,31 @@ export default function NoluSaleRoadmap() {
     /*      mother flex for all */
 
     <Flex flexDir="column" w="100vw" my="3rem">
- 
+      {/*   flex for roadmap heading  */}
+      <Flex
+        alignItems="center"
+        justifyContent="center"
+        flexDir="column"
+        w="100%"
+      >
+        <Text fontSize="3xl" fontWeight="bold" color="#151855">
+          Nolu Sale Roadmap
+        </Text>
+      </Flex>
 
-     {/*   flex for roadmap heading  */}
-     <Flex
-     alignItems="center"
-     justifyContent="center"
-     flexDir="column"
-     w="100%"
-   >
-     <Text fontSize="3xl" fontWeight="bold" color="#151855">
-       Nolu Sale Roadmap
-     </Text>
-   </Flex>
+      {/*   flex for roadmap sub heading  */}
 
-   {/*   flex for roadmap sub heading  */}
-
-   <Flex
-     alignItems="center"
-     justifyContent="center"
-     px="2.2rem"
-     flexDir="column"
-     w="100%"
-   >
-     <Text fontSize="xl" my="1rem" fontWeight="bold" color="#4169E1">
-     Explore development
-     </Text>
-   </Flex>
+      <Flex
+        alignItems="center"
+        justifyContent="center"
+        px="2.2rem"
+        flexDir="column"
+        w="100%"
+      >
+        <Text fontSize="xl" my="1rem" fontWeight="bold" color="#4169E1">
+          Explore development
+        </Text>
+      </Flex>
 
       {/*   flex for mother phase 1  */}
 
@@ -58,10 +56,11 @@ export default function NoluSaleRoadmap() {
         {/*   flex for phase 1  description part */}
 
         <Flex
-          backgroundColor="#FFFFFF"
+          backgroundColor="#FAFAFF"
+          border="1px solid #EDF2F7"
+          py="1.5rem"
           ml="1.2rem"
-          mt="1rem"
-          w="100%"
+          w="95%"
           flexDir="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
@@ -102,14 +101,13 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 2  */}
 
-      <Flex w="100%" flexDir="column" mt="1.5rem">
+      <Flex w="100%" flexDir="column">
         {/*   flex for phase 2  heading part */}
 
         <Flex
           backgroundColor="#4F68D1"
           h="5.87rem"
           ml="1.2rem"
-          mt="1rem"
           flexDir="column"
           alignItems="center"
           justifyContent="center"
@@ -125,10 +123,11 @@ export default function NoluSaleRoadmap() {
         {/*   flex for phase 2  description part */}
 
         <Flex
-          backgroundColor="#FFFFFF"
+          backgroundColor="#FAFAFF"
+          border="1px solid #EDF2F7"
+          py="1.5rem"
+          w="95%"
           ml="1.2rem"
-          mt="1rem"
-          w="100%"
           flexDir="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
@@ -165,16 +164,15 @@ export default function NoluSaleRoadmap() {
         </Flex>
       </Flex>
 
-      {/*   flex for mother phase 2 (2nd)  */}
+      {/*   flex for mother phase 2 (2nd) (continued) */}
 
-      <Flex w="100%" flexDir="column" mt="1.5rem">
+      <Flex w="100%" flexDir="column">
         {/*   flex for phase 2 (2nd)  heading part */}
 
         <Flex
           backgroundColor=" #5F72DB"
           h="5.87rem"
           ml="1.2rem"
-          mt="1rem"
           flexDir="column"
           alignItems="center"
           justifyContent="center"
@@ -190,10 +188,11 @@ export default function NoluSaleRoadmap() {
         {/*   flex for phase 2 (2nd)  description part */}
 
         <Flex
-          backgroundColor="#FFFFFF"
+          backgroundColor="#FAFAFF"
+          border="1px solid #EDF2F7"
+          py="1.5rem"
           ml="1.2rem"
-          mt="1rem"
-          w="100%"
+          w="95%"
           flexDir="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
@@ -232,14 +231,13 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 3 */}
 
-      <Flex w="100%" flexDir="column" mt="1.5rem">
+      <Flex w="100%" flexDir="column">
         {/*   flex for phase 3  heading part */}
 
         <Flex
           backgroundColor="#6E7CE5"
           h="5.87rem"
           ml="1.2rem"
-          mt="1rem"
           flexDir="column"
           alignItems="center"
           justifyContent="center"
@@ -255,10 +253,11 @@ export default function NoluSaleRoadmap() {
         {/*   flex for phase 3 description part */}
 
         <Flex
-          backgroundColor="#FFFFFF"
+          backgroundColor="#FAFAFF"
+          border="1px solid #EDF2F7"
+          py="1.5rem"
           ml="1.2rem"
-          mt="1rem"
-          w="100%"
+          w="95%"
           flexDir="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
@@ -285,14 +284,13 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 4 */}
 
-      <Flex w="100%" flexDir="column" mt="1.5rem">
+      <Flex w="100%" flexDir="column">
         {/*   flex for phase 4  heading part */}
 
         <Flex
           backgroundColor="#7E87EF"
           h="5.87rem"
           ml="1.2rem"
-          mt="1rem"
           flexDir="column"
           alignItems="center"
           justifyContent="center"
@@ -308,10 +306,11 @@ export default function NoluSaleRoadmap() {
         {/*   flex for phase 4 description part */}
 
         <Flex
-          backgroundColor="#FFFFFF"
+          backgroundColor="#FAFAFF"
+          border="1px solid #EDF2F7"
+          py="1.5rem"
           ml="1.2rem"
-          mt="1rem"
-          w="100%"
+          w="95%"
           flexDir="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
@@ -348,14 +347,13 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 5 */}
 
-      <Flex w="100%" flexDir="column" mt="1.5rem">
+      <Flex w="100%" flexDir="column">
         {/*   flex for phase 5  heading part */}
 
         <Flex
           backgroundColor="#9797FF"
           h="5.87rem"
           ml="1.2rem"
-          mt="1rem"
           flexDir="column"
           alignItems="center"
           justifyContent="center"
@@ -371,10 +369,11 @@ export default function NoluSaleRoadmap() {
         {/*   flex for phase 5 description part */}
 
         <Flex
-          backgroundColor="#FFFFFF"
+          backgroundColor="#FAFAFF"
+          border="1px solid #EDF2F7"
+          py="1.5rem"
           ml="1.2rem"
-          mt="1rem"
-          w="100%"
+          w="95%"
           flexDir="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
@@ -406,7 +405,6 @@ export default function NoluSaleRoadmap() {
           backgroundColor="#9797FF"
           h="5.87rem"
           ml="1.2rem"
-          mt="1rem"
           borderRadius={"0px 0px 20px 20px"}
           flexDir="column"
           alignItems="center"
