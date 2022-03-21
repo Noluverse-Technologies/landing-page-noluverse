@@ -1,6 +1,18 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Flex, Image, Text, Heading, Button, Icon } from "@chakra-ui/react";
+import {
+  
+  Flex,
+  Image,
+  
+  Text,
+  
+  Heading,
+  
+  Button,
+  Icon,
+
+} from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
@@ -10,7 +22,7 @@ export default function HeroSection({ children }) {
     /* mother flex */
 
     <Flex
-      flexDir="column"
+      direction="column"
       h="78.12rem"
       backgroundImage="url('/blue.png')"
       backgroundPosition="center"
@@ -41,7 +53,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for buttons */}
 
-      <Flex flexDir="column" w="100%" ml="1rem" my="4">
+      <Flex direction="column" w="100%" ml="1rem" my="4">
         <Button
           w="90%"
           borderRadius="0.5rem"
@@ -54,7 +66,7 @@ export default function HeroSection({ children }) {
         </Button>
 
         {/*   flex  for white paper ( child flex of buttons flex) */}
-        <Flex flexDir="row" gap="4" mt="1rem">
+        <Flex direction="row" gap="4" mt="1rem">
           <Icon
             as={AiOutlineDownload}
             background="rgba(255, 255, 255, 0.14);"
@@ -73,7 +85,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for social media icon */}
 
-      <Flex w="100%" ml="1rem" mt="2rem" color="#fff" flexDir="row">
+      <Flex w="100%" ml="1rem" mt="2rem" color="#fff" direction="row">
         <Icon w="15%" as={FaDiscord} fontSize="2xl" />
 
         <Icon w="15%" as={ImTwitter} fontSize="2xl" />
@@ -91,7 +103,7 @@ export default function HeroSection({ children }) {
 
       <Flex
         w="100%"
-        flexDir="column"
+        direction="column"
         alignItems="center"
         justifyContent="center"
         mt="1rem"
@@ -102,10 +114,10 @@ export default function HeroSection({ children }) {
 
         {/*   child flex of sale time flex */}
 
-        <Flex w="100%" py="2rem">
+        <Flex w="100%" py="2rem" >
           <Flex
             w="25%"
-            flexDir="column"
+            direction="column"
             alignItems="center"
             justifyContent="center"
           >
@@ -126,7 +138,7 @@ export default function HeroSection({ children }) {
           </Flex>
 
           <Flex
-            flexDir="column"
+            direction="column"
             w="25%"
             alignItems="center"
             justifyContent="center"
@@ -147,7 +159,7 @@ export default function HeroSection({ children }) {
             </Text>
           </Flex>
           <Flex
-            flexDir="column"
+            direction="column"
             w="25%"
             alignItems="center"
             justifyContent="center"
@@ -169,7 +181,7 @@ export default function HeroSection({ children }) {
           </Flex>
 
           <Flex
-            flexDir="column"
+            direction="column"
             w="25%"
             alignItems="center"
             justifyContent="center"
@@ -196,3 +208,5 @@ export default function HeroSection({ children }) {
     </Flex>
   );
 }
+
+

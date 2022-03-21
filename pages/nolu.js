@@ -92,7 +92,7 @@ export default function Navbar() {
                  left={0}
                  right={0}
                  display={mobileNav.isOpen ? "flex" : "none"}
-                 flexDirection="column"
+                 directionection="column"
                  p={2}
                  pb={4}
                  m={2}

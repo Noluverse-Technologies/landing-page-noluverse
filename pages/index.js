@@ -18,7 +18,7 @@ import Navbar from "../components/Navbar";
 
 export default function App() {
   return (
-    <Flex flexDir="column">
+    <Flex flexDir="column" w="100vw">
 
     
       <HeroSection>

@@ -55,16 +55,29 @@ export default function Navbar() {
             <HStack
               spacing={4}
               mr={20}
-           
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button variant="link"  color="#FFFFFF">Features</Button>
-              <Button variant="link"  color="#FFFFFF">Terms</Button>
-              <Button variant="link" color="#FFFFFF">Timelines</Button>
-              <Button variant="link"  color="#FFFFFF">Roadmap</Button>
-              <Button variant="link"  color="#FFFFFF">Monetization</Button>
-              <Button variant="link"  color="#FFFFFF">Team</Button>
-              <Button variant="link"  color="#FFFFFF">Milestones</Button>
+              <Button variant="link" color="#FFFFFF">
+                Features
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Terms
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Timelines
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Roadmap
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Monetization
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Team
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Milestones
+              </Button>
             </HStack>
 
             <Box display={{ base: "inline-flex", md: "none" }}>
@@ -84,7 +97,7 @@ export default function Navbar() {
                 left={0}
                 right={0}
                 display={mobileNav.isOpen ? "flex" : "none"}
-                flexDirection="column"
+                directionection="column"
                 p={2}
                 pb={4}
                 m={2}

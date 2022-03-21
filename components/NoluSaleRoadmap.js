@@ -3,12 +3,12 @@ export default function NoluSaleRoadmap() {
   return (
     /*      mother flex for all */
 
-    <Flex flexDir="column" w="100vw" my="3rem">
+    <Flex direction="column" w="100vw" my="3rem">
       {/*   flex for roadmap heading  */}
       <Flex
         alignItems="center"
         justifyContent="center"
-        flexDir="column"
+        direction="column"
         w="100%"
       >
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -22,7 +22,7 @@ export default function NoluSaleRoadmap() {
         alignItems="center"
         justifyContent="center"
         px="2.2rem"
-        flexDir="column"
+        direction="column"
         w="100%"
       >
         <Text fontSize="xl" my="1rem" fontWeight="bold" color="#4169E1">
@@ -32,7 +32,7 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 1  */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         {/*   flex for phase 1  heading part */}
 
         <Flex
@@ -41,7 +41,7 @@ export default function NoluSaleRoadmap() {
           ml="1.2rem"
           mt="1rem"
           borderRadius={"20px 20px 0px 0px"}
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >
@@ -61,7 +61,7 @@ export default function NoluSaleRoadmap() {
           py="1.5rem"
           ml="1.2rem"
           w="95%"
-          flexDir="column"
+          direction="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
             <Text w="20%" fontSize="lg" color="#000000">
@@ -72,8 +72,8 @@ export default function NoluSaleRoadmap() {
               <strong>Blade of Carnage</strong> <br />
               Early Accesst | PC MMORPG <br />
               Main Game
-              <br />
-              XR MMORPG
+              
+              <Image w="5%" src="maingame.png" alt="maingame" />XR MMORPG
             </Text>
           </Flex>
 
@@ -101,14 +101,14 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 2  */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         {/*   flex for phase 2  heading part */}
 
         <Flex
           backgroundColor="#4F68D1"
           h="5.87rem"
           ml="1.2rem"
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >
@@ -128,7 +128,7 @@ export default function NoluSaleRoadmap() {
           py="1.5rem"
           w="95%"
           ml="1.2rem"
-          flexDir="column"
+          direction="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
             <Text w="20%" fontSize="lg" color="#000000">
@@ -166,14 +166,14 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 2 (2nd) (continued) */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         {/*   flex for phase 2 (2nd)  heading part */}
 
         <Flex
           backgroundColor=" #5F72DB"
           h="5.87rem"
           ml="1.2rem"
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >
@@ -193,7 +193,7 @@ export default function NoluSaleRoadmap() {
           py="1.5rem"
           ml="1.2rem"
           w="95%"
-          flexDir="column"
+          direction="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
             <Text w="20%" fontSize="lg" color="#000000">
@@ -231,14 +231,14 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 3 */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         {/*   flex for phase 3  heading part */}
 
         <Flex
           backgroundColor="#6E7CE5"
           h="5.87rem"
           ml="1.2rem"
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >
@@ -258,7 +258,7 @@ export default function NoluSaleRoadmap() {
           py="1.5rem"
           ml="1.2rem"
           w="95%"
-          flexDir="column"
+          direction="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
             <Text w="20%" fontSize="lg" color="#000000">
@@ -284,14 +284,14 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 4 */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         {/*   flex for phase 4  heading part */}
 
         <Flex
           backgroundColor="#7E87EF"
           h="5.87rem"
           ml="1.2rem"
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >
@@ -311,7 +311,7 @@ export default function NoluSaleRoadmap() {
           py="1.5rem"
           ml="1.2rem"
           w="95%"
-          flexDir="column"
+          direction="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
             <Text w="20%" fontSize="lg" color="#000000">
@@ -347,14 +347,14 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 5 */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         {/*   flex for phase 5  heading part */}
 
         <Flex
           backgroundColor="#9797FF"
           h="5.87rem"
           ml="1.2rem"
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >
@@ -374,7 +374,7 @@ export default function NoluSaleRoadmap() {
           py="1.5rem"
           ml="1.2rem"
           w="95%"
-          flexDir="column"
+          direction="column"
         >
           <Flex w="100%" px="2rem" mt="1rem">
             <Text w="20%" fontSize="lg" color="#000000">
@@ -400,13 +400,13 @@ export default function NoluSaleRoadmap() {
 
       {/*   flex for mother phase 5 (end) */}
 
-      <Flex w="100%" flexDir="column">
+      <Flex w="100%" direction="column">
         <Flex
           backgroundColor="#9797FF"
           h="5.87rem"
           ml="1.2rem"
           borderRadius={"0px 0px 20px 20px"}
-          flexDir="column"
+          direction="column"
           alignItems="center"
           justifyContent="center"
         >

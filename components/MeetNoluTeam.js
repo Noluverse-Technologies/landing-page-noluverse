@@ -8,13 +8,12 @@ export default function MeetNoluTeam() {
   return (
     /*mother flex for all */
 
-    <Flex flexDir="column" w="100vw" my="3rem">
+    <Flex direction="column" my="3rem">
       {/*   flex for team heading  */}
       <Flex
         alignItems="center"
         justifyContent="center"
-        flexDir="column"
-        w="100%"
+        direction="column"
       >
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Meet the Nolu Team
@@ -27,8 +26,8 @@ export default function MeetNoluTeam() {
         alignItems="center"
         justifyContent="center"
         px="2.2rem"
-        flexDir="column"
-        w="100%"
+        direction="column"
+   
       >
         <Text fontSize="xl" my="1rem" fontWeight="bold" color="#5F72DB">
           The Leaders Behind the Project
@@ -37,7 +36,7 @@ export default function MeetNoluTeam() {
 
       {/*   mother flex for all cards  */}
 
-      <Flex mt="4rem" flexDir="column">
+      <Flex mt="4rem" pl={[0,"5rem","5rem","1rem","15rem"]} gap={[0,0,0,3,7]} direction={["column", "column", "column", "row", "row"]}>
         {/*    flex for 1st card  */}
 
         <Flex>
@@ -55,7 +54,7 @@ export default function MeetNoluTeam() {
             rounded="lg"
             borderRadius="20px"
           >
-            <Flex justifyContent={{ base: "center", md: "end" }} mt={-16}>
+            <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
               <Image
                 w={20}
                 h={20}
@@ -86,7 +85,7 @@ export default function MeetNoluTeam() {
             <Flex
               mt="2rem"
               color="#fff"
-              flexDir="row"
+              direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"
@@ -117,7 +116,7 @@ export default function MeetNoluTeam() {
             rounded="lg"
             borderRadius="20px"
           >
-            <Flex justifyContent={{ base: "center", md: "end" }} mt={-16}>
+            <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
               <Image
                 w={20}
                 h={20}
@@ -146,7 +145,7 @@ export default function MeetNoluTeam() {
             <Flex
               mt="2rem"
               color="#fff"
-              flexDir="row"
+              direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"
@@ -187,7 +186,7 @@ export default function MeetNoluTeam() {
             rounded="lg"
             borderRadius="20px"
           >
-            <Flex justifyContent={{ base: "center", md: "end" }} mt={-16}>
+            <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
               <Image
                 w={20}
                 h={20}
@@ -216,7 +215,7 @@ export default function MeetNoluTeam() {
             <Flex
               mt="2rem"
               color="#fff"
-              flexDir="row"
+              direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"

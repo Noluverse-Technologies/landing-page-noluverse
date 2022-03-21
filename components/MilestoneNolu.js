@@ -4,12 +4,12 @@ export default function MilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex flexDir="column" w="100vw" mt="3rem">
+    <Flex direction="column" w="100vw" mt="3rem">
       {/*   flex for milestone heading  */}
       <Flex
         alignItems="center"
         justifyContent="center"
-        flexDir="column"
+        direction="column"
         w="100%"
       >
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -24,7 +24,7 @@ export default function MilestoneNolu() {
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
 
-        <Flex flexDir="column" w="90%" mt="1rem">
+        <Flex direction="column" w="90%" mt="1rem">
           <Text fontSize="lg" color="#091B27" fontWeight="bold">
             Character Development and Items
           </Text>
@@ -45,7 +45,7 @@ export default function MilestoneNolu() {
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
 
-        <Flex flexDir="column" w="90%" mt="1rem">
+        <Flex direction="column" w="90%" mt="1rem">
           <Text fontSize="lg" color="#091B27" fontWeight="bold">
             Game Script
           </Text>
@@ -63,7 +63,7 @@ export default function MilestoneNolu() {
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
 
-        <Flex flexDir="column" w="90%" mt="1rem">
+        <Flex direction="column" w="90%" mt="1rem">
           <Text fontSize="lg" color="#091B27" fontWeight="bold">
             Combat AI for Early Access
           </Text>
@@ -99,7 +99,7 @@ export default function MilestoneNolu() {
       {/*   mother flex for footer */}
 
       <Flex
-        flexDir="column"
+        direction="column"
         h="30rem"
         backgroundImage="url('/footer.png')"
         backgroundPosition="center"
@@ -113,7 +113,7 @@ export default function MilestoneNolu() {
         </Flex>
 
         {/*    flex for footer nav button (child flex of footer) */}
-        <Flex w="100%" pl="1.5rem" flexDir="row" wrap="wrap" gap="6" mt="3rem">
+        <Flex w="100%" pl="1.5rem" direction="row" wrap="wrap" gap="6" mt="3rem">
           <Button variant="link" size="lg" color="#FFFFFF">
             Features
           </Button>
