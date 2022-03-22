@@ -1,6 +1,6 @@
 import { Flex, Image, Button, Text } from "@chakra-ui/react";
 
-export default function DesktopTokenomics() {
+export default function DesktopTokenoMics () {
   return (
     <Flex w="100%" my="3rem">
       {/*   flex for tokenomics image  */}

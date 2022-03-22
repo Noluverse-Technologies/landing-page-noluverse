@@ -16,6 +16,7 @@ import Navbar from "../components/Navbar";
 
 import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
 import DesktopMilestoneNolu from "../components/desktop/DesktopMilestoneNolu";
+import DesktopTokenoMics from "../components/desktop/DesktopTokenoMics";
 
 
 
@@ -54,6 +55,7 @@ export default function App() {
 
     <DesktopTokenSaleTerms/>
     <BinanceSmartChain/>
+    <DesktopTokenoMics/>
 
     <MeetNoluTeam/>
     <DesktopMilestoneNolu/>
