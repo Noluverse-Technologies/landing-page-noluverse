@@ -36,7 +36,7 @@ export default function MeetNoluTeam() {
 
       {/*   mother flex for all cards  */}
 
-      <Flex mt="4rem" pl={[0,"5rem","5rem","1rem","15rem"]} gap={[0,0,0,3,7]} direction={["column", "column", "column", "row", "row"]}>
+      <Flex mt="4rem" pl={[0,"5rem","5rem","1rem","10rem"]} gap={[0,0,0,3,7]} direction={["column", "column", "column", "row", "row"]}>
         {/*    flex for 1st card  */}
 
         <Flex>
