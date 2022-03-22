@@ -7,17 +7,22 @@ import Tokenomics from "../components/Tokenomics";
 import NoluSaleRoadmap from "../components/NoluSaleRoadmap";
 import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
-
 import MeetNoluTeam from "../components/MeetNoluTeam";
 
 
 import { Flex } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 
+import DesktopTokenomics from "../components/desktop/DesktopTokenomics";
+import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
+
 
 
 export default function App() {
   return (
+
+/*  for mobile.......................
+    
     <Flex flexDir="column" w="100vw">
 
     
@@ -38,13 +43,21 @@ export default function App() {
       <ProjectMonetization/>
       <MeetNoluTeam/>
       <MilestoneNolu/>
-      
+    </Flex> */
+
+
+/* for desktop */
+
+<Flex flexDir="column" w="100vw">
+
+    <DesktopTokenSaleTerms/>
+    <BinanceSmartChain/>
+    <DesktopTokenomics/>
+    <MeetNoluTeam/>
+
+</Flex> 
+
 
     
-
-   
-
-
-    </Flex>
   );
 }
