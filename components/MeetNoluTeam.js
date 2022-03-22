@@ -8,7 +8,7 @@ export default function MeetNoluTeam() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" >
+    <Flex direction="column" my="3rem">
       {/*   flex for team heading  */}
       <Flex
         alignItems="center"
