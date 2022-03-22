@@ -72,8 +72,8 @@ export default function NoluSaleRoadmap() {
               <strong>Blade of Carnage</strong> <br />
               Early Accesst | PC MMORPG <br />
               Main Game
-              
-              <Image w="5%" src="maingame.png" alt="maingame" />XR MMORPG
+              <Image w="5%" src="maingame.png" alt="maingame" />
+              XR MMORPG
             </Text>
           </Flex>
 
@@ -398,7 +398,7 @@ export default function NoluSaleRoadmap() {
         </Flex>
       </Flex>
 
-      {/*   flex for mother phase 5 (end) */}
+      {/*   flex for mother phase 5  (architecture universe) */}
 
       <Flex w="100%" direction="column">
         <Flex

@@ -18,6 +18,7 @@ import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
 import DesktopMilestoneNolu from "../components/desktop/DesktopMilestoneNolu";
 import DesktopTokenoMics from "../components/desktop/DesktopTokenoMics";
 import DesktopProjectMonetization from "../components/desktop/DesktopProjectMonetization";
+import DesktopNoluSaleRoadmap from "../components/desktop/DesktopNoluSaleRoadmap";
 
 
 
@@ -55,7 +56,7 @@ export default function App() {
     <DesktopTokenSaleTerms/>
     <BinanceSmartChain/>
     <DesktopTokenoMics/>
- 
+    <DesktopNoluSaleRoadmap/> 
     <DesktopProjectMonetization/>
     <MeetNoluTeam/>
     <DesktopMilestoneNolu/>
