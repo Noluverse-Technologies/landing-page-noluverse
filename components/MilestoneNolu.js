@@ -5,7 +5,7 @@ export default function MilestoneNolu() {
     /*mother flex for all */
 
     <Flex direction="column" w="100vw" mt="3rem">
-      {/*   flex for milestone heading  */}
+      {/*   flex for milestone heading and subheading  */}
       <Flex
         alignItems="center"
         justifyContent="center"
