@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection";
 import NoluFeatures from "../components/NoluFeatures";
 import TokenSaleTerms from "../components/TokenSaleTerms";
 import BinanceSmartChain from "../components/BinanceSmartChain";
-import Tokenomics from "../components/Tokenomics";
+
 import NoluSaleRoadmap from "../components/NoluSaleRoadmap";
 import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
@@ -16,7 +16,7 @@ import Navbar from "../components/Navbar";
 
 import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
 import DesktopMilestoneNolu from "../components/desktop/DesktopMilestoneNolu";
-import DesktopTokenomics from "../components/desktop/DesktopTokenomics";
+
 
 
 
@@ -38,7 +38,7 @@ export default function App() {
 
       <BinanceSmartChain/>
 
-      <Tokenomics/>
+      
 
       <NoluSaleRoadmap/>
 
@@ -54,7 +54,7 @@ export default function App() {
 
     <DesktopTokenSaleTerms/>
     <BinanceSmartChain/>
-<DesktopTokenomics/>
+
     <MeetNoluTeam/>
     <DesktopMilestoneNolu/>
 
