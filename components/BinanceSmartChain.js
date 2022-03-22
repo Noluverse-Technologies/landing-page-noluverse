@@ -10,7 +10,7 @@ export default function BinanceSmartChain() {
       <Flex
         direction="column"
         pl={[0, 0, 0, "4rem", "4rem"]}
-        mt={[0, 0, 0, "5rem", "13rem"]}
+       
         w={["100%", "100%", "50%", "50%", "50%"]}
       >
         {/*   flex for smart heading  */}
