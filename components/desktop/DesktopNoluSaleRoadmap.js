@@ -156,7 +156,7 @@ export default function DesktopNoluSaleRoadmap() {
               </Text>
             </Flex>
 
-            <Flex direction="column" px="2rem" mt="3.5rem">
+            <Flex direction="column" px="2rem" mt="3rem">
               <Text fontSize="lg" color="#000000">
                 <strong>6</strong>
               </Text>
@@ -212,25 +212,25 @@ export default function DesktopNoluSaleRoadmap() {
               </Text>
             </Flex>
 
-            <Flex direction="column" px="2rem" mt="3.5rem">
+            <Flex direction="column" px="2rem" mt="3rem">
               <Text fontSize="lg" color="#000000">
                 <strong>8</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
                 <strong>Fantasy sport events</strong> <br />
-                Basketball and Football | <br />
+                Basketball and Football | 
                 Soccer
               </Text>
             </Flex>
 
-            <Flex direction="column" px="2rem" mt="3rem">
+            <Flex direction="column" px="2rem" mt="2.5rem">
               <Text fontSize="lg" color="#000000">
                 <strong>9</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
-                <strong>Music and Film Festivals</strong> <br />
+                <strong>Music and Film Festivals</strong> 
               </Text>
             </Flex>
           </Flex>
