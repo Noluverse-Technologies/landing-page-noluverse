@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection";
 import NoluFeatures from "../components/NoluFeatures";
 import TokenSaleTerms from "../components/TokenSaleTerms";
 import BinanceSmartChain from "../components/BinanceSmartChain";
-
+import Tokenomics from "../components/Tokenomics";
 import NoluSaleRoadmap from "../components/NoluSaleRoadmap";
 import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
@@ -17,6 +17,7 @@ import Navbar from "../components/Navbar";
 import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
 import DesktopMilestoneNolu from "../components/desktop/DesktopMilestoneNolu";
 import DesktopTokenoMics from "../components/desktop/DesktopTokenoMics";
+import DesktopProjectMonetization from "../components/desktop/DesktopProjectMonetization";
 
 
 
@@ -38,9 +39,7 @@ export default function App() {
       <TokenSaleTerms/>
 
       <BinanceSmartChain/>
-
-      
-
+      <Tokenomics/>
       <NoluSaleRoadmap/>
 
       <ProjectMonetization/>
@@ -49,7 +48,7 @@ export default function App() {
     </Flex> */
 
 
-/* for desktop */
+/* for desktop------------------------- */
 
 <Flex flexDir="column" w="100vw">
 
@@ -57,6 +56,7 @@ export default function App() {
     <BinanceSmartChain/>
     <DesktopTokenoMics/>
 
+    <DesktopProjectMonetization/>
     <MeetNoluTeam/>
     <DesktopMilestoneNolu/>
 
