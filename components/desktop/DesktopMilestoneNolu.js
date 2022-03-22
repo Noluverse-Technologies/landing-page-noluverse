@@ -4,7 +4,7 @@ export default function DesktopMilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" w="100vw">
+    <Flex direction="column"  mt="5rem">
       {/*  mother flex for combined milestone nolu pard and images  start (upper part of full page) */}
 
       <Flex direction="column">

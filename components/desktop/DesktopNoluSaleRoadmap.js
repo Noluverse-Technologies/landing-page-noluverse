@@ -5,7 +5,7 @@ export default function DesktopNoluSaleRoadmap () {
  
  /*      mother flex for all */
 
- <Flex direction="column" w="100vw" >
+ <Flex direction="column" my="3rem">
 
  {/*   flex for roadmap heading  */}
  <Flex

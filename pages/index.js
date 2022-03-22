@@ -54,11 +54,11 @@ export default function App() {
 <Flex flexDir="column" w="100vw">
 
     <DesktopTokenSaleTerms/>
-    <BinanceSmartChain/>
+   
     <DesktopTokenoMics/>
     <DesktopNoluSaleRoadmap/> 
     <DesktopProjectMonetization/>
-    <MeetNoluTeam/>
+   
     <DesktopMilestoneNolu/>
 
 </Flex> 
