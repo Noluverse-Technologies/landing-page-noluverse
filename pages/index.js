@@ -13,9 +13,10 @@ import MeetNoluTeam from "../components/MeetNoluTeam";
 import { Flex } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 
-import DesktopTokenomics from "../components/desktop/DesktopTokenomics";
+
 import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
 import DesktopMilestoneNolu from "../components/desktop/DesktopMilestoneNolu";
+import DesktopTokenomics from "../components/desktop/DesktopTokenomics";
 
 
 
@@ -53,7 +54,7 @@ export default function App() {
 
     <DesktopTokenSaleTerms/>
     <BinanceSmartChain/>
-    <DesktopTokenomics/>
+<DesktopTokenomics/>
     <MeetNoluTeam/>
     <DesktopMilestoneNolu/>
 
