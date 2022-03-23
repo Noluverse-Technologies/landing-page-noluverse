@@ -114,8 +114,8 @@ export default function DesktopMilestoneNolu() {
 
           {/*   flex for milestone image start (right portion)  */}
 
-          <Flex w="50%" my="1rem" alignItems="center" justifyContent="center">
-            <Image w="32.45rem" src="milestone.png" alt="milestone" />
+          <Flex w="50%" >
+            <Image w="100%" pr="5rem" pb="2rem" src="milestone.jpg" alt="milestone" />
           </Flex>
 
           {/*   flex for milestone image end (right portion)  */}

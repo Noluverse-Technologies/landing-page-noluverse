@@ -138,7 +138,7 @@ export default function DesktopProjectMonetization() {
         {/*   mother flex for (4-6)  end */}
 
         <Flex w="40%" pl="5rem">
-          <Image w="90%" src="monetization.png" alt="monetization" />
+          <Image w="90%" src="monetization.jpg" alt="monetization" />
         </Flex>
       </Flex>
 

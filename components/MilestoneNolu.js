@@ -77,7 +77,7 @@ export default function MilestoneNolu() {
       {/*   flex for milestone image  */}
 
       <Flex w="100%" my="1rem" alignItems="center" justifyContent="center">
-        <Image w="80%" src="milestone.png" alt="milestone" />
+        <Image w="80%" src="milestone.jpg" alt="milestone" />
       </Flex>
 
       {/*   flex for button */}

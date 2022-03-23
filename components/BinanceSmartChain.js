@@ -124,7 +124,7 @@ export default function BinanceSmartChain() {
       {/*   flex for terms image  */}
 
       <Flex w={["100%", "100%", "50%", "50%", "50%"]} my="2rem" alignItems="center" justifyContent="center">
-        <Image  w={["90%", "90%", "70%", "75%", "75%"]} src="binancechain.png" alt="binancechain" />
+        <Image  w={["90%", "90%", "70%", "75%", "75%"]} src="binancechain.jpg" alt="binancechain" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */
