@@ -50,7 +50,7 @@ export default function Tokenomics() {
       {/*   flex for tokenomics image  */}
 
       <Flex w="100%" mt="1rem" alignItems="center" justifyContent="center">
-        <Image w="80%" src="tokenomics.png" alt="termsman" alignSelf="center" />
+        <Image w="80%" src="smtokenomics.jpg" alt="termsman" alignSelf="center" />
       </Flex>
 
       {/*   flex for tokenomics buttons  */}
