@@ -23,7 +23,6 @@ export default function DesktopHeroSection({ children }) {
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
-    
     >
       {children}
 
@@ -32,7 +31,7 @@ export default function DesktopHeroSection({ children }) {
       <Flex w="100%">
         {/*   left side content mother started */}
 
-        <Flex flexDir="column" w="50%" p="7rem" >
+        <Flex flexDir="column" w="50%" p="7rem">
           {/*   flex  for heading */}
 
           <Flex>
@@ -53,19 +52,13 @@ export default function DesktopHeroSection({ children }) {
 
           <Flex>
             <Text mt="2rem" color="#fff" fontSize="lg">
-              The most exciting virtual reality  project is about to
-              launch. Be part  of it!
+              The most exciting virtual reality project is about to launch. Be
+              part of it!
             </Text>
           </Flex>
 
-      
-
-            
-
-            {/*   flex  for white button and paper  */}
-            <Flex flexDir="row" gap="4"    my="2rem">
-
-
+          {/*   flex  for white button and paper  */}
+          <Flex flexDir="row" gap="4" my="2rem">
             <Button
               w="40%"
               borderRadius="0.5rem"
@@ -77,40 +70,35 @@ export default function DesktopHeroSection({ children }) {
               Learn More
             </Button>
 
-              <Icon
-                as={AiOutlineDownload}
-                background="rgba(255, 255, 255, 0.14);"
-                w="3.37rem"
-                h="3.18rem"
-                borderRadius="0.5rem"
-                fontSize="2xl"
-                color="#fff"
-              />
+            <Icon
+              as={AiOutlineDownload}
+              background="rgba(255, 255, 255, 0.14);"
+              w="3.37rem"
+              h="3.18rem"
+              borderRadius="0.5rem"
+              fontSize="2xl"
+              color="#fff"
+            />
 
-              <Text
-                color="#fff"
-                w="80%"
-                fontSize="lg"
-                py="1rem"
-                fontWeight="bold"
-              >
-                View the White Paper
-              </Text>
-            </Flex>
-          
+            <Text
+              color="#fff"
+              w="80%"
+              fontSize="lg"
+              py="1rem"
+              fontWeight="bold"
+            >
+              View the White Paper
+            </Text>
+          </Flex>
+
           {/*   flex  for social media icon */}
 
-          <Flex  mt="2rem" color="#fff" flexDir="row" gap="3rem">
-            <Icon  as={FaDiscord} fontSize="2xl" />
+          <Flex mt="2rem" color="#fff" flexDir="row" gap="3rem">
+            <Icon as={FaDiscord} fontSize="2xl" />
 
-            <Icon  as={ImTwitter} fontSize="2xl" />
+            <Icon as={ImTwitter} fontSize="2xl" />
 
-            <Icon
-             
-              as={FaTelegramPlane}
-              borderRadius="8px"
-              fontSize="2xl"
-            />
+            <Icon as={FaTelegramPlane} borderRadius="8px" fontSize="2xl" />
           </Flex>
         </Flex>
 
@@ -133,7 +121,6 @@ export default function DesktopHeroSection({ children }) {
           {/*   flex  for sale time*/}
 
           <Flex
-        
             flexDir="column"
             alignItems="center"
             justifyContent="center"
@@ -147,7 +134,6 @@ export default function DesktopHeroSection({ children }) {
 
             <Flex py="2rem" gap="2">
               <Flex
-          
                 flexDir="column"
                 alignItems="center"
                 justifyContent="center"
@@ -170,7 +156,6 @@ export default function DesktopHeroSection({ children }) {
 
               <Flex
                 flexDir="column"
-               
                 alignItems="center"
                 justifyContent="center"
               >
@@ -191,7 +176,6 @@ export default function DesktopHeroSection({ children }) {
               </Flex>
               <Flex
                 flexDir="column"
-             
                 alignItems="center"
                 justifyContent="center"
               >
@@ -213,7 +197,6 @@ export default function DesktopHeroSection({ children }) {
 
               <Flex
                 flexDir="column"
-           
                 alignItems="center"
                 justifyContent="center"
               >

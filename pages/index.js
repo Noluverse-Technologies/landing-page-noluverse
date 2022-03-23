@@ -21,26 +21,24 @@ import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
 
 export default function App() {
   return (
-    /*  for mobile.......................
-    
-    <Flex flexDir="column" w="100vw">
+    /* for mobile....................... */
 
-    
+  /*   <Flex flexDir="column" w="100vw">
       <HeroSection>
         <Navbar />
       </HeroSection>
-      
-      <NoluFeatures/>
 
-      <TokenSaleTerms/>
+      <NoluFeatures />
 
-      <BinanceSmartChain/>
-      <Tokenomics/>
-      <NoluSaleRoadmap/>
+      <TokenSaleTerms />
 
-      <ProjectMonetization/>
-      <MeetNoluTeam/>
-      <MilestoneNolu/>
+      <BinanceSmartChain />
+      <Tokenomics />
+      <NoluSaleRoadmap />
+
+      <ProjectMonetization />
+      <MeetNoluTeam />
+      <MilestoneNolu />
     </Flex> */
 
     /* for desktop------------------------- */

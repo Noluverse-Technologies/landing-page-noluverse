@@ -41,7 +41,17 @@ export default function DesktopNoluSaleRoadmap() {
             direction="column"
             alignItems="center"
             justifyContent="center"
+            position="relative"
           >
+            {/*   right arrow icon for phase 1  heading part and phase 2 heading part */}
+            <Image
+              w="3.40rem"
+              h="0.75rem"
+              src="rightarrow.png"
+              alt="rightarrow"
+              position="absolute"
+              right="-2rem"
+            />
             <Text fontSize="lg" color="#FFFFFF">
               Phase 1
             </Text>
@@ -183,7 +193,18 @@ export default function DesktopNoluSaleRoadmap() {
             direction="column"
             alignItems="center"
             justifyContent="center"
+            position="relative"
           >
+            {/*   right arrow icon for phase 2  heading part and phase 2 continued heading part */}
+            <Image
+              w="3.40rem"
+              h="0.75rem"
+              src="rightarrow.png"
+              alt="rightarrow"
+              position="absolute"
+              left="-2rem"
+            />
+
             <Text fontSize="lg" color="#FFFFFF">
               Phase 2
             </Text>
@@ -219,8 +240,7 @@ export default function DesktopNoluSaleRoadmap() {
 
               <Text fontSize="lg" color="#000000">
                 <strong>Fantasy sport events</strong> <br />
-                Basketball and Football | 
-                Soccer
+                Basketball and Football | Soccer
               </Text>
             </Flex>
 
@@ -230,7 +250,7 @@ export default function DesktopNoluSaleRoadmap() {
               </Text>
 
               <Text fontSize="lg" color="#000000">
-                <strong>Music and Film Festivals</strong> 
+                <strong>Music and Film Festivals</strong>
               </Text>
             </Flex>
           </Flex>
@@ -249,7 +269,18 @@ export default function DesktopNoluSaleRoadmap() {
             direction="column"
             alignItems="center"
             justifyContent="center"
+            position="relative"
           >
+            {/*   right arrow icon for phase   heading part 3 and   heading part phase 2 continued */}
+            <Image
+              w="3.40rem"
+              h="0.75rem"
+              src="rightarrow.png"
+              alt="rightarrow"
+              position="absolute"
+              left="-2rem"
+            />
+
             <Text fontSize="lg" color="#FFFFFF">
               Phase 3
             </Text>
@@ -304,7 +335,18 @@ export default function DesktopNoluSaleRoadmap() {
             direction="column"
             alignItems="center"
             justifyContent="center"
+            position="relative"
           >
+            {/*   right arrow icon for phase 4  heading part and phase 3 heading part */}
+            <Image
+              w="3.40rem"
+              h="0.75rem"
+              src="rightarrow.png"
+              alt="rightarrow"
+              position="absolute"
+              left="-2rem"
+            />
+
             <Text fontSize="lg" color="#FFFFFF">
               Phase 4
             </Text>
@@ -369,7 +411,17 @@ export default function DesktopNoluSaleRoadmap() {
             direction="column"
             alignItems="center"
             justifyContent="center"
+            position="relative"
           >
+            {/*   right arrow icon for phase 5  heading part and phase 4 heading part */}
+            <Image
+              w="3.40rem"
+              h="0.75rem"
+              src="rightarrow.png"
+              alt="rightarrow"
+              position="absolute"
+              left="-2rem"
+            />
             <Text fontSize="lg" color="#FFFFFF">
               Phase 5
             </Text>

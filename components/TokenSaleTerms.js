@@ -1,83 +1,11 @@
-import {
-  
-  Flex,
-  Image,
-  Text,
-  Show,
-  Hide,
- 
-
-  
-} from "@chakra-ui/react";
-
+import { Flex, Image, Text, Show, Hide } from "@chakra-ui/react";
 
 export default function TokenSaleTerms() {
   return (
-   
-    <>
-    {/*-------------- for md and large screen
-                    ------------------------------ */}
+    /*      mother flex for all */
 
-    <Show above="sm">
-      {/*      mother flex for all start */}
-
-      <Flex w="100%" my="3rem">
-        {/*   flex for Token Sale Terms image  */}
-
-        <Flex w="50%" mt="1rem" px="5rem">
-        <Image  w="90%"src="tokensalesterm.png" alt="tokensalesterm" />
-        </Flex>
-
-        {/*  mother  flex for combined heading, paragraph, and crow salw and softcope  */}
-
-        <Flex w="50%" direction="column" pt="6rem">
-          {/*   flex for Token Sale Terms heading  */}
-
-          <Flex
-            alignItems="flex-start"
-            justifyContent="flex-start"
-            direction="column"
-          >
-            <Text fontSize="3xl" fontWeight="bold" color="#151855">
-              Token Sale Terms
-            </Text>
-
-            <Image mt="1rem" src="headingicon.png" alt="headingicon" />
-          </Flex>
-
-         
-
-          {/*   flex for Token Sale Terms paragraph  */}
-
-          <Flex w="70%" my="2rem">
-            <Text fontSize="md" color="#000000">
-            We’re aiming to raise $5,000,000 through the sale of our valuable native token for users interested in becoming part of the Nolu project.
-            </Text>
-          </Flex>
-
-         
-
-         
-        </Flex>
-      </Flex>
-
-      {/*      mother flex for all end */}
-    </Show>
-
-
-
-
-
-       {/*--------------- for mobile
-                      ------------------------------ */}
-
-                      <Hide above="sm">
-                      {/*      mother flex for all */}
-              
-                      <Flex direction="column" w="100vw" my="3rem">
+    <Flex direction="column" w="100vw" my="3rem">
       {/*   flex for terms heading  */}
-
-      
 
       <Flex
         alignItems="center"
@@ -90,7 +18,7 @@ export default function TokenSaleTerms() {
           Token Sale Terms
         </Text>
 
-        <Image mt="1rem"  src="headingicon.png" alt="headingicon" />
+        <Image mt="1rem" src="headingicon.png" alt="headingicon" />
       </Flex>
 
       {/*   flex for terms paragraph  */}
@@ -148,14 +76,6 @@ export default function TokenSaleTerms() {
       <Flex w="100%" mt="2rem" alignItems="center" justifyContent="center">
         <Image w="90%" src="tokensalesterm.png" alt="tokensalesterm" />
       </Flex>
-
-     
     </Flex>
-                      {/* mother flex for all  end  */}
-                    </Hide>
-                    </>
-  
-                    );
+  );
 }
-
-
