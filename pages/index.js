@@ -9,7 +9,7 @@ import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
 import MeetNoluTeam from "../components/MeetNoluTeam";
 
-import { Flex } from "@chakra-ui/react";
+import { Flex, useMediaQuery } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 
 import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
@@ -21,41 +21,47 @@ import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
 import DesktopNoluFeatures from "../components/desktop/DesktopNoluFeatures";
 
 export default function App() {
+  const [isLargerThan450] = useMediaQuery("(min-width: 450px)");
+  const [isLessThan450] = useMediaQuery("(max-width: 450px)");
+
   return (
-    /* for mobile....................... */
+    <>
+      {/* for desktop------------------------- */}
+      {isLargerThan450 ? (
+        <Flex flexDir="column" w="100vw">
+          <DesktopHeroSection>
+            <Navbar />
+          </DesktopHeroSection>
+          <DesktopNoluFeatures />
+          <DesktopTokenSaleTerms />
+          <BinanceSmartChain />
+          <DesktopTokenoMics />
+          <DesktopNoluSaleRoadmap />
+          <DesktopProjectMonetization />
+          <MeetNoluTeam />
+          <DesktopMilestoneNolu />
+        </Flex>
+      ) : null}
+      {/* for mobile------------------------- */}
+      {isLessThan450 ? (
+        <Flex flexDir="column" w="100vw">
+          <HeroSection>
+            <Navbar />
+          </HeroSection>
 
-  /*   <Flex flexDir="column" w="100vw">
-      <HeroSection>
-        <Navbar />
-      </HeroSection>
+          <NoluFeatures />
 
-      <NoluFeatures />
+          <TokenSaleTerms />
 
-      <TokenSaleTerms />
+          <BinanceSmartChain />
+          <Tokenomics />
+          <NoluSaleRoadmap />
 
-      <BinanceSmartChain />
-      <Tokenomics />
-      <NoluSaleRoadmap />
-
-      <ProjectMonetization />
-      <MeetNoluTeam />
-      <MilestoneNolu />
-    </Flex> */
-
-    /* for desktop------------------------- */
-
-    <Flex flexDir="column" w="100vw">
-      <DesktopHeroSection>
-        <Navbar />
-      </DesktopHeroSection>
-      <DesktopNoluFeatures/>
-      <DesktopTokenSaleTerms />
-      <BinanceSmartChain />
-      <DesktopTokenoMics />
-      <DesktopNoluSaleRoadmap />
-      <DesktopProjectMonetization />
-      <MeetNoluTeam />
-      <DesktopMilestoneNolu />
-    </Flex>
+          <ProjectMonetization />
+          <MeetNoluTeam />
+          <MilestoneNolu />
+        </Flex>
+      ) : null}
+    </>
   );
 }
