@@ -38,7 +38,7 @@ export default function Navbar() {
               display="flex"
               alignItems="center"
             >
-              <Image src="logo.png" alt="logo.png" ml={5} />
+              <Image src="logo.png" alt="logo.png" ml={[5,8,"5rem"]} />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>

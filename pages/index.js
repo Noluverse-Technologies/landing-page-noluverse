@@ -9,24 +9,19 @@ import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
 import MeetNoluTeam from "../components/MeetNoluTeam";
 
-
 import { Flex } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
-
 
 import DesktopTokenSaleTerms from "../components/desktop/DesktopTokenSaleTerms";
 import DesktopMilestoneNolu from "../components/desktop/DesktopMilestoneNolu";
 import DesktopTokenoMics from "../components/desktop/DesktopTokenoMics";
 import DesktopProjectMonetization from "../components/desktop/DesktopProjectMonetization";
 import DesktopNoluSaleRoadmap from "../components/desktop/DesktopNoluSaleRoadmap";
-
-
-
+import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
 
 export default function App() {
   return (
-
-/*  for mobile.......................
+    /*  for mobile.......................
     
     <Flex flexDir="column" w="100vw">
 
@@ -48,22 +43,19 @@ export default function App() {
       <MilestoneNolu/>
     </Flex> */
 
+    /* for desktop------------------------- */
 
-/* for desktop------------------------- */
-
-<Flex flexDir="column" w="100vw">
-
-    <DesktopTokenSaleTerms/>
-    <BinanceSmartChain/>
-    <DesktopTokenoMics/>
-    <DesktopNoluSaleRoadmap/> 
-    <DesktopProjectMonetization/>
-    <MeetNoluTeam/>
-    <DesktopMilestoneNolu/>
-
-</Flex> 
-
-
-    
+    <Flex flexDir="column" w="100vw">
+      <DesktopHeroSection>
+        <Navbar />
+      </DesktopHeroSection>
+      <DesktopTokenSaleTerms />
+      <BinanceSmartChain />
+      <DesktopTokenoMics />
+      <DesktopNoluSaleRoadmap />
+      <DesktopProjectMonetization />
+      <MeetNoluTeam />
+      <DesktopMilestoneNolu />
+    </Flex>
   );
 }
