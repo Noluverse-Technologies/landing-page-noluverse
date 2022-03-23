@@ -18,6 +18,7 @@ import DesktopTokenoMics from "../components/desktop/DesktopTokenoMics";
 import DesktopProjectMonetization from "../components/desktop/DesktopProjectMonetization";
 import DesktopNoluSaleRoadmap from "../components/desktop/DesktopNoluSaleRoadmap";
 import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
+import DesktopNoluFeatures from "../components/desktop/DesktopNoluFeatures";
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
       <DesktopHeroSection>
         <Navbar />
       </DesktopHeroSection>
+      <DesktopNoluFeatures/>
       <DesktopTokenSaleTerms />
       <BinanceSmartChain />
       <DesktopTokenoMics />

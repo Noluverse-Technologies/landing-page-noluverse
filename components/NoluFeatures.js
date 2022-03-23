@@ -4,7 +4,7 @@ export default function NoluFeatures() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" w="100vw" >
+    <Flex direction="column" w="100vw">
       {/*  flex for feature heading  */}
 
       <Flex
@@ -14,7 +14,7 @@ export default function NoluFeatures() {
         direction="column"
         w="100%"
       >
-        <Text  fontSize='3xl' fontWeight="bold" color="#151855">
+        <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Nolu Features
         </Text>
 
@@ -30,7 +30,7 @@ export default function NoluFeatures() {
           <Image w="3.50rem" h="3.50rem" src="nolu+.png" alt="nolu+" />
         </Flex>
 
-        <Flex direction="column" w="70%" mt="1rem">
+        <Flex direction="column" mt="1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             Nolu+
           </Text>
