@@ -4,7 +4,7 @@ export default function DesktopNoluSaleRoadmap() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" my="3rem">
+    <Flex direction="column" my="3rem" px="3rem" id="roadmaplg" >
       {/*   flex for roadmap heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -27,7 +27,7 @@ export default function DesktopNoluSaleRoadmap() {
 
       {/*  mother flex for  (phase 1 - phase 6) start */}
 
-      <Flex direction="row" p="4rem" w="100%">
+      <Flex direction="row" p="4rem" w="100%" h="60rem">
         {/*   flex for mother phase 1  */}
 
         <Flex direction="column" w="16.66%">
@@ -66,7 +66,7 @@ export default function DesktopNoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            h="30rem"
+            h="43rem"
             ml="1.2rem"
             direction="column"
           >
@@ -90,7 +90,7 @@ export default function DesktopNoluSaleRoadmap() {
               </Text>
 
               <Text fontSize="lg" color="#000000">
-                <strong>Expansion: Sequel of Boc</strong>
+                <strong>Nolu+ and Pixel</strong>
               </Text>
             </Flex>
 
@@ -100,7 +100,7 @@ export default function DesktopNoluSaleRoadmap() {
               </Text>
 
               <Text fontSize="lg" color="#000000">
-                <strong>Sequel 2 : BoC</strong>
+                <strong>NoluPay</strong>
               </Text>
             </Flex>
           </Flex>
@@ -140,7 +140,7 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="30rem"
+            h="43rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -176,6 +176,21 @@ export default function DesktopNoluSaleRoadmap() {
                 vr mmorpg
               </Text>
             </Flex>
+
+
+            <Flex direction="column"  px="2rem" mt="3.5rem">
+            <Text  fontSize="lg" color="#000000">
+              <strong>7</strong>
+            </Text>
+    
+            <Text fontSize="lg" color="#000000">
+              <strong>Custom Avatar Creation</strong> <br />
+              Mint clothes to NFT
+            </Text>
+          </Flex>
+         
+
+
           </Flex>
         </Flex>
 
@@ -218,14 +233,14 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="30rem"
+            h="43rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
               <Text fontSize="lg" color="#000000">
-                <strong>7</strong>
+                <strong>8</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -235,7 +250,7 @@ export default function DesktopNoluSaleRoadmap() {
 
             <Flex direction="column" px="2rem" mt="3rem">
               <Text fontSize="lg" color="#000000">
-                <strong>8</strong>
+                <strong>9</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -246,7 +261,7 @@ export default function DesktopNoluSaleRoadmap() {
 
             <Flex direction="column" px="2rem" mt="2.5rem">
               <Text fontSize="lg" color="#000000">
-                <strong>9</strong>
+                <strong>10</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -294,14 +309,14 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="30rem"
+            h="43rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
               <Text fontSize="lg" color="#000000">
-                <strong>10</strong>
+                <strong>11</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -311,7 +326,7 @@ export default function DesktopNoluSaleRoadmap() {
 
             <Flex direction="column" px="2rem" mt="3.5rem">
               <Text fontSize="lg" color="#000000">
-                <strong>11</strong>
+                <strong>12</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -360,14 +375,14 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="30rem"
+            h="43rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
               <Text fontSize="lg" color="#000000">
-                <strong>12</strong>
+                <strong>13</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -377,7 +392,7 @@ export default function DesktopNoluSaleRoadmap() {
 
             <Flex direction="column" px="2rem" mt="3.5rem">
               <Text fontSize="lg" color="#000000">
-                <strong>13</strong>
+                <strong>14</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -387,7 +402,7 @@ export default function DesktopNoluSaleRoadmap() {
 
             <Flex direction="column" px="2rem" mt="3.5rem">
               <Text fontSize="lg" color="#000000">
-                <strong>14</strong>
+                <strong>15</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -435,14 +450,14 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="22.28rem"
+            h="35.88rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
               <Text fontSize="lg" color="#000000">
-                <strong>15</strong>
+                <strong>16</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -452,7 +467,7 @@ export default function DesktopNoluSaleRoadmap() {
 
             <Flex direction="column" px="2rem" mt="3.5rem">
               <Text fontSize="lg" color="#000000">
-                <strong>16</strong>
+                <strong>17</strong>
               </Text>
 
               <Text fontSize="lg" color="#000000">
@@ -485,9 +500,9 @@ export default function DesktopNoluSaleRoadmap() {
 
       {/*   flex for button */}
 
-      <Flex alignItems="center" w="100%" justifyContent="center">
+      <Flex  alignItems="center" justifyContent="center">
         <Button
-          w="15%"
+        w="12rem"
           borderRadius="0.5rem"
           mt="3rem"
           ml="1.5rem"

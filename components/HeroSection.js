@@ -1,17 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 import {
-  
   Flex,
   Image,
-  
   Text,
-  
   Heading,
-  
+  Link,
   Button,
   Icon,
-
 } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
@@ -34,7 +30,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for heading */}
 
-      <Flex w="100%" ml="1rem">
+      <Flex ml="1rem">
         <Heading as="h2" size="2xl" mt="1rem" fontWeight={"bold"} color="#fff">
           Join the
           <br />
@@ -44,7 +40,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for headingParagraph */}
 
-      <Flex w="100%" ml="1rem">
+      <Flex ml="1rem">
         <Text mt="2rem" color="#fff" fontSize="lg">
           The most exciting virtual reality <br /> project is about to launch.
           Be part <br /> of it!
@@ -53,9 +49,9 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for buttons */}
 
-      <Flex direction="column" w="100%" ml="1rem" my="4">
+      <Flex direction="column" ml="1rem" my="4">
         <Button
-          w="90%"
+          w="15rem"
           borderRadius="0.5rem"
           h="3.18rem"
           colorScheme="pink"
@@ -66,7 +62,7 @@ export default function HeroSection({ children }) {
         </Button>
 
         {/*   flex  for white paper ( child flex of buttons flex) */}
-        <Flex direction="row" gap="4" mt="1rem">
+        <Flex w="100%" direction="row" gap="4" mt="1rem">
           <Icon
             as={AiOutlineDownload}
             background="rgba(255, 255, 255, 0.14);"
@@ -85,12 +81,16 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for social media icon */}
 
-      <Flex w="100%" ml="1rem" mt="2rem" color="#fff" direction="row">
-        <Icon w="15%" as={FaDiscord} fontSize="2xl" />
-
-        <Icon w="15%" as={ImTwitter} fontSize="2xl" />
-
-        <Icon w="15%" as={FaTelegramPlane} borderRadius="8px" fontSize="2xl" />
+      <Flex ml="1rem" mt="2rem" color="#fff" direction="row" gap="8">
+        <Link href="" isExternal>
+          <Icon as={FaDiscord} fontSize="2xl" />
+        </Link>
+        <Link href="" isExternal>
+          <Icon as={ImTwitter} fontSize="2xl" />
+        </Link>
+        <Link href="" isExternal>
+          <Icon as={FaTelegramPlane} borderRadius="8px" fontSize="2xl" />
+        </Link>
       </Flex>
 
       {/*   flex  for heroImage*/}
@@ -102,7 +102,6 @@ export default function HeroSection({ children }) {
       {/*   flex  for sale time*/}
 
       <Flex
-        w="100%"
         direction="column"
         alignItems="center"
         justifyContent="center"
@@ -114,7 +113,7 @@ export default function HeroSection({ children }) {
 
         {/*   child flex of sale time flex */}
 
-        <Flex w="100%" py="2rem" >
+        <Flex w="100%" py="2rem">
           <Flex
             w="25%"
             direction="column"
@@ -208,5 +207,3 @@ export default function HeroSection({ children }) {
     </Flex>
   );
 }
-
-

@@ -1,4 +1,7 @@
+
+
 import React from "react";
+import Head from 'next/head'
 
 
 import HeroSection from "../components/HeroSection";
@@ -23,14 +26,23 @@ import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
 import DesktopNoluFeatures from "../components/desktop/DesktopNoluFeatures";
 
 export default function App() {
-  const [isLargerThan450] = useMediaQuery("(min-width: 450px)");
-  const [isLessThan450] = useMediaQuery("(max-width: 450px)");
+  const [isLargerThan1224] = useMediaQuery("(min-width: 1224px)");
+  const [isLessThan1224] = useMediaQuery("(max-width: 1224px)");
 
   return (
     <>
+
+
+    <Head>
+        <title>Noluverse</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      </Head>
+
       {/* for desktop------------------------- */}
-      {isLargerThan450 ? (
-        <Flex flexDir="column" w="100vw">
+      {isLargerThan1224 ? (
+        <Flex direction="column" w="100vw">
+
+      
           <DesktopHeroSection>
             <Navbar />
           </DesktopHeroSection>
@@ -44,9 +56,12 @@ export default function App() {
           <DesktopMilestoneNolu />
         </Flex>
       ) : null}
+
       {/* for mobile------------------------- */}
-      {isLessThan450 ? (
-        <Flex flexDir="column" w="100vw">
+      {isLessThan1224 ? (
+        <Flex direction="column" w="100vw" >
+
+  
           <HeroSection>
             <Navbar />
           </HeroSection>
@@ -67,3 +82,4 @@ export default function App() {
     </>
   );
 }
+

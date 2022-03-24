@@ -4,7 +4,7 @@ export default function TokenSaleTerms() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" w="100vw" my="3rem">
+    <Flex direction="column" my="3rem" id="termssm">
       {/*   flex for terms heading  */}
 
       <Flex
@@ -25,13 +25,11 @@ export default function TokenSaleTerms() {
 
       <Flex my="1rem" w="100%" alignItems="center" justifyContent="center">
         <Text fontSize="md" color="#000000">
-          We’re aiming to raise $5,000,000 through
-          <br />
-          the sale of our valuable native token for
-          <br />
-          users interested in becoming part of the
-          <br />
-          Nolu project.
+
+
+        We’re aiming to raise 1,000 BNB through <br/> the sale of our valuable native token for <br/> users interested in becoming part of the <br/> Nolu project.
+
+        
         </Text>
       </Flex>
 
@@ -45,11 +43,11 @@ export default function TokenSaleTerms() {
         mt="1.5rem"
       >
         <Text fontSize="4xl" fontWeight="bold" color="#4169E1">
-          $10,000,000
+        1,000 BNB
         </Text>
 
         <Text fontSize="sm" color="#000000">
-          Target on crowdsale
+        Hard cap 
         </Text>
       </Flex>
 
@@ -63,7 +61,7 @@ export default function TokenSaleTerms() {
         mt="1.5rem"
       >
         <Text fontSize="4xl" fontWeight="bold" color="#4169E1">
-          $5,000,000
+        500 BNB
         </Text>
 
         <Text fontSize="sm" color="#000000">

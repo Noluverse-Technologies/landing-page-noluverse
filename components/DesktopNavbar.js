@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
 
-export default function Navbar() {
+export default function DesktopNavbar() {
   const bg = useColorModeValue("white", "gray.800");
   const mobileNav = useDisclosure();
 
@@ -60,56 +60,31 @@ export default function Navbar() {
               display={{ base: "none", md: "inline-flex" }}
             >
 
-            <Link href="#featlg"  >
+            <Link href="#feat"  >
            
             <Button variant="link" color="#FFFFFF">
             Features
           </Button>
             </Link>
-
-            <Link href="#termslg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Terms
-          </Button>
-            </Link>
-            <Link href=""  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Timelines
-          </Button>
-            </Link>
-            
-            <Link href="#roadmaplg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Roadmap
-          </Button>
-            </Link>
-            <Link href="#monetizationlg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Monetization
-          </Button>
-            </Link>
-            <Link href="#teamboth"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Team
-          </Button>
-            </Link>
-            <Link href="#milestonelg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Milestones
-          </Button>
-            </Link>
     
-             
-            
-             
-             
-            
+              <Button variant="link" color="#FFFFFF">
+                Terms
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Timelines
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Roadmap
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Monetization
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Team
+              </Button>
+              <Button variant="link" color="#FFFFFF">
+                Milestones
+              </Button>
             </HStack>
 
             <Box display={{ base: "inline-flex", md: "none" }}>
@@ -143,55 +118,21 @@ export default function Navbar() {
                   onClick={mobileNav.onClose}
                 />
 
-               <Link href="#featsm"  >
-           
-               <Button w="full" variant="ghost">
-               Features
-             </Button>
-            </Link>
-            <Link href="#termssm"  >
-           
-            <Button w="full" variant="ghost">
-            Terms
-          </Button>
-            </Link>
-            <Link href=""  >
-           
-            <Button w="full" variant="ghost">
-            Timelines
-          </Button>
-            </Link>
-            
-            <Link href="#roadmapsm"  >
-           
-            <Button w="full" variant="ghost" >
-            Roadmap
-          </Button>
-            </Link>
-            <Link href="#monetizationsm"  >
-           
-            <Button w="full" variant="ghost">
-            Monetization
-          </Button>
-            </Link>
-            <Link href="#teamboth"  >
-           
-            <Button w="full" variant="ghost" >
-            Team
-          </Button>
-            </Link>
-            
-            <Link href="#milestonesm"  >
-           
-            <Button w="full" variant="ghost">
-            Milestones
-          </Button>
-            </Link>
-    
-             
-            
-               
-               
+                <Button w="full" variant="ghost">
+                  Features
+                </Button>
+                <Button w="full" variant="ghost">
+                  Pricing
+                </Button>
+                <Button w="full" variant="ghost">
+                  Blog
+                </Button>
+                <Button w="full" variant="ghost">
+                  Company
+                </Button>
+                <Button w="full" variant="ghost">
+                  Sign in
+                </Button>
               </VStack>
             </Box>
           </HStack>

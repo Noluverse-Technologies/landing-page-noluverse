@@ -1,17 +1,12 @@
-import { Flex, Image, Text, Button } from "@chakra-ui/react";
+import { Flex, Image, Text, Button, Link } from "@chakra-ui/react";
 
 export default function MilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" w="100vw" mt="3rem">
+    <Flex direction="column" mt="3rem" id="milestonesm">
       {/*   flex for milestone heading and subheading  */}
-      <Flex
-        alignItems="center"
-        justifyContent="center"
-        direction="column"
-        w="100%"
-      >
+      <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Milestone in Nolu
         </Text>
@@ -82,9 +77,9 @@ export default function MilestoneNolu() {
 
       {/*   flex for button */}
 
-      <Flex alignItems="center" w="100%" justifyContent="center">
+      <Flex alignItems="center" justifyContent="center">
         <Button
-          w="90%"
+          w="20.875rem"
           borderRadius="0.5rem"
           ml="1.5rem"
           h="3.18rem"
@@ -100,7 +95,7 @@ export default function MilestoneNolu() {
 
       <Flex
         direction="column"
-        h="30rem"
+        h="32rem"
         backgroundImage="url('/footer.png')"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
@@ -108,37 +103,53 @@ export default function MilestoneNolu() {
         w="100vw"
       >
         {/*    flex for nolu logo (child flex of footer) */}
-        <Flex w="100%" mt="12rem">
+        <Flex mt="12rem">
           <Image src="logo.png" alt="logo.png" ml={5} />
         </Flex>
 
         {/*    flex for footer nav button (child flex of footer) */}
-        <Flex w="100%" pl="1.5rem" direction="row" wrap="wrap" gap="6" mt="3rem">
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Features
-          </Button>
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Terms
-          </Button>
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Timelines
-          </Button>
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Roadmap
-          </Button>
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Monetization
-          </Button>
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Team
-          </Button>
-          <Button variant="link" size="lg" color="#FFFFFF">
-            Milestones
-          </Button>
+        <Flex pl="1.5rem" direction="row" wrap="wrap" gap="6" mt="3rem">
+          <Link href="#featsm">
+            <Button variant="link" color="#FFFFFF">
+              Features
+            </Button>
+          </Link>
+
+          <Link href="#termssm">
+            <Button variant="link" color="#FFFFFF">
+              Terms
+            </Button>
+          </Link>
+          <Link href="">
+            <Button variant="link" color="#FFFFFF">
+              Timelines
+            </Button>
+          </Link>
+
+          <Link href="#roadmapsm">
+            <Button variant="link" color="#FFFFFF">
+              Roadmap
+            </Button>
+          </Link>
+          <Link href="#monetizationsm">
+            <Button variant="link" color="#FFFFFF">
+              Monetization
+            </Button>
+          </Link>
+          <Link href="#teamboth">
+            <Button variant="link" color="#FFFFFF">
+              Team
+            </Button>
+          </Link>
+          <Link href="#milestonesm">
+            <Button variant="link" color="#FFFFFF">
+              Milestones
+            </Button>
+          </Link>
         </Flex>
 
         {/*    flex for footer text (child flex of footer) */}
-        <Flex w="100%" mt="3rem" pl="1.5rem">
+        <Flex mt="3rem" pl="1.5rem">
           <Text size="xs" color="#FFFFFF">
             ©2022 Noluverse.com, All Rights Reserved.
           </Text>

@@ -8,6 +8,7 @@ import {
   Button,
   Icon,
   Box,
+  Link
 } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
@@ -18,11 +19,14 @@ export default function DesktopHeroSection({ children }) {
     /* mother box */
 
     <Box
-      h="73rem"
+      h="80rem"
       backgroundImage="url('/blue.png')"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
+      w="100vw"
+      overflow="hidden"
+     
     >
       {children}
 
@@ -60,7 +64,7 @@ export default function DesktopHeroSection({ children }) {
           {/*   flex  for white button and paper  */}
           <Flex flexDir="row" gap="4" my="2rem">
             <Button
-              w="40%"
+              w="11.875rem"
               borderRadius="0.5rem"
               h="3.18rem"
               colorScheme="pink"
@@ -82,7 +86,7 @@ export default function DesktopHeroSection({ children }) {
 
             <Text
               color="#fff"
-              w="80%"
+             
               fontSize="lg"
               py="1rem"
               fontWeight="bold"
@@ -94,11 +98,15 @@ export default function DesktopHeroSection({ children }) {
           {/*   flex  for social media icon */}
 
           <Flex mt="2rem" color="#fff" flexDir="row" gap="3rem">
-            <Icon as={FaDiscord} fontSize="2xl" />
-
-            <Icon as={ImTwitter} fontSize="2xl" />
-
-            <Icon as={FaTelegramPlane} borderRadius="8px" fontSize="2xl" />
+          <Link href="" isExternal>
+          <Icon as={FaDiscord} fontSize="2xl" />
+        </Link>
+        <Link href="" isExternal>
+          <Icon as={ImTwitter} fontSize="2xl" />
+        </Link>
+        <Link href="" isExternal>
+          <Icon as={FaTelegramPlane}  fontSize="2xl" />
+        </Link>
           </Flex>
         </Flex>
 

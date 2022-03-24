@@ -5,7 +5,6 @@ export default function DesktopNoluFeatures() {
     /*      mother flex for all */
 
     <Flex
-    id="featlg"
       direction="column"
       p="6rem"
       alignItems="center"

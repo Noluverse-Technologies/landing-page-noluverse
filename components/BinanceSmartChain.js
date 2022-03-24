@@ -4,12 +4,12 @@ export default function BinanceSmartChain() {
   return (
     /*      mother flex for all */
 
-    <Flex direction={["column", "column", "column", "row", "row"]} my="2rem">
+    <Flex direction={["column", "column", "column", "row", "row"]} my="2rem"  id="smartchainboth">
       {/*  mother flex for smart heading, para and comiboned supply,type, purchase start  */}
 
       <Flex
         direction="column"
-        pl={[0, 0, 0, "4rem", "4rem"]}
+        pl={[0, 0, 0, "4rem", "5rem"]}
         mt={[0, 0, 0, "5rem", "13rem"]}
         w={["100%", "100%", "50%", "50%", "50%"]}
       >
@@ -124,7 +124,7 @@ export default function BinanceSmartChain() {
       {/*   flex for terms image  */}
 
       <Flex w={["100%", "100%", "50%", "50%", "50%"]} my="2rem" alignItems="center" justifyContent="center">
-        <Image  w={["90%", "90%", "70%", "75%", "75%"]} src="binancechain.jpg" alt="binancechain" />
+        <Image   src="binancechain.jpg" alt="binancechain" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */
