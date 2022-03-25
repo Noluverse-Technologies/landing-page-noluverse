@@ -4,7 +4,7 @@ export default function DesktopTokenSaleTerms() {
   return (
     /*      mother flex for all start */
 
-    <Flex w="100%" my="3rem" id="termslg">
+    <Flex w="100%" mt="2rem" id="termslg">
       {/*   flex for Token Sale Terms image  */}
 
       <Flex w="50%" mt="1rem" px="5rem">
@@ -30,9 +30,11 @@ export default function DesktopTokenSaleTerms() {
 
         {/*   flex for Token Sale Terms paragraph  */}
 
-        <Flex w="70%" my="2rem">
+        <Flex w="70%" mt="2rem">
           <Text fontSize="md" color="#000000">
-          We’re aiming to raise 1,000 BNB through the sale of our valuable native token for users interested in becoming part of the Nolu project.
+            We’re aiming to raise 1,000 BNB through the sale of our valuable
+            native token for users interested in becoming part of the Nolu
+            project.
           </Text>
         </Flex>
 
@@ -48,11 +50,11 @@ export default function DesktopTokenSaleTerms() {
             mt="1.5rem"
           >
             <Text fontSize="4xl" fontWeight="bold" color="#4169E1">
-            1,000 BNB
+              1,000 BNB
             </Text>
 
             <Text fontSize="sm" color="#000000">
-            Hard cap 
+              Hard cap
             </Text>
           </Flex>
 
@@ -65,7 +67,7 @@ export default function DesktopTokenSaleTerms() {
             mt="1.5rem"
           >
             <Text fontSize="4xl" fontWeight="bold" color="#4169E1">
-            500 BNB
+              500 BNB
             </Text>
 
             <Text fontSize="sm" color="#000000">

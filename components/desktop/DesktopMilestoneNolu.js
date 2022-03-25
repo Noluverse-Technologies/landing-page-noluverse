@@ -1,10 +1,10 @@
-import { Flex, Image, Button, Text,Link } from "@chakra-ui/react";
+import { Flex, Image, Button, Text, Link } from "@chakra-ui/react";
 
 export default function DesktopMilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" mt="5rem" id="milestonelg" >
+    <Flex direction="column" mt="5rem" id="milestonelg">
       {/*  mother flex for combined milestone nolu pard and images  start (upper part of full page) */}
 
       <Flex direction="column">
@@ -114,8 +114,14 @@ export default function DesktopMilestoneNolu() {
 
           {/*   flex for milestone image start (right portion)  */}
 
-          <Flex w="50%" >
-            <Image w="100%" pr="5rem" pb="2rem" src="milestone.jpg" alt="milestone" />
+          <Flex w="50%">
+            <Image
+              w="100%"
+              pr="5rem"
+              pb="2rem"
+              src="milestone.jpg"
+              alt="milestone"
+            />
           </Flex>
 
           {/*   flex for milestone image end (right portion)  */}
@@ -136,7 +142,6 @@ export default function DesktopMilestoneNolu() {
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
         w="100vw"
-        
       >
         {/*    mother flex for comibined nolu logo and right tex start  (child flex of footer) */}
 
@@ -158,50 +163,43 @@ export default function DesktopMilestoneNolu() {
 
         {/*    flex for footer nav button (child flex of footer) */}
         <Flex direction="row" wrap="wrap" gap="10" pt="19rem" pr="3rem">
-        <Link href="#featlg"  >
-           
-        <Button variant="link" color="#FFFFFF">
-        Features
-      </Button>
-        </Link>
+          <Link href="#featlg">
+            <Button variant="link" color="#FFFFFF">
+              Features
+            </Button>
+          </Link>
 
-        <Link href="#termslg"  >
-       
-        <Button variant="link" color="#FFFFFF">
-        Terms
-      </Button>
-        </Link>
-        <Link href=""  >
-       
-        <Button variant="link" color="#FFFFFF">
-        Timelines
-      </Button>
-        </Link>
-        
-        <Link href="#roadmaplg"  >
-       
-        <Button variant="link" color="#FFFFFF">
-        Roadmap
-      </Button>
-        </Link>
-        <Link href="#monetizationlg"  >
-       
-        <Button variant="link" color="#FFFFFF">
-        Monetization
-      </Button>
-        </Link>
-        <Link href="#teamboth"  >
-       
-        <Button variant="link" color="#FFFFFF">
-        Team
-      </Button>
-        </Link>
-        <Link href="#milestonelg"  >
-       
-        <Button variant="link" color="#FFFFFF">
-        Milestones
-      </Button>
-        </Link>
+          <Link href="#termslg">
+            <Button variant="link" color="#FFFFFF">
+              Terms
+            </Button>
+          </Link>
+          <Link href="">
+            <Button variant="link" color="#FFFFFF">
+              Timelines
+            </Button>
+          </Link>
+
+          <Link href="#roadmaplg">
+            <Button variant="link" color="#FFFFFF">
+              Roadmap
+            </Button>
+          </Link>
+          <Link href="#monetizationlg">
+            <Button variant="link" color="#FFFFFF">
+              Monetization
+            </Button>
+          </Link>
+          <Link href="#teamboth">
+            <Button variant="link" color="#FFFFFF">
+              Team
+            </Button>
+          </Link>
+          <Link href="#milestonelg">
+            <Button variant="link" color="#FFFFFF">
+              Milestones
+            </Button>
+          </Link>
         </Flex>
       </Flex>
 

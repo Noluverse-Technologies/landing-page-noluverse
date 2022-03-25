@@ -4,14 +4,9 @@ export default function ProjectMonetization() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column"  my="3rem" id="monetizationsm">
+    <Flex direction="column" my="3rem" id="monetizationsm">
       {/*   flex for project heading  */}
-      <Flex
-        alignItems="center"
-        justifyContent="center"
-        direction="column"
-        
-      >
+      <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Project Monetization
         </Text>
@@ -24,7 +19,6 @@ export default function ProjectMonetization() {
         justifyContent="center"
         px="2.2rem"
         direction="column"
-     
       >
         <Text fontSize="xl" my="1rem" fontWeight="bold" color="#4169E1">
           How Noluverse Makes Money

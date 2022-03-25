@@ -1,8 +1,8 @@
-import { Icon, Box, Image, Flex, Text,Link } from "@chakra-ui/react";
+import { Icon, Box, Image, Flex, Text, Link } from "@chakra-ui/react";
 
 import { FaFacebook } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
-import { BsInstagram,BsYoutube } from "react-icons/bs";
+import { BsInstagram, BsYoutube } from "react-icons/bs";
 
 export default function MeetNoluTeam() {
   return (
@@ -10,11 +10,7 @@ export default function MeetNoluTeam() {
 
     <Flex direction="column" my="3rem" id="teamboth">
       {/*   flex for team heading  */}
-      <Flex
-        alignItems="center"
-        justifyContent="center"
-        direction="column"
-      >
+      <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Meet the Nolu Team
         </Text>
@@ -22,13 +18,7 @@ export default function MeetNoluTeam() {
 
       {/*   flex for team sub heading  */}
 
-      <Flex
-        alignItems="center"
-        justifyContent="center"
-      
-        direction="column"
-   
-      >
+      <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="xl" my="1rem" fontWeight="bold" color="#5F72DB">
           The Leaders Behind the Project
         </Text>
@@ -36,7 +26,11 @@ export default function MeetNoluTeam() {
 
       {/*   mother flex for all cards  */}
 
-      <Flex alignSelf="center" mt="4rem" direction={["column", "column", "column", "row", "row"]}>
+      <Flex
+        alignSelf="center"
+        mt="4rem"
+        direction={["column", "column", "column", "row", "row"]}
+      >
         {/*    flex for 1st card  */}
 
         <Flex>
@@ -68,7 +62,7 @@ export default function MeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#FFFFFF" fontWeight="bold">
-              Marvin Yee
+                Marvin Yee
               </Text>
             </Flex>
 
@@ -90,41 +84,18 @@ export default function MeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-          
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon as={BsInstagram} fontSize="2xl"  />
-          </Link>
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon as={FaFacebook} fontSize="2xl" />
-          </Link>
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon
-          as={ImTwitter}
-     
-          fontSize="2xl"
-       
-        />
-          </Link>
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon
-                as={BsInstagram}
-          
-                fontSize="2xl"
-           
-              />
-          </Link>
+              <Link href="" isExternal>
+                <Icon as={BsInstagram} fontSize="2xl" />
+              </Link>
+              <Link href="" isExternal>
+                <Icon as={FaFacebook} fontSize="2xl" />
+              </Link>
+              <Link href="" isExternal>
+                <Icon as={ImTwitter} fontSize="2xl" />
+              </Link>
+              <Link href="" isExternal>
+                <Icon as={BsInstagram} fontSize="2xl" />
+              </Link>
             </Flex>
           </Box>
         </Flex>
@@ -179,35 +150,20 @@ export default function MeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-            <Link
-            href="https://www.instagram.com/"
-            isExternal
-          >
-          <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
-          </Link>
-           
-          <Link
-          href=""
-          isExternal
-        >
-        <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
-        </Link>
-             
+              <Link href="https://www.instagram.com/" isExternal>
+                <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
+              </Link>
 
+              <Link href="" isExternal>
+                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              </Link>
 
-        <Link
-        href=""
-        isExternal
-      >
-      <Icon
-      as={BsYoutube}
-   
-      fontSize="2xl"
-      background="#C9D2F5"
-    />
-      </Link>
-              
-             
+              <Link
+                href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
+                isExternal
+              >
+                <Icon as={BsYoutube} fontSize="2xl" background="#C9D2F5" />
+              </Link>
             </Flex>
           </Box>
         </Flex>
@@ -262,51 +218,18 @@ export default function MeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-
-
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
-          </Link>
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
-          </Link>
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon
-          as={ImTwitter}
-        
-          fontSize="2xl"
-          background="#C9D2F5"
-        />
-          </Link>
-            <Link
-            href=""
-            isExternal
-          >
-          <Icon
-                as={BsInstagram}
-       
-                fontSize="2xl"
-                background="#C9D2F5"
-              />
-          </Link>
-
-
-       
-            
-
-             
-
-             
-              
+              <Link href="" isExternal>
+                <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
+              </Link>
+              <Link href="" isExternal>
+                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              </Link>
+              <Link href="" isExternal>
+                <Icon as={ImTwitter} fontSize="2xl" background="#C9D2F5" />
+              </Link>
+              <Link href="" isExternal>
+                <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
+              </Link>
             </Flex>
           </Box>
         </Flex>

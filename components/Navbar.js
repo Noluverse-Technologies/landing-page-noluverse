@@ -1,9 +1,8 @@
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
 
 import {
   chakra,
-
   Text,
   Box,
   Flex,
@@ -30,7 +29,6 @@ export default function Navbar() {
         px={{ base: 2, sm: 4 }}
         py={4}
         shadow="md"
-    
       >
         <Flex alignItems="center" justifyContent="space-between" mx="auto">
           <Flex>
@@ -40,7 +38,7 @@ export default function Navbar() {
               display="flex"
               alignItems="center"
             >
-              <Image src="logo.png" alt="logo.png" ml={[5,"5rem","5rem"]} />
+              <Image src="logo.png" alt="logo.png" ml={[5, "5rem", "5rem"]} />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
@@ -59,57 +57,43 @@ export default function Navbar() {
               mr={20}
               display={{ base: "none", md: "inline-flex" }}
             >
+              <Link href="#featlg">
+                <Button variant="link" color="#FFFFFF">
+                  Features
+                </Button>
+              </Link>
 
-            <Link href="#featlg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Features
-          </Button>
-            </Link>
+              <Link href="#termslg">
+                <Button variant="link" color="#FFFFFF">
+                  Terms
+                </Button>
+              </Link>
+              <Link href="">
+                <Button variant="link" color="#FFFFFF">
+                  Timelines
+                </Button>
+              </Link>
 
-            <Link href="#termslg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Terms
-          </Button>
-            </Link>
-            <Link href=""  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Timelines
-          </Button>
-            </Link>
-            
-            <Link href="#roadmaplg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Roadmap
-          </Button>
-            </Link>
-            <Link href="#monetizationlg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Monetization
-          </Button>
-            </Link>
-            <Link href="#teamboth"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Team
-          </Button>
-            </Link>
-            <Link href="#milestonelg"  >
-           
-            <Button variant="link" color="#FFFFFF">
-            Milestones
-          </Button>
-            </Link>
-    
-             
-            
-             
-             
-            
+              <Link href="#roadmaplg">
+                <Button variant="link" color="#FFFFFF">
+                  Roadmap
+                </Button>
+              </Link>
+              <Link href="#monetizationlg">
+                <Button variant="link" color="#FFFFFF">
+                  Monetization
+                </Button>
+              </Link>
+              <Link href="#teamboth">
+                <Button variant="link" color="#FFFFFF">
+                  Team
+                </Button>
+              </Link>
+              <Link href="#milestonelg">
+                <Button variant="link" color="#FFFFFF">
+                  Milestones
+                </Button>
+              </Link>
             </HStack>
 
             <Box display={{ base: "inline-flex", md: "none" }}>
@@ -143,55 +127,43 @@ export default function Navbar() {
                   onClick={mobileNav.onClose}
                 />
 
-               <Link href="#featsm"  >
-           
-               <Button w="full" variant="ghost">
-               Features
-             </Button>
-            </Link>
-            <Link href="#termssm"  >
-           
-            <Button w="full" variant="ghost">
-            Terms
-          </Button>
-            </Link>
-            <Link href=""  >
-           
-            <Button w="full" variant="ghost">
-            Timelines
-          </Button>
-            </Link>
-            
-            <Link href="#roadmapsm"  >
-           
-            <Button w="full" variant="ghost" >
-            Roadmap
-          </Button>
-            </Link>
-            <Link href="#monetizationsm"  >
-           
-            <Button w="full" variant="ghost">
-            Monetization
-          </Button>
-            </Link>
-            <Link href="#teamboth"  >
-           
-            <Button w="full" variant="ghost" >
-            Team
-          </Button>
-            </Link>
-            
-            <Link href="#milestonesm"  >
-           
-            <Button w="full" variant="ghost">
-            Milestones
-          </Button>
-            </Link>
-    
-             
-            
-               
-               
+                <Link href="#featsm">
+                  <Button w="full" variant="ghost">
+                    Features
+                  </Button>
+                </Link>
+                <Link href="#termssm">
+                  <Button w="full" variant="ghost">
+                    Terms
+                  </Button>
+                </Link>
+                <Link href="">
+                  <Button w="full" variant="ghost">
+                    Timelines
+                  </Button>
+                </Link>
+
+                <Link href="#roadmapsm">
+                  <Button w="full" variant="ghost">
+                    Roadmap
+                  </Button>
+                </Link>
+                <Link href="#monetizationsm">
+                  <Button w="full" variant="ghost">
+                    Monetization
+                  </Button>
+                </Link>
+                <Link href="#teamboth">
+                  <Button w="full" variant="ghost">
+                    Team
+                  </Button>
+                </Link>
+
+                <Link href="#milestonesm">
+                  <Button w="full" variant="ghost">
+                    Milestones
+                  </Button>
+                </Link>
               </VStack>
             </Box>
           </HStack>

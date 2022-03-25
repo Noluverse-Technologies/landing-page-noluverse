@@ -4,7 +4,11 @@ export default function BinanceSmartChain() {
   return (
     /*      mother flex for all */
 
-    <Flex direction={["column", "column", "column", "row", "row"]} my="2rem"  id="smartchainboth">
+    <Flex
+      direction={["column", "column", "column", "row", "row"]}
+      my="2rem"
+      id="smartchainboth"
+    >
       {/*  mother flex for smart heading, para and comiboned supply,type, purchase start  */}
 
       <Flex
@@ -16,18 +20,18 @@ export default function BinanceSmartChain() {
         {/*   flex for smart heading  */}
 
         <Flex
-        alignItems={{
-          base: "center",
-          md: "flex-start",
-          lg: "flex-start",
-          xl: "flex-start",
-        }}
-        justifyContent={{
-          base: "center",
-          md: "flex-start",
-          lg: "flex-start",
-          xl: "flex-start",
-        }}
+          alignItems={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
+          justifyContent={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
           color={"black"}
           direction="column"
           w="100%"
@@ -40,18 +44,20 @@ export default function BinanceSmartChain() {
 
         {/*   flex for smart paragraph  */}
 
-        <Flex mt="2rem" w={["75%","75%","75%","75%","75%"]} 
-        alignSelf={{
-          base: "center",
-          md: "flex-start",
-          lg: "flex-start",
-          xl: "flex-start",
-        }}>
+        <Flex
+          mt="2rem"
+          w={["75%", "75%", "75%", "75%", "75%"]}
+          alignSelf={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
+        >
           <Text fontSize="md" color="#000000">
-            We accept ETH, BTC, BNB, USDT, and  transactions will take
-            place on the  Binance Smart Chain. If you’re interested {" "}
-            in getting in on the project early, this is  your perfect
-            opportunity.
+            We accept ETH, BTC, BNB, USDT, and transactions will take place on
+            the Binance Smart Chain. If you’re interested in getting in on the
+            project early, this is your perfect opportunity.
           </Text>
         </Flex>
 
@@ -68,7 +74,6 @@ export default function BinanceSmartChain() {
             alignItems="center"
             justifyContent="center"
             direction="column"
-       
             mt="1.5rem"
           >
             <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
@@ -86,7 +91,6 @@ export default function BinanceSmartChain() {
             alignItems="center"
             justifyContent="center"
             direction="column"
-       
             mt="1.5rem"
           >
             <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
@@ -104,7 +108,6 @@ export default function BinanceSmartChain() {
             alignItems="center"
             justifyContent="center"
             direction="column"
-     
             mt="1.5rem"
           >
             <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
@@ -123,8 +126,13 @@ export default function BinanceSmartChain() {
 
       {/*   flex for terms image  */}
 
-      <Flex w={["100%", "100%", "50%", "50%", "50%"]} my="2rem" alignItems="center" justifyContent="center">
-        <Image   src="binancechain.jpg" alt="binancechain" />
+      <Flex
+        w={["100%", "100%", "50%", "50%", "50%"]}
+        my="2rem"
+        alignItems="center"
+        justifyContent="center"
+      >
+        <Image src="binancechain.jpg" alt="binancechain" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */

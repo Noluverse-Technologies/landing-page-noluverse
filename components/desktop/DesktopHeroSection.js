@@ -8,7 +8,7 @@ import {
   Button,
   Icon,
   Box,
-  Link
+  Link,
 } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
@@ -26,7 +26,6 @@ export default function DesktopHeroSection({ children }) {
       backgroundSize="cover"
       w="100vw"
       overflow="hidden"
-     
     >
       {children}
 
@@ -84,13 +83,7 @@ export default function DesktopHeroSection({ children }) {
               color="#fff"
             />
 
-            <Text
-              color="#fff"
-             
-              fontSize="lg"
-              py="1rem"
-              fontWeight="bold"
-            >
+            <Text color="#fff" fontSize="lg" py="1rem" fontWeight="bold">
               View the White Paper
             </Text>
           </Flex>
@@ -98,15 +91,15 @@ export default function DesktopHeroSection({ children }) {
           {/*   flex  for social media icon */}
 
           <Flex mt="2rem" color="#fff" flexDir="row" gap="3rem">
-          <Link href="" isExternal>
-          <Icon as={FaDiscord} fontSize="2xl" />
-        </Link>
-        <Link href="" isExternal>
-          <Icon as={ImTwitter} fontSize="2xl" />
-        </Link>
-        <Link href="" isExternal>
-          <Icon as={FaTelegramPlane}  fontSize="2xl" />
-        </Link>
+            <Link href="" isExternal>
+              <Icon as={FaDiscord} fontSize="2xl" />
+            </Link>
+            <Link href="" isExternal>
+              <Icon as={ImTwitter} fontSize="2xl" />
+            </Link>
+            <Link href="" isExternal>
+              <Icon as={FaTelegramPlane} fontSize="2xl" />
+            </Link>
           </Flex>
         </Flex>
 
@@ -140,7 +133,7 @@ export default function DesktopHeroSection({ children }) {
 
             {/*   child flex of sale time flex */}
 
-            <Flex py="2rem" gap="2">
+            <Flex pt="2rem" gap="2">
               <Flex
                 flexDir="column"
                 alignItems="center"

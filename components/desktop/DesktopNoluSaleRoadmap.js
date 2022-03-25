@@ -4,7 +4,7 @@ export default function DesktopNoluSaleRoadmap() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" my="3rem" px="3rem" id="roadmaplg" >
+    <Flex direction="column" my="3rem" px="3rem" id="roadmaplg">
       {/*   flex for roadmap heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -177,20 +177,16 @@ export default function DesktopNoluSaleRoadmap() {
               </Text>
             </Flex>
 
+            <Flex direction="column" px="2rem" mt="3.5rem">
+              <Text fontSize="lg" color="#000000">
+                <strong>7</strong>
+              </Text>
 
-            <Flex direction="column"  px="2rem" mt="3.5rem">
-            <Text  fontSize="lg" color="#000000">
-              <strong>7</strong>
-            </Text>
-    
-            <Text fontSize="lg" color="#000000">
-              <strong>Custom Avatar Creation</strong> <br />
-              Mint clothes to NFT
-            </Text>
-          </Flex>
-         
-
-
+              <Text fontSize="lg" color="#000000">
+                <strong>Custom Avatar Creation</strong> <br />
+                Mint clothes to NFT
+              </Text>
+            </Flex>
           </Flex>
         </Flex>
 
@@ -500,9 +496,9 @@ export default function DesktopNoluSaleRoadmap() {
 
       {/*   flex for button */}
 
-      <Flex  alignItems="center" justifyContent="center">
+      <Flex alignItems="center" justifyContent="center">
         <Button
-        w="12rem"
+          w="12rem"
           borderRadius="0.5rem"
           mt="3rem"
           ml="1.5rem"

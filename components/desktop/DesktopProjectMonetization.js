@@ -4,7 +4,7 @@ export default function DesktopProjectMonetization() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="5rem" px="3rem" id="monetizationlg" >
+    <Flex direction="column" my="5rem" px="3rem" id="monetizationlg">
       {/*   flex for project heading  */}
       <Flex direction="column" px="2.5rem">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">

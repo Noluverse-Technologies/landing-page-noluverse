@@ -5,7 +5,7 @@ export default function DesktopNoluFeatures() {
     /*      mother flex for all */
 
     <Flex
-    id="featlg"
+      id="featlg"
       direction="column"
       p="6rem"
       alignItems="center"
@@ -113,13 +113,7 @@ export default function DesktopNoluFeatures() {
 
       {/*  mother flex for pixel start (not include in position relative and absolute)*/}
 
-      <Flex
-        direction="column"
-        alignItems="center"
-        justifyContent="center"
-        bottom="-4rem"
-        right="1px"
-      >
+      <Flex direction="column" alignItems="center" justifyContent="center">
         <Text fontSize="lg" fontWeight="bold" color="#151855">
           Pixel
         </Text>

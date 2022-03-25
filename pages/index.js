@@ -1,8 +1,5 @@
-
-
 import React from "react";
-import Head from 'next/head'
-
+import Head from "next/head";
 
 import HeroSection from "../components/HeroSection";
 import NoluFeatures from "../components/NoluFeatures";
@@ -31,18 +28,14 @@ export default function App() {
 
   return (
     <>
-
-
-    <Head>
+      <Head>
         <title>Noluverse</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       {/* for desktop------------------------- */}
       {isLargerThan1224 ? (
         <Flex direction="column" w="100vw">
-
-      
           <DesktopHeroSection>
             <Navbar />
           </DesktopHeroSection>
@@ -59,9 +52,7 @@ export default function App() {
 
       {/* for mobile------------------------- */}
       {isLessThan1224 ? (
-        <Flex direction="column" w="100vw" >
-
-  
+        <Flex direction="column" w="100vw">
           <HeroSection>
             <Navbar />
           </HeroSection>
@@ -82,4 +73,3 @@ export default function App() {
     </>
   );
 }
-

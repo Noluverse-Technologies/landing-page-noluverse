@@ -4,13 +4,12 @@ export default function Tokenomics() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" my="3rem" id="tokenomicssm" >
+    <Flex direction="column" my="3rem" id="tokenomicssm">
       {/*   flex for tokenomics heading  */}
 
       <Flex
         alignItems="center"
         justifyContent="center"
-  
         direction="column"
         w="100%"
       >
@@ -23,13 +22,7 @@ export default function Tokenomics() {
 
       {/*   flex for sub heading  */}
 
-      <Flex
-        alignItems="center"
-        justifyContent="center"
-      
-        direction="column"
-   
-      >
+      <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="2xl" my="1rem" fontWeight="bold" color="#4169E1">
           Exchange
         </Text>
@@ -50,14 +43,19 @@ export default function Tokenomics() {
       {/*   flex for tokenomics image  */}
 
       <Flex w="100%" mt="1rem" alignItems="center" justifyContent="center">
-        <Image w="80%" src="smtokenomics.jpg" alt="termsman" alignSelf="center" />
+        <Image
+          w="80%"
+          src="smtokenomics.jpg"
+          alt="termsman"
+          alignSelf="center"
+        />
       </Flex>
 
       {/*   flex for tokenomics buttons  */}
 
       <Flex alignItems="center" justifyContent="center">
         <Button
-        w="20.875rem"
+          w="20.875rem"
           borderRadius="0.5rem"
           h="3.18rem"
           colorScheme="pink"
