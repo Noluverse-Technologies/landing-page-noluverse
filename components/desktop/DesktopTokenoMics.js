@@ -6,7 +6,7 @@ export default function DesktopTokenoMics() {
       {/*   flex for tokenomics image  */}
 
       <Flex w="50%" mt="1rem" alignItems="center" justifyContent="center">
-        <Image src="/lgtokenomics.jpg" alt="tokenomicslg" />
+        <Image  w="90%"src="/lgtokenomics.png" alt="tokenomicslg" />
       </Flex>
 
       {/*  mother  flex for combined heading, paragraph, and button  */}

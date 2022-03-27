@@ -4,7 +4,7 @@ export default function NoluFeatures() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" id="featsm">
+    <Flex direction="column" id="featsm"  pl={[0, 0, "10rem", "10rem", 0]}>
       {/*  flex for feature heading  */}
 
       <Flex

@@ -21,10 +21,12 @@ import DesktopProjectMonetization from "../components/desktop/DesktopProjectMone
 import DesktopNoluSaleRoadmap from "../components/desktop/DesktopNoluSaleRoadmap";
 import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
 import DesktopNoluFeatures from "../components/desktop/DesktopNoluFeatures";
+import DesktopNoluSaletime from "../components/desktop/DesktopNoluSaletime";
+import SaleTimeline from "../components/SaleTimeline";
 
 export default function App() {
-  const [isLargerThan1224] = useMediaQuery("(min-width: 1224px)");
-  const [isLessThan1224] = useMediaQuery("(max-width: 1224px)");
+  const [isLargerThan1100] = useMediaQuery("(min-width: 1100px)");
+  const [isLessThan1100] = useMediaQuery("(max-width: 1100px)");
 
   return (
     <>
@@ -34,24 +36,37 @@ export default function App() {
       </Head>
 
       {/* for desktop------------------------- */}
-      {isLargerThan1224 ? (
-        <Flex direction="column" w="100vw">
-          <DesktopHeroSection>
-            <Navbar />
-          </DesktopHeroSection>
-          <DesktopNoluFeatures />
-          <DesktopTokenSaleTerms />
-          <BinanceSmartChain />
-          <DesktopTokenoMics />
-          <DesktopNoluSaleRoadmap />
-          <DesktopProjectMonetization />
-          <MeetNoluTeam />
-          <DesktopMilestoneNolu />
+      {isLargerThan1100 ? (
+        <Flex w="100vw" 
+        justifyContent="center"
+    
+
+        >
+
+          <Flex
+           direction="column"
+            w="100%"
+            maxW="1600px"
+          
+          >
+            <DesktopHeroSection>
+              <Navbar />
+            </DesktopHeroSection>
+            <DesktopNoluFeatures />
+            <DesktopTokenSaleTerms />
+            <BinanceSmartChain />
+            <DesktopTokenoMics />
+            <DesktopNoluSaletime/>
+            <DesktopNoluSaleRoadmap />
+            <DesktopProjectMonetization />
+            <MeetNoluTeam />
+            <DesktopMilestoneNolu />
+          </Flex>
         </Flex>
       ) : null}
 
       {/* for mobile------------------------- */}
-      {isLessThan1224 ? (
+      {isLessThan1100 ? (
         <Flex direction="column" w="100vw">
           <HeroSection>
             <Navbar />
@@ -63,6 +78,7 @@ export default function App() {
 
           <BinanceSmartChain />
           <Tokenomics />
+          <SaleTimeline/>
           <NoluSaleRoadmap />
 
           <ProjectMonetization />

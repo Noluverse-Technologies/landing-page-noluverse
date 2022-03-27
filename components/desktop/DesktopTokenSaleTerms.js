@@ -8,7 +8,7 @@ export default function DesktopTokenSaleTerms() {
       {/*   flex for Token Sale Terms image  */}
 
       <Flex w="50%" mt="1rem" px="5rem">
-        <Image w="90%" src="tokensalesterm.jpg" alt="lg tokensalesterm" />
+        <Image w="90%" src="tokensalesterm.png" alt="lg tokensalesterm" />
       </Flex>
 
       {/*  mother  flex for combined heading, paragraph, and crow salw and softcope  */}

@@ -29,7 +29,7 @@ export default function MeetNoluTeam() {
       <Flex
         alignSelf="center"
         mt="4rem"
-        direction={["column", "column", "column", "row", "row"]}
+        direction={["column", "column", "column", "column", "row"]}
       >
         {/*    flex for 1st card  */}
 

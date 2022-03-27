@@ -5,9 +5,10 @@ export default function BinanceSmartChain() {
     /*      mother flex for all */
 
     <Flex
-      direction={["column", "column", "column", "row", "row"]}
+      direction={["column", "column", "column", "column", "row"]}
       my="2rem"
       id="smartchainboth"
+      pl={[0, 0, "15rem", "20rem", 0]}
     >
       {/*  mother flex for smart heading, para and comiboned supply,type, purchase start  */}
 
@@ -15,7 +16,7 @@ export default function BinanceSmartChain() {
         direction="column"
         pl={[0, 0, 0, "4rem", "5rem"]}
         mt={[0, 0, 0, "5rem", "13rem"]}
-        w={["100%", "100%", "50%", "50%", "50%"]}
+        w={["100%", "100%", "80%", "80%", "50%"]}
       >
         {/*   flex for smart heading  */}
 
@@ -64,15 +65,25 @@ export default function BinanceSmartChain() {
         {/*  mother  flex for token supply, token type, purchase  start*/}
 
         <Flex
-          direction={["column", "column", "column", "row", "row"]}
+          direction={["column", "column", "column", "columnw", "row"]}
           gap={[2, 2, 2, 6, 10]}
           mt={[0, 0, 0, "2rem", "2rem"]}
         >
           {/*   flex for token supply  */}
 
           <Flex
-            alignItems="center"
-            justifyContent="center"
+          alignItems={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
+          justifyContent={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
             direction="column"
             mt="1.5rem"
           >
@@ -88,8 +99,19 @@ export default function BinanceSmartChain() {
           {/*   flex for token type  */}
 
           <Flex
-            alignItems="center"
-            justifyContent="center"
+ 
+          alignItems={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
+          justifyContent={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
             direction="column"
             mt="1.5rem"
           >
@@ -105,8 +127,18 @@ export default function BinanceSmartChain() {
           {/*   flex forpurchase method  */}
 
           <Flex
-            alignItems="center"
-            justifyContent="center"
+          alignItems={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
+          justifyContent={{
+            base: "center",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+          }}
             direction="column"
             mt="1.5rem"
           >
@@ -127,12 +159,12 @@ export default function BinanceSmartChain() {
       {/*   flex for terms image  */}
 
       <Flex
-        w={["100%", "100%", "50%", "50%", "50%"]}
+        w={["100%", "100%", "80%", "50%", "40%"]}
         my="2rem"
         alignItems="center"
         justifyContent="center"
       >
-        <Image src="binancechain.jpg" alt="binancechain" />
+        <Image src="binancechain.png" alt="binancechain" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */

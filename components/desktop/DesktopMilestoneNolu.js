@@ -19,7 +19,7 @@ export default function DesktopMilestoneNolu() {
 
         {/* mother  flex for split (content, buttons) and image start */}
 
-        <Flex w="100%" pl="5rem" pt="1rem">
+        <Flex w="100%" pl="5rem" pt="5rem">
           {/* mother  flex for split (content, buttons) start (left portion) */}
 
           <Flex w="50%" direction="Column">
@@ -119,7 +119,7 @@ export default function DesktopMilestoneNolu() {
               w="100%"
               pr="5rem"
               pb="2rem"
-              src="milestone.jpg"
+              src="milestone.png"
               alt="milestone"
             />
           </Flex>
@@ -141,7 +141,8 @@ export default function DesktopMilestoneNolu() {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
-        w="100vw"
+        w="100%
+        "
       >
         {/*    mother flex for comibined nolu logo and right tex start  (child flex of footer) */}
 
@@ -174,7 +175,7 @@ export default function DesktopMilestoneNolu() {
               Terms
             </Button>
           </Link>
-          <Link href="">
+          <Link href="#timelinelg">
             <Button variant="link" color="#FFFFFF">
               Timelines
             </Button>

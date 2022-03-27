@@ -4,7 +4,7 @@ export default function ProjectMonetization() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="3rem" id="monetizationsm">
+    <Flex direction="column" my="3rem" id="monetizationsm"    pl={[0, 0, "10rem", "10rem", 0]}>
       {/*   flex for project heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -131,7 +131,7 @@ export default function ProjectMonetization() {
       {/*   flex for terms image  */}
 
       <Flex w="100%" my="2.5rem" alignItems="center" justifyContent="center">
-        <Image w="90%" src="monetization.jpg" alt="monetization" />
+        <Image w="80%" src="monetization.png" alt="monetization" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */

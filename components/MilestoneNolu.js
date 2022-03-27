@@ -4,7 +4,7 @@ export default function MilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" mt="3rem" id="milestonesm">
+    <Flex direction="column" mt="3rem" id="milestonesm"  pl={[0, 0, "10rem", "10rem", 0]}>
       {/*   flex for milestone heading and subheading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -71,8 +71,8 @@ export default function MilestoneNolu() {
 
       {/*   flex for milestone image  */}
 
-      <Flex w="100%" my="1rem" alignItems="center" justifyContent="center">
-        <Image w="80%" src="milestone.jpg" alt="milestone" />
+      <Flex w="100%" my="1rem"  ml="2.5rem">
+        <Image      w={["80%", "80%", "70%", "50%", "75%"]} src="milestone.png" alt="milestone" alignSelf="center" />
       </Flex>
 
       {/*   flex for button */}
@@ -81,7 +81,6 @@ export default function MilestoneNolu() {
         <Button
           w="20.875rem"
           borderRadius="0.5rem"
-          ml="1.5rem"
           h="3.18rem"
           colorScheme="pink"
           variant="solid"
@@ -100,11 +99,11 @@ export default function MilestoneNolu() {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
-        w="100vw"
+        w="100%"
       >
         {/*    flex for nolu logo (child flex of footer) */}
         <Flex mt="12rem">
-          <Image src="logo.png" alt="logo.png" ml={5} />
+          <Image src="logo.png"  w="3.875em" alt="logo.png" ml={5} />
         </Flex>
 
         {/*    flex for footer nav button (child flex of footer) */}

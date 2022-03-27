@@ -20,12 +20,13 @@ export default function DesktopHeroSection({ children }) {
 
     <Box
       h="80rem"
-      backgroundImage="url('/blue.png')"
+      backgroundImage="url('/bgHero.jpg')"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
-      w="100vw"
-      overflow="hidden"
+      w="100%"
+      
+      
     >
       {children}
 

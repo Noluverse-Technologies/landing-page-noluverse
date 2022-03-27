@@ -38,7 +38,7 @@ export default function Navbar() {
               display="flex"
               alignItems="center"
             >
-              <Image src="logo.png" alt="logo.png" ml={[5, "5rem", "5rem"]} />
+              <Image src="logo.png" alt="logo.png" w="3.875em" ml={[0,0,0,0,"5rem"]} />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
@@ -54,7 +54,7 @@ export default function Navbar() {
           <HStack display="flex" alignItems="center" spacing={1}>
             <HStack
               spacing={4}
-              mr={20}
+              mr={[20,0,0,0,20]}
               display={{ base: "none", md: "inline-flex" }}
             >
               <Link href="#featlg">
@@ -68,7 +68,7 @@ export default function Navbar() {
                   Terms
                 </Button>
               </Link>
-              <Link href="">
+              <Link href="#timelinelg">
                 <Button variant="link" color="#FFFFFF">
                   Timelines
                 </Button>

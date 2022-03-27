@@ -19,18 +19,19 @@ export default function HeroSection({ children }) {
 
     <Flex
       direction="column"
-      h="78.12rem"
-      backgroundImage="url('/blue.png')"
+      h={["78.12rem", "78.12rem", "115rem", "115rem", 0]}
+      
+      backgroundImage="url('/bgHero.jpg')"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
-      w="100vw"
+      w="100%"
     >
       {children}
 
       {/*   flex  for heading */}
 
-      <Flex ml="1rem">
+      <Flex ml="1rem"  pl={[0, 0, "15rem", "25rem", 0]}>
         <Heading as="h2" size="2xl" mt="1rem" fontWeight={"bold"} color="#fff">
           Join the
           <br />
@@ -40,7 +41,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for headingParagraph */}
 
-      <Flex ml="1rem">
+      <Flex ml="1rem"  pl={[0, 0, "15rem", "25rem", 0]}>
         <Text mt="2rem" color="#fff" fontSize="lg">
           The most exciting virtual reality <br /> project is about to launch.
           Be part <br /> of it!
@@ -49,7 +50,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for buttons */}
 
-      <Flex direction="column" ml="1rem" my="4">
+      <Flex direction="column" ml="1rem" my="4"   pl={[0, 0, "15rem", "25rem", 0]}>
         <Button
           w="15rem"
           borderRadius="0.5rem"
@@ -81,7 +82,7 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for social media icon */}
 
-      <Flex ml="1rem" mt="2rem" color="#fff" direction="row" gap="8">
+      <Flex ml="1rem" mt="2rem" color="#fff" direction="row" gap="8"  pl={[0, 0, "15rem", "25rem", 0]}>
         <Link href="" isExternal>
           <Icon as={FaDiscord} fontSize="2xl" />
         </Link>

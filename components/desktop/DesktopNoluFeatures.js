@@ -7,7 +7,7 @@ export default function DesktopNoluFeatures() {
     <Flex
       id="featlg"
       direction="column"
-      p="6rem"
+      p="18rem"
       alignItems="center"
       justifyContent="center"
     >
