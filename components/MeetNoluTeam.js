@@ -124,7 +124,7 @@ export default function MeetNoluTeam() {
                 rounded="full"
                 borderStyle="solid"
                 alt="Illusives Studio"
-                src="team2.png"
+                src="illusives1.jpeg"
               />
             </Flex>
 
