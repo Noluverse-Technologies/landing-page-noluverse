@@ -2,7 +2,7 @@ import { Flex, Image, Text } from "@chakra-ui/react";
 
 export default function SaleTimeline() {
   return (
-    <Flex direction="column" w="100%" id="timelinelg">
+    <Flex direction="column" w="100%" id="timelinesm">
       <Flex
       
         alignItems="center"

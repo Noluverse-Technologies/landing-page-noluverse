@@ -119,7 +119,7 @@ export default function MilestoneNolu() {
               Terms
             </Button>
           </Link>
-          <Link href="">
+          <Link href="#timelinesm">
             <Button variant="link" color="#FFFFFF">
               Timelines
             </Button>

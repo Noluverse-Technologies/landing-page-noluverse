@@ -44,7 +44,9 @@ export default function HeroSection({ children }) {
       <Flex ml="1rem"  pl={[0, 0, "15rem", "25rem", 0]}>
         <Text mt="2rem" color="#fff" fontSize="lg">
           The most exciting virtual reality <br /> project is about to launch.
-          Be part <br /> of it!
+          <br/> 
+              <br/>
+              Be part of it!
         </Text>
       </Flex>
 

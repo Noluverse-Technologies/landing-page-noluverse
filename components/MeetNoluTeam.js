@@ -76,27 +76,6 @@ export default function MeetNoluTeam() {
               </Text>
             </Flex>
 
-            <Flex
-              mt="2rem"
-              color="#fff"
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              gap="8"
-            >
-              <Link href="" isExternal>
-                <Icon as={BsInstagram} fontSize="2xl" />
-              </Link>
-              <Link href="" isExternal>
-                <Icon as={FaFacebook} fontSize="2xl" />
-              </Link>
-              <Link href="" isExternal>
-                <Icon as={ImTwitter} fontSize="2xl" />
-              </Link>
-              <Link href="" isExternal>
-                <Icon as={BsInstagram} fontSize="2xl" />
-              </Link>
-            </Flex>
           </Box>
         </Flex>
 
@@ -124,13 +103,13 @@ export default function MeetNoluTeam() {
                 rounded="full"
                 borderStyle="solid"
                 alt="Illusives Studio"
-                src="illusives1.jpeg"
+                src="illusives4.jpeg"
               />
             </Flex>
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-                Illusives Studio
+                Illusives
               </Text>
             </Flex>
 
@@ -150,13 +129,9 @@ export default function MeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-              <Link href="https://www.instagram.com/" isExternal>
-                <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
-              </Link>
+              
 
-              <Link href="" isExternal>
-                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
-              </Link>
+            
 
               <Link
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
@@ -210,27 +185,7 @@ export default function MeetNoluTeam() {
               </Text>
             </Flex>
 
-            <Flex
-              mt="2rem"
-              color="#fff"
-              direction="row"
-              alignItems="center"
-              justifyContent="center"
-              gap="8"
-            >
-              <Link href="" isExternal>
-                <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
-              </Link>
-              <Link href="" isExternal>
-                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
-              </Link>
-              <Link href="" isExternal>
-                <Icon as={ImTwitter} fontSize="2xl" background="#C9D2F5" />
-              </Link>
-              <Link href="" isExternal>
-                <Icon as={BsInstagram} fontSize="2xl" background="#C9D2F5" />
-              </Link>
-            </Flex>
+            
           </Box>
         </Flex>
 

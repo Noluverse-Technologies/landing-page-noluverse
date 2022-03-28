@@ -56,7 +56,10 @@ export default function DesktopHeroSection({ children }) {
 
           <Flex>
             <Text mt="2rem" color="#fff" fontSize="lg">
-              The most exciting virtual reality project is about to launch. Be
+              The most exciting virtual reality project is about to launch. 
+              <br/> 
+              <br/>
+              Be
               part of it!
             </Text>
           </Flex>

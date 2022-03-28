@@ -137,7 +137,7 @@ export default function Navbar() {
                     Terms
                   </Button>
                 </Link>
-                <Link href="">
+                <Link href="#timelinesm">
                   <Button w="full" variant="ghost">
                     Timelines
                   </Button>

@@ -77,10 +77,11 @@ export default function DesktopNoluSaleRoadmap() {
 
               <Text fontSize="lg" color="#000000">
                 <strong>Blade of Carnage</strong> <br />
-                Early Accesst | PC MMORPG <br />
+                Early Access | PC MMORPG <br />
                 Main Game
-                <Image w="5%" src="maingame.png" alt="maingame" />
-                XR MMORPG
+                <br/>
+                <Image display="inline" w="15%" src="maingame.png" alt="maingame" />
+                Open World VR MMORPG
               </Text>
             </Flex>
 
