@@ -4,7 +4,7 @@ export default function DesktopTokenSaleTerms() {
   return (
     /*      mother flex for all start */
 
-    <Flex w="100%" mt="2rem" id="termslg">
+    <Flex w="100%" mt="3rem" id="termslg">
       {/*   flex for Token Sale Terms image  */}
 
       <Flex w="50%" mt="1rem" px="5rem">

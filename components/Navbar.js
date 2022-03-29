@@ -38,7 +38,12 @@ export default function Navbar() {
               display="flex"
               alignItems="center"
             >
-              <Image src="logo.png" alt="logo.png" w="3.875em" ml={[0,0,0,0,"5rem"]} />
+              <Image
+                src="logo.png"
+                alt="logo.png"
+                w="3.875em"
+                ml={[0, 0, 0, 0, "5rem"]}
+              />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
@@ -54,7 +59,7 @@ export default function Navbar() {
           <HStack display="flex" alignItems="center" spacing={1}>
             <HStack
               spacing={4}
-              mr={[20,0,0,0,20]}
+              mr={[20, 0, 0, 0, 20]}
               display={{ base: "none", md: "inline-flex" }}
             >
               <Link href="#featlg">
@@ -96,7 +101,7 @@ export default function Navbar() {
               </Link>
             </HStack>
 
-            <Box display={{ base: "inline-flex", md: "none" }}>
+            <Box display={{ base: "inline-flex", md: "none" } } zIndex="999">
               <IconButton
                 display={{ base: "flex", md: "none" }}
                 aria-label="Open menu"

@@ -99,7 +99,7 @@ export default function MilestoneNolu() {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
-        w="100%"
+        w={["100%", "100%", "100vw", "100vw", "100vw"]}
       >
         {/*    flex for nolu logo (child flex of footer) */}
         <Flex mt="12rem">

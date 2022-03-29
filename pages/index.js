@@ -49,25 +49,27 @@ export default function App() {
             maxW="1600px"
           
           >
-            <DesktopHeroSection>
-              <Navbar />
-            </DesktopHeroSection>
-            <DesktopNoluFeatures />
-            <DesktopTokenSaleTerms />
-            <BinanceSmartChain />
-            <DesktopTokenoMics />
-            <DesktopNoluSaletime/>
-            <DesktopNoluSaleRoadmap />
-            <DesktopProjectMonetization />
-            <MeetNoluTeam />
-            <DesktopMilestoneNolu />
+          <DesktopHeroSection>
+          <Navbar />
+        </DesktopHeroSection>
+        <DesktopNoluFeatures />
+        <DesktopTokenSaleTerms />
+        <BinanceSmartChain />
+        <DesktopTokenoMics />
+        <DesktopNoluSaletime/>
+        <DesktopNoluSaleRoadmap />
+        <DesktopProjectMonetization />
+        <MeetNoluTeam />
+        <DesktopMilestoneNolu />
+
+
           </Flex>
         </Flex>
       ) : null}
 
       {/* for mobile------------------------- */}
       {isLessThan1100 ? (
-        <Flex direction="column" w="100vw">
+        <Flex direction="column" w="100vw" overflow="hidden">
           <HeroSection>
             <Navbar />
           </HeroSection>

@@ -19,7 +19,7 @@ export default function HeroSection({ children }) {
 
     <Flex
       direction="column"
-      h={["78.12rem", "78.12rem", "115rem", "115rem", 0]}
+      h={["78.12rem", "100rem", "115rem", "115rem", 0]}
       
       backgroundImage="url('/bgHero.jpg')"
       backgroundPosition="center"
