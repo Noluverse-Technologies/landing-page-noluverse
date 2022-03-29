@@ -166,14 +166,14 @@ export default function MeetNoluTeam() {
                 fit="cover"
                 rounded="full"
                 borderStyle="solid"
-                alt="Place holder name"
-                src="team3.png"
+                alt="metaBitSutio"
+                src="metaBitSutio1.png"
               />
             </Flex>
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-                Place holder name
+          Metabit Studio
               </Text>
             </Flex>
 
@@ -183,6 +183,26 @@ export default function MeetNoluTeam() {
                 this <br /> team of five full-stack developers <br /> has
                 expertise in server software.
               </Text>
+            </Flex>
+            
+            <Flex
+              mt="2rem"
+              color="#fff"
+              direction="row"
+              alignItems="center"
+              justifyContent="center"
+              gap="8"
+            >
+              
+
+            
+
+              <Link
+                href=""
+                isExternal
+              >
+              <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              </Link>
             </Flex>
 
             
