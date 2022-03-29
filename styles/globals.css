@@ -4,6 +4,7 @@ body {
   -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
   scrollbar-width: none;  /* Hide scrollbar Firefox */
 
+  scroll-behavior: smooth;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

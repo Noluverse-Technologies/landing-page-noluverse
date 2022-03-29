@@ -62,7 +62,7 @@ export default function Navbar() {
               mr={[20, 0, 0, 0, 20]}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Link href="#featlg">
+              <Link href="#featlg" >
                 <Button variant="link" color="#FFFFFF">
                   Features
                 </Button>

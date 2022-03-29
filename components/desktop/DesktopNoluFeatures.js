@@ -7,8 +7,7 @@ export default function DesktopNoluFeatures() {
     <Flex
       id="featlg"
       direction="column"
-      px="18rem"
-      py="5rem"
+      p="6rem"
       alignItems="center"
       justifyContent="center"
     >
@@ -28,7 +27,7 @@ export default function DesktopNoluFeatures() {
       {/*   flex for DesktopNoluFeatures image  */}
 
       <Flex
-        px="5rem"
+        px="17rem"
         pt="5rem"
         pb="1rem"
         alignSelf="center"
@@ -37,7 +36,7 @@ export default function DesktopNoluFeatures() {
         <Image src="/nolufeatures.png" alt="nolufeatures" />
 
         {/*  mother flex for nolu+ start*/}
-        <Flex direction="column" position="absolute" left="-12rem">
+        <Flex direction="column" position="absolute" left="-1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             Nolu+
           </Text>
@@ -54,12 +53,7 @@ export default function DesktopNoluFeatures() {
 
         {/*  mother flex for nolUpay start*/}
 
-        <Flex
-          direction="column"
-          position="absolute"
-          left="-12rem"
-          bottom="8rem"
-        >
+        <Flex direction="column" position="absolute" left="-1rem" bottom="8rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NoluPay
           </Text>
@@ -76,7 +70,7 @@ export default function DesktopNoluFeatures() {
 
         {/* mother flex for NFT marketplace start */}
 
-        <Flex direction="column" position="absolute" right="-12rem">
+        <Flex direction="column" position="absolute" right="-1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NFT Marketplace
           </Text>
@@ -95,7 +89,7 @@ export default function DesktopNoluFeatures() {
         <Flex
           direction="column"
           position="absolute"
-          right="-12rem"
+          right="-1rem"
           bottom="8rem"
         >
           <Text fontSize="lg" fontWeight="bold" color="#151855">
