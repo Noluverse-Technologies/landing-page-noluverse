@@ -9,7 +9,6 @@ export default function DesktopNoluSaleRoadmap() {
       my="3rem"
       px={[0, 0, 0, "7rem", "3rem"]}
       id="roadmaplg"
-      minW="1125px"
     >
       {/*   flex for roadmap heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
@@ -32,17 +31,15 @@ export default function DesktopNoluSaleRoadmap() {
       </Flex>
 
       {/*  mother flex for  (phase 1 - phase 6) start */}
-
-      <Flex direction="row" p="4rem" w="100%" h="60rem">
+      <Flex direction="row" p="4rem" w="100%" h="65rem">
+        
         {/*   flex for mother phase 1  */}
-
         <Flex direction="column" w="16.66%">
-          {/*   flex for phase 1  heading part */}
 
+          {/*   flex for phase 1  heading part */}
           <Flex
             backgroundColor="#3859C2"
             h="7rem"
-            ml="1.2rem"
             borderRadius={"20px 0px 0px 0px"}
             direction="column"
             alignItems="center"
@@ -67,13 +64,11 @@ export default function DesktopNoluSaleRoadmap() {
           </Flex>
 
           {/*   flex for phase 1  description part */}
-
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
             h="47rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
@@ -117,14 +112,12 @@ export default function DesktopNoluSaleRoadmap() {
             </Flex>
           </Flex>
         </Flex>
-
-        {/*   flex for mother phase 1 end */}
+        {/*  flex for mother phase 1 end */}
 
         {/*   flex for mother phase 2  */}
-
         <Flex direction="column" w="16.66%">
+          
           {/*   flex for phase 2  heading part */}
-
           <Flex
             backgroundColor="#4F68D1"
             h="7rem"

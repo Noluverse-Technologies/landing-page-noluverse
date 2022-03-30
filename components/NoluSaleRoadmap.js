@@ -24,7 +24,7 @@ export default function NoluSaleRoadmap() {
       <Flex direction="column" alignItems="center" justifyContent="center">
         {/*   flex for mother phase 1  */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           {/*   flex for phase 1  heading part */}
 
           <Flex
@@ -98,7 +98,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 2  */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           {/*   flex for phase 2  heading part */}
 
           <Flex
@@ -173,7 +173,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 2 (2nd) (continued) */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           {/*   flex for phase 2 (2nd)  heading part */}
 
           <Flex
@@ -237,7 +237,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 3 */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           {/*   flex for phase 3  heading part */}
 
           <Flex
@@ -289,7 +289,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 4 */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           {/*   flex for phase 4  heading part */}
 
           <Flex
@@ -351,7 +351,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 5 */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           {/*   flex for phase 5  heading part */}
 
           <Flex
@@ -404,7 +404,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 5  (architecture universe) */}
 
-        <Flex w="20.8125rem" direction="column">
+        <Flex w={{base: "90%", md:"70%"}} direction="column">
           <Flex
             backgroundColor="#9797FF"
             h="5.87rem"
