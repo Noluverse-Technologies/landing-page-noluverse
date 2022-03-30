@@ -39,32 +39,30 @@ export default function App() {
 
       {/* for desktop------------------------- */}
       {isLargerThan1100 ? (
-        <Flex w="100vw" 
-        justifyContent="center"
-    
-
-        >
-
+        <Flex w="100vw" justifyContent="center">
           <Flex
-           direction="column"
-            w="100%"
-            maxW="1600px"
-          minW="1450px"
-          >
-          <DesktopHeroSection>
-          <Navbar />
-        </DesktopHeroSection>
-        <DesktopNoluFeatures />
-        <DesktopTokenSaleTerms />
-  <DesktopBinanceSmartChain/>
-        <DesktopTokenoMics />
-        <DesktopNoluSaletime/>
-        <DesktopNoluSaleRoadmap />
-        <DesktopProjectMonetization />
-      <DesktopMeetNoluTeam/>
-        <DesktopMilestoneNolu />
-
-
+            zIndex={"-9999"}
+            height={"35vh"}
+            width={"100%"}
+            position={"absolute"}
+            backgroundImage="url('/bgHero.jpg')"
+            backgroundPosition="center"
+            backgroundRepeat="no-repeat"
+            backgroundSize="cover"
+          ></Flex>
+          <Flex direction="column" w="100%" maxW="1730px" minW="1280px">
+            <DesktopHeroSection>
+              <Navbar />
+            </DesktopHeroSection>
+            <DesktopNoluFeatures />
+            <DesktopTokenSaleTerms />
+            <DesktopBinanceSmartChain />
+            <DesktopTokenoMics />
+            <DesktopNoluSaletime />
+            <DesktopNoluSaleRoadmap />
+            <DesktopProjectMonetization />
+            <DesktopMeetNoluTeam />
+            <DesktopMilestoneNolu />
           </Flex>
         </Flex>
       ) : null}
@@ -82,7 +80,7 @@ export default function App() {
 
           <BinanceSmartChain />
           <Tokenomics />
-          <SaleTimeline/>
+          <SaleTimeline />
           <NoluSaleRoadmap />
 
           <ProjectMonetization />

@@ -12,9 +12,13 @@ export default function DesktopNoluFeatures() {
       alignItems="center"
       justifyContent="center"
     >
+      <Flex>
+        <Image src="/feature-main.png" />
+      </Flex>
+
       {/*  flex for feature heading and sub heading start */}
 
-      <Flex alignItems="center" justifyContent="center" direction="column">
+      {/* <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Nolu Features
         </Text>
@@ -27,17 +31,17 @@ export default function DesktopNoluFeatures() {
 
       {/*   flex for DesktopNoluFeatures image  */}
 
-      <Flex
+       {/* <Flex
         px="17rem"
         pt="5rem"
         pb="1rem"
         alignSelf="center"
         position="relative"
-      >
-        <Image src="/nolufeatures.png" alt="nolufeatures" />
+      > */}
+        {/* <Image src="/nolufeatures.png" alt="nolufeatures" /> */}
 
         {/*  mother flex for nolu+ start*/}
-        <Flex direction="column" position="absolute" left="-1rem">
+        {/* <Flex direction="column" position="absolute" left="-1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             Nolu+
           </Text>
@@ -49,12 +53,12 @@ export default function DesktopNoluFeatures() {
             <br />a to members. We’re always <br />
             releasing new benefits!
           </Text>
-        </Flex>
+        </Flex> */}
         {/*  mother flex for nolu+ end*/}
 
         {/*  mother flex for nolUpay start*/}
 
-        <Flex
+        {/* <Flex
           direction="column"
           position="absolute"
           left="-1rem"
@@ -70,13 +74,13 @@ export default function DesktopNoluFeatures() {
             <br /> payment gateway. It’s seamless,
             <br /> secure, and user-friendly.
           </Text>
-        </Flex>
+        </Flex> */}
 
         {/*  mother flex for nolUpay end*/}
 
         {/* mother flex for NFT marketplace start */}
 
-        <Flex direction="column" position="absolute" right="-1rem">
+        {/* <Flex direction="column" position="absolute" right="-1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NFT Marketplace
           </Text>
@@ -86,13 +90,13 @@ export default function DesktopNoluFeatures() {
             <br /> artwork in the space. We’re always <br /> adding more as the
             project <br /> matures.
           </Text>
-        </Flex>
+        </Flex> */}
 
         {/* mother flex for NFT marketplace end */}
 
         {/*  mother flex for noluVerse start*/}
 
-        <Flex
+        {/* <Flex
           direction="column"
           position="absolute"
           right="-1rem"
@@ -107,17 +111,17 @@ export default function DesktopNoluFeatures() {
             <br /> metaverse. This expansive open- <br />
             world VR MMORPG is going to <br /> change the way you view gaming.
           </Text>
-        </Flex>
+        </Flex> */}
 
         {/*  mother flex for noluVerse end*/}
-      </Flex>
+      {/* </Flex> */}
 
       {/*  mother flex for pixel start (not include in position relative and absolute)*/}
 
       <Flex direction="column" alignItems="center" justifyContent="center">
-        <Text fontSize="lg" fontWeight="bold" color="#151855">
+        {/* <Text fontSize="lg" fontWeight="bold" color="#151855">
           Pixel
-        </Text>
+        </Text> */}
 
         <Text mt="0.5" fontSize="md" color="#000000">
           Pixel holders earn exclusive
