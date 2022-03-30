@@ -1,7 +1,6 @@
-
-
-import '../styles/globals.css'
-import { ChakraProvider } from '@chakra-ui/react'
+import '../styles/globals.css';
+import { ChakraProvider } from '@chakra-ui/react';
+import "@fontsource/poppins";
 
 function MyApp({ Component, pageProps }) {
   return (
