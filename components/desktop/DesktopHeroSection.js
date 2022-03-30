@@ -25,7 +25,7 @@ export default function DesktopHeroSection({ children }) {
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
       w="100%"
-      px={[0, 0, 0, "10rem", 0]}
+      px={[0, 0, 0, "4rem", 0]}
       py={[0, 0, 0, "1rem", 0]}
     >
       {children}
