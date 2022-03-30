@@ -14,7 +14,7 @@ export default function MilestoneNolu() {
 
       {/*  mother flex for charcter development*/}
 
-      <Flex my="1rem" w="100%" px={[0, "4rem", "8rem", "12rem", 0]}>
+      <Flex my="1rem" w="100%" px={[0, "4rem", "12rem", "16rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
@@ -35,7 +35,7 @@ export default function MilestoneNolu() {
 
       {/*  mother flex for game script*/}
 
-      <Flex my="1rem" w="100%"  px={[0, "4rem", "8rem", "12rem", 0]}>
+      <Flex my="1rem" w="100%"  px={[0, "4rem", "12rem", "16rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
@@ -53,7 +53,7 @@ export default function MilestoneNolu() {
 
       {/*  mother flex for combat ai*/}
 
-      <Flex my="1rem" w="100%" px={[0, "4rem", "8rem", "12rem", 0]}>
+      <Flex my="1rem" w="100%" px={[0, "4rem", "12rem", "16rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
@@ -71,7 +71,7 @@ export default function MilestoneNolu() {
 
       {/*   flex for milestone image  */}
 
-      <Flex w="100%" my="1rem"  ml="2.5rem" px={[0, "4rem", "8rem", "12rem", 0]}>
+      <Flex w="100%" my="1rem"  ml="2.5rem" px={[0, "4rem", "12rem", "16rem", 0]}>
         <Image      w={["80%", "90%", "70%", "70%", "75%"]} src="milestone.png" alt="milestone" alignSelf="center" />
       </Flex>
 
