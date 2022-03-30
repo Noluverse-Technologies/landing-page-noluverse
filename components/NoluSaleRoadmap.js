@@ -63,8 +63,13 @@ export default function NoluSaleRoadmap() {
                 <strong>Blade of Carnage</strong> <br />
                 Early Access | PC MMORPG <br />
                 Main Game
-                <br/>
-                <Image display="inline" w="10%" src="maingame.png" alt="maingame" />
+                <br />
+                <Image
+                  display="inline"
+                  w="10%"
+                  src="maingame.png"
+                  alt="maingame"
+                />
                 Open World VR MMORPG
               </Text>
             </Flex>
@@ -138,9 +143,7 @@ export default function NoluSaleRoadmap() {
 
               <Text w="80%" fontSize="lg" color="#000000">
                 <strong>Nolu Reels</strong> <br />
-                Our version of Tiktok and Instagram
-Earn rewards on viewership
-                
+                Our version of Tiktok and Instagram Earn rewards on viewership
               </Text>
             </Flex>
 
@@ -204,7 +207,7 @@ Earn rewards on viewership
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>NFT Museum</strong> <br /> Showcase NFTs 
+                <strong>NFT Museum</strong> <br /> Showcase NFTs
               </Text>
             </Flex>
 
@@ -214,10 +217,9 @@ Earn rewards on viewership
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-              <strong>Fantasy Sports Events</strong> <br />
-              Basketball and Football
-            </Text>
-           
+                <strong>Fantasy Sports Events</strong> <br />
+                Basketball and Football
+              </Text>
             </Flex>
 
             <Flex w="100%" px="2rem" mt="3.5rem">
@@ -226,8 +228,8 @@ Earn rewards on viewership
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Featured Artists Festivals
-                </strong> <br />Earn rewards on viewership
+                <strong>Featured Artists Festivals</strong> <br />
+                Earn rewards on viewership
               </Text>
             </Flex>
           </Flex>
@@ -269,8 +271,7 @@ Earn rewards on viewership
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>NFT & Item Marketplace
-               </strong> <br />  Buy, Sell, Trade
+                <strong>NFT & Item Marketplace</strong> <br /> Buy, Sell, Trade
               </Text>
             </Flex>
 
@@ -384,7 +385,8 @@ Earn rewards on viewership
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Real Estate Development </strong> <br />Noluverse land ownership Property furnishing
+                <strong>Real Estate Development </strong> <br />
+                Noluverse land ownership Property furnishing
               </Text>
             </Flex>
 

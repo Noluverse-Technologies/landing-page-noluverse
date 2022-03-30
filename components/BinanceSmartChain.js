@@ -23,13 +23,13 @@ export default function BinanceSmartChain() {
         <Flex
           alignItems={{
             base: "center",
-              md: "center",
+            md: "center",
             lg: "center",
             xl: "flex-start",
           }}
           justifyContent={{
             base: "center",
-              md: "center",
+            md: "center",
             lg: "center",
             xl: "flex-start",
           }}
@@ -50,13 +50,15 @@ export default function BinanceSmartChain() {
           w={["75%", "75%", "75%", "75%", "75%"]}
           alignSelf={{
             base: "center",
-              md: "center",
+            md: "center",
             lg: "center",
             xl: "flex-start",
           }}
         >
           <Text fontSize="md" color="#000000">
-          We accept ETH, BTC, BNB, BUSD, USDT, and transactions will take place on the Binance Smart Chain. If you’re interested in getting in on the project early, this is your perfect opportunity.
+            We accept ETH, BTC, BNB, BUSD, USDT, and transactions will take
+            place on the Binance Smart Chain. If you’re interested in getting in
+            on the project early, this is your perfect opportunity.
           </Text>
         </Flex>
 
@@ -70,51 +72,50 @@ export default function BinanceSmartChain() {
           {/*   flex for token supply  */}
 
           <Flex
-          alignItems={{
-            base: "center",
-            md: "center",
-            lg: "center",
-            xl: "flex-start",
-          }}
-          justifyContent={{
-            base: "center",
-            md: "center",
-            lg: "center",
-            xl: "flex-start",
-          }}
+            alignItems={{
+              base: "center",
+              md: "center",
+              lg: "center",
+              xl: "flex-start",
+            }}
+            justifyContent={{
+              base: "center",
+              md: "center",
+              lg: "center",
+              xl: "flex-start",
+            }}
             direction="column"
             mt="1.5rem"
           >
             <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
-            100,000,000 Nolu
+              100,000,000 Nolu
             </Text>
 
             <Text fontSize="sm" color="#000000">
-            Total token supply
+              Total token supply
             </Text>
           </Flex>
 
           {/*   flex for token type  */}
 
           <Flex
- 
-          alignItems={{
-            base: "center",
+            alignItems={{
+              base: "center",
               md: "center",
-            lg: "center",
-            xl: "flex-start",
-          }}
-          justifyContent={{
-            base: "center",
+              lg: "center",
+              xl: "flex-start",
+            }}
+            justifyContent={{
+              base: "center",
               md: "center",
-            lg: "center",
-            xl: "flex-start",
-          }}
+              lg: "center",
+              xl: "flex-start",
+            }}
             direction="column"
             mt="1.5rem"
           >
             <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
-            BEP20
+              BEP20
             </Text>
 
             <Text fontSize="sm" color="#000000">
@@ -125,23 +126,23 @@ export default function BinanceSmartChain() {
           {/*   flex forpurchase method  */}
 
           <Flex
-          alignItems={{
-            base: "center",
+            alignItems={{
+              base: "center",
               md: "center",
-            lg: "center",
-            xl: "flex-start",
-          }}
-          justifyContent={{
-            base: "center",
+              lg: "center",
+              xl: "flex-start",
+            }}
+            justifyContent={{
+              base: "center",
               md: "center",
-            lg: "center",
-            xl: "flex-start",
-          }}
+              lg: "center",
+              xl: "flex-start",
+            }}
             direction="column"
             mt="1.5rem"
           >
             <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
-            BTC, ETH, USDT, BNB, BUSD
+              BTC, ETH, USDT, BNB, BUSD
             </Text>
 
             <Text fontSize="sm" color="#000000">
@@ -156,14 +157,12 @@ export default function BinanceSmartChain() {
 
       {/*   flex for terms image  */}
 
-      <Flex
-      w="100%"
-        my="4rem"
-       
-        alignItems="center"
-        justifyContent="center"
-      >
-        <Image   w={["90%", "60%", "60%", "50%", "45%"]} src="binancechain.png" alt="binancechain" />
+      <Flex w="100%" my="4rem" alignItems="center" justifyContent="center">
+        <Image
+          w={["90%", "60%", "60%", "50%", "45%"]}
+          src="binancechain.png"
+          alt="binancechain"
+        />
       </Flex>
     </Flex>
     /*  mother flex for all end  */

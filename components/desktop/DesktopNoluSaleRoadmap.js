@@ -4,7 +4,13 @@ export default function DesktopNoluSaleRoadmap() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" my="3rem"  px={[0,0, 0, "7rem","3rem"]} id="roadmaplg"  minW="1125px">
+    <Flex
+      direction="column"
+      my="3rem"
+      px={[0, 0, 0, "7rem", "3rem"]}
+      id="roadmaplg"
+      minW="1125px"
+    >
       {/*   flex for roadmap heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -66,7 +72,7 @@ export default function DesktopNoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-          h="47rem"
+            h="47rem"
             ml="1.2rem"
             direction="column"
           >
@@ -79,8 +85,13 @@ export default function DesktopNoluSaleRoadmap() {
                 <strong>Blade of Carnage</strong> <br />
                 Early Access | PC MMORPG <br />
                 Main Game
-                <br/>
-                <Image display="inline" w="15%" src="maingame.png" alt="maingame" />
+                <br />
+                <Image
+                  display="inline"
+                  w="15%"
+                  src="maingame.png"
+                  alt="maingame"
+                />
                 Open World VR MMORPG
               </Text>
             </Flex>
@@ -141,59 +152,53 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-          h="47rem"
+            h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
-          <Flex px="2rem" mt="1rem" direction="column">
-          <Text  fontSize="md" color="#000000">
-            <strong>4</strong>
-          </Text>
+            <Flex px="2rem" mt="1rem" direction="column">
+              <Text fontSize="md" color="#000000">
+                <strong>4</strong>
+              </Text>
 
-          <Text  fontSize="md" color="#000000">
-            <strong>Virtual Concerts, Music Festivals</strong>
-          </Text>
-        </Flex>
+              <Text fontSize="md" color="#000000">
+                <strong>Virtual Concerts, Music Festivals</strong>
+              </Text>
+            </Flex>
 
-        <Flex  px="2rem" mt="3.5rem" direction="column">
-          <Text  fontSize="md" color="#000000">
-            <strong>5</strong>
-          </Text>
+            <Flex px="2rem" mt="3.5rem" direction="column">
+              <Text fontSize="md" color="#000000">
+                <strong>5</strong>
+              </Text>
 
-          <Text  fontSize="md" color="#000000">
-            <strong>Nolu Reels</strong> <br />
-            Our version of Tiktok and Instagram
-Earn rewards on viewership
-            
-          </Text>
-        </Flex>
+              <Text fontSize="md" color="#000000">
+                <strong>Nolu Reels</strong> <br />
+                Our version of Tiktok and Instagram Earn rewards on viewership
+              </Text>
+            </Flex>
 
-        <Flex  px="2rem" mt="3.5rem" direction="column">
-          <Text fontSize="md" color="#000000">
-            <strong>6</strong>
-          </Text>
+            <Flex px="2rem" mt="3.5rem" direction="column">
+              <Text fontSize="md" color="#000000">
+                <strong>6</strong>
+              </Text>
 
-          <Text  fontSize="md" color="#000000">
-            <strong>Open World MMORPG</strong> <br />
-            VR MMORPG
-          </Text>
-        </Flex>
+              <Text fontSize="md" color="#000000">
+                <strong>Open World MMORPG</strong> <br />
+                VR MMORPG
+              </Text>
+            </Flex>
 
-        <Flex px="2rem" mt="3.5rem" direction="column">
-          <Text fontSize="md" color="#000000">
-            <strong>7</strong>
-          </Text>
+            <Flex px="2rem" mt="3.5rem" direction="column">
+              <Text fontSize="md" color="#000000">
+                <strong>7</strong>
+              </Text>
 
-          <Text  fontSize="md" color="#000000">
-            <strong>Custom Avatar Creation</strong> <br />
-            Mint clothes to NFT
-          </Text>
-        </Flex>
-
-          
-
-         
+              <Text fontSize="md" color="#000000">
+                <strong>Custom Avatar Creation</strong> <br />
+                Mint clothes to NFT
+              </Text>
+            </Flex>
           </Flex>
         </Flex>
 
@@ -236,7 +241,7 @@ Earn rewards on viewership
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-          h="47rem"
+            h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -247,7 +252,7 @@ Earn rewards on viewership
               </Text>
 
               <Text fontSize="md" color="#000000">
-                <strong>NFT Museum</strong> <br /> Showcase NFTs 
+                <strong>NFT Museum</strong> <br /> Showcase NFTs
               </Text>
             </Flex>
 
@@ -258,7 +263,7 @@ Earn rewards on viewership
 
               <Text fontSize="md" color="#000000">
                 <strong>Fantasy Sport Events</strong> <br />
-                Basketball and Football 
+                Basketball and Football
               </Text>
             </Flex>
 
@@ -268,8 +273,8 @@ Earn rewards on viewership
               </Text>
 
               <Text fontSize="md" color="#000000">
-              <strong>Featured Artists Festivals
-              </strong> <br />Earn rewards on viewership
+                <strong>Featured Artists Festivals</strong> <br />
+                Earn rewards on viewership
               </Text>
             </Flex>
           </Flex>
@@ -313,7 +318,7 @@ Earn rewards on viewership
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-          h="47rem"
+            h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -324,8 +329,7 @@ Earn rewards on viewership
               </Text>
 
               <Text fontSize="md" color="#000000">
-              <strong>NFT & Item Marketplace
-              </strong> <br />  Buy, Sell, Trade
+                <strong>NFT & Item Marketplace</strong> <br /> Buy, Sell, Trade
               </Text>
             </Flex>
 
@@ -380,7 +384,7 @@ Earn rewards on viewership
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-          h="47rem"
+            h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -466,7 +470,8 @@ Earn rewards on viewership
               </Text>
 
               <Text fontSize="md" color="#000000">
-              <strong>Real Estate Development </strong> <br />Noluverse land ownership Property furnishing
+                <strong>Real Estate Development </strong> <br />
+                Noluverse land ownership Property furnishing
               </Text>
             </Flex>
 

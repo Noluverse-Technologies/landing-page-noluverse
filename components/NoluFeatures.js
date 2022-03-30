@@ -24,7 +24,7 @@ export default function NoluFeatures() {
 
       {/*  mother flex for nolu+*/}
 
-      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]} >
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="nolu+.png" alt="nolu+" />
         </Flex>
@@ -46,12 +46,12 @@ export default function NoluFeatures() {
 
       {/*  mother flex for nolUpay*/}
 
-      <Flex my="1rem" w="100%"  pl={[0, "6rem", "10rem", "17rem", 0]}>
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="noluPay.png" alt="noluPay" />
         </Flex>
 
-        <Flex direction="column" w="70%" mt="1rem" >
+        <Flex direction="column" w="70%" mt="1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NoluPay
           </Text>
@@ -67,7 +67,7 @@ export default function NoluFeatures() {
 
       {/*  mother flex for pixel*/}
 
-      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]} >
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="pixel.png" alt="pixel" />
         </Flex>

@@ -25,8 +25,8 @@ export default function DesktopHeroSection({ children }) {
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
       w="100%"
-      px={[0,0, 0, "10rem",0]}
-      py={[0,0, 0, "1rem",0]}
+      px={[0, 0, 0, "10rem", 0]}
+      py={[0, 0, 0, "1rem", 0]}
     >
       {children}
 
@@ -57,7 +57,6 @@ export default function DesktopHeroSection({ children }) {
           <Flex>
             <Text mt="2rem" color="#fff" fontSize="lg">
               The most exciting virtual reality project is about to launch.
-         
               <br />
               Be part of it!
             </Text>
@@ -144,7 +143,6 @@ export default function DesktopHeroSection({ children }) {
               >
                 <Text
                   fontSize="lg"
-               
                   borderRadius="10px"
                   background=" rgba(255, 255, 255, 0.1);"
                   px="2rem"

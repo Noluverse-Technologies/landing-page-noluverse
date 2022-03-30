@@ -16,7 +16,7 @@ export default function DesktopNoluSaletime() {
 
       <Flex w="100%" alignItems="center" justifyContent="center">
         <Image
-        p="5rem"
+          p="5rem"
           alignSelf="center"
           w="100%"
           src="/stimeline.png"

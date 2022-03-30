@@ -8,7 +8,12 @@ export default function DesktopMeetNoluTeam() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="3rem" id="teamboth" px={[0,0, 0, "7rem","0"]}>
+    <Flex
+      direction="column"
+      my="3rem"
+      id="teamboth"
+      px={[0, 0, "8rem", "8rem", "0"]}
+    >
       {/*   flex for team heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -30,6 +35,7 @@ export default function DesktopMeetNoluTeam() {
         alignSelf="center"
         mt="4rem"
         direction="row"
+        px={[0, "8rem", "8rem", "8rem", "8rem"]}
       >
         {/*    flex for 1st card  */}
 
@@ -75,7 +81,6 @@ export default function DesktopMeetNoluTeam() {
                 and management.{" "}
               </Text>
             </Flex>
-
           </Box>
         </Flex>
 
@@ -129,10 +134,6 @@ export default function DesktopMeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-              
-
-            
-
               <Link
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
                 isExternal
@@ -173,7 +174,7 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-          Metabit Studio
+                Metabit Studio
               </Text>
             </Flex>
 
@@ -184,7 +185,7 @@ export default function DesktopMeetNoluTeam() {
                 expertise in server software.
               </Text>
             </Flex>
-            
+
             <Flex
               mt="2rem"
               color="#fff"
@@ -193,19 +194,10 @@ export default function DesktopMeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-              
-
-            
-
-              <Link
-                href=""
-                isExternal
-              >
-              <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              <Link href="" isExternal>
+                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
               </Link>
             </Flex>
-
-            
           </Box>
         </Flex>
 

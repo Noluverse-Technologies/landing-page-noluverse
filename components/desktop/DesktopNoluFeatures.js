@@ -7,8 +7,8 @@ export default function DesktopNoluFeatures() {
     <Flex
       id="featlg"
       direction="column"
-      px={[0,0, 0, "12rem","7rem"]}
-      py={[0,0, 0, "2",,"6rem"]}
+      px={[0, 0, 0, "12rem", "7rem"]}
+      py={[0, 0, 0, "2", , "6rem"]}
       alignItems="center"
       justifyContent="center"
     >
@@ -54,7 +54,12 @@ export default function DesktopNoluFeatures() {
 
         {/*  mother flex for nolUpay start*/}
 
-        <Flex direction="column" position="absolute" left="-1rem" bottom={[0,0, 0, "6rem",,"8rem"]}>
+        <Flex
+          direction="column"
+          position="absolute"
+          left="-1rem"
+          bottom={[0, 0, 0, "6rem", , "8rem"]}
+        >
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NoluPay
           </Text>
@@ -91,8 +96,7 @@ export default function DesktopNoluFeatures() {
           direction="column"
           position="absolute"
           right="-1rem"
-
-          bottom={[0,0, 0, "4rem",,"8rem"]}
+          bottom={[0, 0, 0, "4rem", , "8rem"]}
         >
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             Noluverse

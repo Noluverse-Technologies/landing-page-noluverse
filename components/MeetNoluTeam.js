@@ -75,7 +75,6 @@ export default function MeetNoluTeam() {
                 and management.{" "}
               </Text>
             </Flex>
-
           </Box>
         </Flex>
 
@@ -129,10 +128,6 @@ export default function MeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-              
-
-            
-
               <Link
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
                 isExternal
@@ -173,7 +168,7 @@ export default function MeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-          Metabit Studio
+                Metabit Studio
               </Text>
             </Flex>
 
@@ -184,7 +179,7 @@ export default function MeetNoluTeam() {
                 expertise in server software.
               </Text>
             </Flex>
-            
+
             <Flex
               mt="2rem"
               color="#fff"
@@ -193,19 +188,10 @@ export default function MeetNoluTeam() {
               justifyContent="center"
               gap="8"
             >
-              
-
-            
-
-              <Link
-                href=""
-                isExternal
-              >
-              <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              <Link href="" isExternal>
+                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
               </Link>
             </Flex>
-
-            
           </Box>
         </Flex>
 

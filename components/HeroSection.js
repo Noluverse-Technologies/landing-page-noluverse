@@ -8,7 +8,7 @@ import {
   Link,
   Button,
   Icon,
-  chakra
+  chakra,
 } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
@@ -16,14 +16,12 @@ import { ImTwitter } from "react-icons/im";
 
 export default function HeroSection({ children }) {
   return (
-
     /* <chakra.span  pl={[0, "3rem", "3rem", "5rem", 0]}>  Join the</chakra.span>  */
     /* mother flex */
 
     <Flex
       direction="column"
       h={["85rem", "85rem", "115rem", "115rem", 0]}
-      
       backgroundImage="url('/bgHero.jpg')"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
@@ -34,26 +32,38 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for heading */}
 
-      <Flex ml="1rem"  pl={[0, "10rem", "15rem", "20rem", 0]}  w={["90%", "90%", "100%", "100%", "50%"]}>
+      <Flex
+        ml="1rem"
+        pl={[0, "10rem", "15rem", "20rem", 0]}
+        w={["90%", "90%", "100%", "100%", "50%"]}
+      >
         <Heading as="h2" size="2xl" mt="1rem" fontWeight={"bold"} color="#fff">
-        Join the <br/> Noluverse Game
+          Join the <br /> Noluverse Game
         </Heading>
       </Flex>
 
       {/*   flex  for headingParagraph */}
 
-      <Flex ml="1rem"  pl={[0, "10rem", "15rem", "20rem", 0]}  w={["90%", "90%", "90%", "100%", "50%"]}>
+      <Flex
+        ml="1rem"
+        pl={[0, "10rem", "15rem", "20rem", 0]}
+        w={["90%", "90%", "90%", "100%", "50%"]}
+      >
         <Text mt="2rem" color="#fff" fontSize="lg">
           The most exciting virtual reality project is about to launch.
-          <br/> 
-
-              Be part of it!
+          <br />
+          Be part of it!
         </Text>
       </Flex>
 
       {/*   flex  for buttons */}
 
-      <Flex direction="column" ml="1rem" my="4"   pl={[0,"10rem", "15rem", "20rem", 0]}>
+      <Flex
+        direction="column"
+        ml="1rem"
+        my="4"
+        pl={[0, "10rem", "15rem", "20rem", 0]}
+      >
         <Button
           w="15rem"
           borderRadius="0.5rem"
@@ -85,7 +95,14 @@ export default function HeroSection({ children }) {
 
       {/*   flex  for social media icon */}
 
-      <Flex ml="1rem" mt="2rem" color="#fff" direction="row" gap="8"  pl={[0, "10rem", "15rem", "20rem", 0]}>
+      <Flex
+        ml="1rem"
+        mt="2rem"
+        color="#fff"
+        direction="row"
+        gap="8"
+        pl={[0, "10rem", "15rem", "20rem", 0]}
+      >
         <Link href="" isExternal>
           <Icon as={FaDiscord} fontSize="2xl" />
         </Link>
@@ -100,9 +117,11 @@ export default function HeroSection({ children }) {
       {/*   flex  for heroImage*/}
 
       <Flex w="100%" alignItems="center" mt="0.5rem" justifyContent="center">
-        <Image w={["80%", "50%", "50%", "50%", "50%"]}  src="hero.png" alt="hero" />
-        
-        
+        <Image
+          w={["80%", "50%", "50%", "50%", "50%"]}
+          src="hero.png"
+          alt="hero"
+        />
       </Flex>
 
       {/*   flex  for sale time*/}
@@ -119,7 +138,7 @@ export default function HeroSection({ children }) {
 
         {/*   child flex of sale time flex */}
 
-        <Flex w={["100%", "80%", "50%", "50%", "50%"]}   py="2rem">
+        <Flex w={["100%", "80%", "50%", "50%", "50%"]} py="2rem">
           <Flex
             w="25%"
             direction="column"

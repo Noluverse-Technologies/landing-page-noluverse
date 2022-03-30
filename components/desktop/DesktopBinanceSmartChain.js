@@ -1,15 +1,15 @@
-
-
-
 import { Flex, Image, Button, Text } from "@chakra-ui/react";
 
 export default function DesktopBinanceSmartChain() {
   return (
     /*      mother flex for all start */
 
-    <Flex w="100%" mt="3rem"  px={["5rem","5rem", "5rem", "12rem","5.5rem"]} id="termslg">
-      
-
+    <Flex
+      w="100%"
+      mt="3rem"
+      px={["5rem", "5rem", "5rem", "12rem", "5.5rem"]}
+      id="termslg"
+    >
       {/*  mother  flex for combined heading, paragraph, and crow salw and softcope  */}
 
       <Flex w="50%" direction="column" pt="6rem">
@@ -21,7 +21,7 @@ export default function DesktopBinanceSmartChain() {
           direction="column"
         >
           <Text fontSize="3xl" fontWeight="bold" color="#151855">
-        Binance Smart Chain
+            Binance Smart Chain
           </Text>
 
           <Image mt="1rem" src="headingicon.png" alt="headingicon" />
@@ -31,7 +31,9 @@ export default function DesktopBinanceSmartChain() {
 
         <Flex w="70%" mt="2rem">
           <Text fontSize="md" color="#000000">
-          We accept ETH, BTC, BNB, USDT, and transactions will take place on the Binance Smart Chain. If you’re interested in getting in on the project early, this is your perfect opportunity.
+            We accept ETH, BTC, BNB, USDT, and transactions will take place on
+            the Binance Smart Chain. If you’re interested in getting in on the
+            project early, this is your perfect opportunity.
           </Text>
         </Flex>
 
@@ -46,13 +48,13 @@ export default function DesktopBinanceSmartChain() {
             flexDir="column"
             mt="1.5rem"
           >
-          <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
-          100,000,000 Nolu
-          </Text>
+            <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
+              100,000,000 Nolu
+            </Text>
 
-          <Text fontSize="sm" color="#000000">
-          Total token supply
-          </Text>
+            <Text fontSize="sm" color="#000000">
+              Total token supply
+            </Text>
           </Flex>
 
           {/*   flex for terms softcap  */}
@@ -63,39 +65,34 @@ export default function DesktopBinanceSmartChain() {
             flexDir="column"
             mt="1.5rem"
           >
-          <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
-          BEP20
-          </Text>
+            <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
+              BEP20
+            </Text>
 
-          <Text fontSize="sm" color="#000000">
-            Token type
-          </Text>
+            <Text fontSize="sm" color="#000000">
+              Token type
+            </Text>
           </Flex>
 
-            {/*   flex for terms softcap  */}
+          {/*   flex for terms softcap  */}
 
-            <Flex
+          <Flex
             alignItems="center"
             justifyContent="center"
             flexDir="column"
             mt="1.5rem"
           >
-          <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
-          BTC, ETH, USDT, BNB, BUSD
-          </Text>
+            <Text fontSize="2xl" fontWeight="bold" color="#4169E1">
+              BTC, ETH, USDT, BNB, BUSD
+            </Text>
 
-          <Text fontSize="sm" color="#000000">
-            Purchase methods accepted
-          </Text>
+            <Text fontSize="sm" color="#000000">
+              Purchase methods accepted
+            </Text>
           </Flex>
         </Flex>
-
-
-        
-
-        
       </Flex>
-{/*   mother flex for terms crowsale and softcat  end*/}
+      {/*   mother flex for terms crowsale and softcat  end*/}
 
       {/*   flex for Token Sale Terms image  */}
 
