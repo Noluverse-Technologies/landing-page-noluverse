@@ -125,7 +125,7 @@ export default function DesktopNoluFeatures() {
 
         <Text mt="0.5" fontSize="lg" fontFamily="popinps" fontWeight="300" color="#000000">
           Pixel holders earn exclusive
-          <br />
+          <br />  
           rewards from the Noluverse <br /> ecosystem.
         </Text>
       </Flex>
