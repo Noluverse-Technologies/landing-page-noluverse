@@ -41,20 +41,21 @@ export default function Navbar() {
               alignItems="center"
             >
               <Image
-                src="logo.png"
+                src="nolutech.png"
                 alt="logo.png"
-                w="3.875em"
+                w={["9.356rem", "9.356rem", "13.875em"]}
+              
                 ml={[0, 0, 0, 0, "5rem"]}
               />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="lg" fontWeight="medium" ml="3" color={"white"}>
-              NOLUVERSE{" "}
+            {/*   NOLUVERSE{" "}
               <Text fontSize="xs" ml={1}>
                 {" "}
                 --Technologies--
-              </Text>
+              </Text> */}
             </chakra.h1>
           </Flex>
 

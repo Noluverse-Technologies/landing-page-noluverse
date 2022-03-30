@@ -31,9 +31,7 @@ export default function DesktopBinanceSmartChain() {
 
         <Flex w="70%" mt="2rem">
           <Text fontSize="md" color="#000000">
-            We accept ETH, BTC, BNB, USDT, and transactions will take place on
-            the Binance Smart Chain. If you’re interested in getting in on the
-            project early, this is your perfect opportunity.
+          We accept ETH, BTC, BNB, BUSD, USDT, and transactions will take place on the Binance Smart Chain. If you’re interested in getting in on the project early, this is your perfect opportunity.
           </Text>
         </Flex>
 

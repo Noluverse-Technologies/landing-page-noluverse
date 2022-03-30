@@ -31,7 +31,7 @@ export default function DesktopNoluSaleRoadmap() {
       </Flex>
 
       {/*  mother flex for  (phase 1 - phase 6) start */}
-      <Flex direction="row" p="4rem" w="100%" h="65rem">
+      <Flex direction="row" p="4rem" w="100%" h="70rem">
         
         {/*   flex for mother phase 1  */}
         <Flex direction="column" w="16.66%">
@@ -68,7 +68,7 @@ export default function DesktopNoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            h="47rem"
+            h="55rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
@@ -145,7 +145,7 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="47rem"
+            h="55rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -234,7 +234,7 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="47rem"
+            h="55rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -311,7 +311,7 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="47rem"
+            h="55rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -377,7 +377,7 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="47rem"
+            h="55rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
@@ -452,7 +452,7 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="37.88rem"
+            h="47.88rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"

@@ -33,6 +33,7 @@ export default function HeroSection({ children }) {
       {/*   flex  for heading */}
 
       <Flex
+      mt="5rem"
         ml="1rem"
         pl={[0, "10rem", "15rem", "20rem", 0]}
         w={["90%", "90%", "100%", "100%", "50%"]}

@@ -13,7 +13,7 @@ export default function DesktopNoluFeatures() {
       justifyContent="center"
     >
       <Flex>
-        <Image src="/feature-main.png" />
+        <Image src="/nolufeat.png" />
       </Flex>
 
       {/*  flex for feature heading and sub heading start */}
@@ -123,7 +123,7 @@ export default function DesktopNoluFeatures() {
           Pixel
         </Text> */}
 
-        <Text mt="0.5" fontSize="md" color="#000000">
+        <Text mt="0.5" fontSize="lg" fontFamily="popinps" fontWeight="300" color="#000000">
           Pixel holders earn exclusive
           <br />
           rewards from the Noluverse <br /> ecosystem.
