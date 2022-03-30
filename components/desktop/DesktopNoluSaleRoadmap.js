@@ -4,7 +4,7 @@ export default function DesktopNoluSaleRoadmap() {
   return (
     /*      mother flex for all */
 
-    <Flex direction="column" my="3rem" px="3rem" id="roadmaplg">
+    <Flex direction="column" my="3rem"  px={[0,0, 0, "7rem","3rem"]} id="roadmaplg"  minW="1125px">
       {/*   flex for roadmap heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -52,7 +52,7 @@ export default function DesktopNoluSaleRoadmap() {
               position="absolute"
               right="-2rem"
             />
-            <Text fontSize="lg" color="#FFFFFF">
+            <Text fontSize="md" color="#FFFFFF">
               Phase 1
             </Text>
             <Text mt="0.5rem" fontSize="sm" fontWeight="bold" color="#FFFFFF">
@@ -66,16 +66,16 @@ export default function DesktopNoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            h="43rem"
+          h="47rem"
             ml="1.2rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>1</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>Blade of Carnage</strong> <br />
                 Early Access | PC MMORPG <br />
                 Main Game
@@ -86,21 +86,21 @@ export default function DesktopNoluSaleRoadmap() {
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>2</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>Nolu+ and Pixel</strong>
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>3</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>NoluPay</strong>
               </Text>
             </Flex>
@@ -122,7 +122,7 @@ export default function DesktopNoluSaleRoadmap() {
             alignItems="center"
             justifyContent="center"
           >
-            <Text fontSize="lg" color="#FFFFFF">
+            <Text fontSize="md" color="#FFFFFF">
               Phase 2
             </Text>
             <Text
@@ -141,53 +141,59 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="43rem"
+          h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
-            <Flex direction="column" px="2rem" mt="1rem">
-              <Text fontSize="lg" color="#000000">
-                <strong>4</strong>
-              </Text>
+          <Flex px="2rem" mt="1rem" direction="column">
+          <Text  fontSize="md" color="#000000">
+            <strong>4</strong>
+          </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Visual Concerts, Music Festivals</strong>
-              </Text>
-            </Flex>
+          <Text  fontSize="md" color="#000000">
+            <strong>Virtual Concerts, Music Festivals</strong>
+          </Text>
+        </Flex>
 
-            <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
-                <strong>5</strong>
-              </Text>
+        <Flex  px="2rem" mt="3.5rem" direction="column">
+          <Text  fontSize="md" color="#000000">
+            <strong>5</strong>
+          </Text>
 
-              <Text direction="column" fontSize="lg" color="#000000">
-                <strong>Tiktok and Instagram</strong> <br />
-                User generated content
-              </Text>
-            </Flex>
+          <Text  fontSize="md" color="#000000">
+            <strong>Nolu Reels</strong> <br />
+            Our version of Tiktok and Instagram
+Earn rewards on viewership
+            
+          </Text>
+        </Flex>
 
-            <Flex direction="column" px="2rem" mt="3rem">
-              <Text fontSize="lg" color="#000000">
-                <strong>6</strong>
-              </Text>
+        <Flex  px="2rem" mt="3.5rem" direction="column">
+          <Text fontSize="md" color="#000000">
+            <strong>6</strong>
+          </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Open World MMORPG</strong> <br />
-                vr mmorpg
-              </Text>
-            </Flex>
+          <Text  fontSize="md" color="#000000">
+            <strong>Open World MMORPG</strong> <br />
+            VR MMORPG
+          </Text>
+        </Flex>
 
-            <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
-                <strong>7</strong>
-              </Text>
+        <Flex px="2rem" mt="3.5rem" direction="column">
+          <Text fontSize="md" color="#000000">
+            <strong>7</strong>
+          </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Custom Avatar Creation</strong> <br />
-                Mint clothes to NFT
-              </Text>
-            </Flex>
+          <Text  fontSize="md" color="#000000">
+            <strong>Custom Avatar Creation</strong> <br />
+            Mint clothes to NFT
+          </Text>
+        </Flex>
+
+          
+
+         
           </Flex>
         </Flex>
 
@@ -217,7 +223,7 @@ export default function DesktopNoluSaleRoadmap() {
               left="-2rem"
             />
 
-            <Text fontSize="lg" color="#FFFFFF">
+            <Text fontSize="md" color="#FFFFFF">
               Phase 2
             </Text>
             <Text mt="0.5rem" fontSize="sm" fontWeight="bold" color="#FFFFFF">
@@ -230,39 +236,40 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="43rem"
+          h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>8</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>NTF Museum</strong> <br /> Showcase NTFs | Louvre
+              <Text fontSize="md" color="#000000">
+                <strong>NFT Museum</strong> <br /> Showcase NFTs 
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>9</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Fantasy sport events</strong> <br />
-                Basketball and Football | Soccer
+              <Text fontSize="md" color="#000000">
+                <strong>Fantasy Sport Events</strong> <br />
+                Basketball and Football 
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="2.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>10</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Music and Film Festivals</strong>
+              <Text fontSize="md" color="#000000">
+              <strong>Featured Artists Festivals
+              </strong> <br />Earn rewards on viewership
               </Text>
             </Flex>
           </Flex>
@@ -293,7 +300,7 @@ export default function DesktopNoluSaleRoadmap() {
               left="-2rem"
             />
 
-            <Text fontSize="lg" color="#FFFFFF">
+            <Text fontSize="md" color="#FFFFFF">
               Phase 3
             </Text>
             <Text mt="0.5rem" fontSize="sm" fontWeight="bold" color="#FFFFFF">
@@ -306,27 +313,28 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="43rem"
+          h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>11</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Marketplace items</strong> <br /> Skins and NTFs
+              <Text fontSize="md" color="#000000">
+              <strong>NFT & Item Marketplace
+              </strong> <br />  Buy, Sell, Trade
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>12</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>Auction House</strong>
               </Text>
             </Flex>
@@ -359,7 +367,7 @@ export default function DesktopNoluSaleRoadmap() {
               left="-2rem"
             />
 
-            <Text fontSize="lg" color="#FFFFFF">
+            <Text fontSize="md" color="#FFFFFF">
               Phase 4
             </Text>
             <Text mt="0.5rem" fontSize="sm" fontWeight="bold" color="#FFFFFF">
@@ -372,37 +380,37 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="43rem"
+          h="47rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>13</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>Casino House</strong>
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>14</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Sci-Fi Car Race</strong>
+              <Text fontSize="md" color="#000000">
+                <strong>Sci-Fi Vehicle Racing</strong>
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>15</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>Dragon Racing</strong>
               </Text>
             </Flex>
@@ -434,7 +442,7 @@ export default function DesktopNoluSaleRoadmap() {
               position="absolute"
               left="-2rem"
             />
-            <Text fontSize="lg" color="#FFFFFF">
+            <Text fontSize="md" color="#FFFFFF">
               Phase 5
             </Text>
             <Text mt="0.5rem" fontSize="sm" fontWeight="bold" color="#FFFFFF">
@@ -447,28 +455,28 @@ export default function DesktopNoluSaleRoadmap() {
           <Flex
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
-            h="35.88rem"
+            h="37.88rem"
             py="1.5rem"
             ml="0.5rem"
             direction="column"
           >
             <Flex direction="column" px="2rem" mt="1rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>16</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Marketplace items</strong> <br /> Skins and NTFs
+              <Text fontSize="md" color="#000000">
+              <strong>Real Estate Development </strong> <br />Noluverse land ownership Property furnishing
               </Text>
             </Flex>
 
             <Flex direction="column" px="2rem" mt="3.5rem">
-              <Text fontSize="lg" color="#000000">
+              <Text fontSize="md" color="#000000">
                 <strong>17</strong>
               </Text>
 
-              <Text fontSize="lg" color="#000000">
-                <strong>Auction House</strong>
+              <Text fontSize="md" color="#000000">
+                <strong>Property Design</strong>
               </Text>
             </Flex>
           </Flex>
@@ -486,7 +494,7 @@ export default function DesktopNoluSaleRoadmap() {
               *Phase 5
             </Text>
             <Text pl="1rem" fontSize="md" color="#FFFFFF">
-              Migrate to own NOLu Blockchain Protocol
+              Migrate to own NOLU Blockchain Protocol
             </Text>
           </Flex>
         </Flex>

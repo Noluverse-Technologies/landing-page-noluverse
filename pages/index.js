@@ -22,6 +22,8 @@ import DesktopNoluSaleRoadmap from "../components/desktop/DesktopNoluSaleRoadmap
 import DesktopHeroSection from "../components/desktop/DesktopHeroSection";
 import DesktopNoluFeatures from "../components/desktop/DesktopNoluFeatures";
 import DesktopNoluSaletime from "../components/desktop/DesktopNoluSaletime";
+import DesktopMeetNoluTeam from "../components/desktop/DesktopMeetNoluTeam";
+import DesktopBinanceSmartChain from "../components/desktop/DesktopBinanceSmartChain";
 import SaleTimeline from "../components/SaleTimeline";
 
 export default function App() {
@@ -47,19 +49,19 @@ export default function App() {
            direction="column"
             w="100%"
             maxW="1600px"
-          
+          minW="1450px"
           >
           <DesktopHeroSection>
           <Navbar />
         </DesktopHeroSection>
         <DesktopNoluFeatures />
         <DesktopTokenSaleTerms />
-        <BinanceSmartChain />
+  <DesktopBinanceSmartChain/>
         <DesktopTokenoMics />
         <DesktopNoluSaletime/>
         <DesktopNoluSaleRoadmap />
         <DesktopProjectMonetization />
-        <MeetNoluTeam />
+      <DesktopMeetNoluTeam/>
         <DesktopMilestoneNolu />
 
 

@@ -4,7 +4,7 @@ export default function ProjectMonetization() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="3rem" id="monetizationsm"    pl={[0, 0, "10rem", "10rem", 0]}>
+    <Flex direction="column" my="3rem" id="monetizationsm"    px={[0, 0, "10rem", "8rem", 0]}>
       {/*   flex for project heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -27,7 +27,7 @@ export default function ProjectMonetization() {
 
       {/* 1 */}
 
-      <Flex w="100%" pl="1.5rem" mt="1rem">
+      <Flex w="100%" pl="1.5rem" mt="1rem"  px={["1rem", "8rem", "5rem", "8rem", 0]}>
         <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
           <Text>01</Text>
         </Flex>
@@ -44,7 +44,7 @@ export default function ProjectMonetization() {
 
       {/* 2 */}
 
-      <Flex w="100%" pl="1.5rem" mt="1.5rem">
+      <Flex w="100%" pl="1.5rem" mt="1.5rem" px={["1rem", "8rem", "5rem", "8rem", 0]}>
         <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
           <Text>02</Text>
         </Flex>
@@ -61,7 +61,7 @@ export default function ProjectMonetization() {
 
       {/* 3 */}
 
-      <Flex w="100%" pl="1.5rem" mt="1.5rem">
+      <Flex w="100%" pl="1.5rem" mt="1.5rem" px={["1rem","8rem", "5rem", "8rem", 0]}>
         <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
           <Text>03</Text>
         </Flex>
@@ -78,7 +78,7 @@ export default function ProjectMonetization() {
 
       {/* 4 */}
 
-      <Flex w="100%" pl="1.5rem" mt="1.5rem">
+      <Flex w="100%" pl="1.5rem" mt="1.5rem" px={["1rem","8rem", "5rem", "8rem", 0]}>
         <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
           <Text>04</Text>
         </Flex>
@@ -95,7 +95,7 @@ export default function ProjectMonetization() {
 
       {/* 5 */}
 
-      <Flex w="100%" pl="1.5rem" mt="1.5rem">
+      <Flex w="100%" pl="1.5rem" mt="1.5rem" px={["1rem", "8rem", "5rem", "8rem", 0]}>
         <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
           <Text>05</Text>
         </Flex>
@@ -112,7 +112,7 @@ export default function ProjectMonetization() {
 
       {/* 6 */}
 
-      <Flex w="100%" pl="1.5rem" mt="1.5rem" mb="1rem">
+      <Flex w="100%" pl="1.5rem" mt="1.5rem" mb="1rem" px={["1rem","8rem", "5rem", "8rem", 0]}>
         <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
           <Text>06</Text>
         </Flex>
@@ -131,7 +131,7 @@ export default function ProjectMonetization() {
       {/*   flex for terms image  */}
 
       <Flex w="100%" my="2.5rem" alignItems="center" justifyContent="center">
-        <Image w="80%" src="monetization.png" alt="monetization" />
+        <Image w={["80%", "70%", "70%", "60%", "50%"]} src="monetization.png" alt="monetization" />
       </Flex>
     </Flex>
     /*  mother flex for all end  */

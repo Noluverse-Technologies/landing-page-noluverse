@@ -44,7 +44,7 @@ export default function Tokenomics() {
 
       <Flex w="100%" mt="1rem" alignItems="center" justifyContent="center">
         <Image
-        w={["90%", "80%", "50%", 0, 0]}
+        w={["90%", "55%", "40%", "40%", "45%"]}
         
           src="smtokenomics.png"
           alt="termsman"

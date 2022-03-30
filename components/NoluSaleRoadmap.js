@@ -127,7 +127,7 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Visual Concerts, Music Festivals</strong>
+                <strong>Virtual Concerts, Music Festivals</strong>
               </Text>
             </Flex>
 
@@ -137,8 +137,10 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Tiktok and Instagram</strong> <br />
-                User generated content
+                <strong>Nolu Reels</strong> <br />
+                Our version of Tiktok and Instagram
+Earn rewards on viewership
+                
               </Text>
             </Flex>
 
@@ -149,7 +151,7 @@ export default function NoluSaleRoadmap() {
 
               <Text w="80%" fontSize="lg" color="#000000">
                 <strong>Open World MMORPG</strong> <br />
-                vr mmorpg
+                VR MMORPG
               </Text>
             </Flex>
 
@@ -202,7 +204,7 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>NTF Museum</strong> <br /> Showcase NTFs | Louvre
+                <strong>NFT Museum</strong> <br /> Showcase NFTs 
               </Text>
             </Flex>
 
@@ -212,10 +214,10 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Fantasy sport events</strong> <br />
-                Basketball and Football | <br />
-                Soccer
-              </Text>
+              <strong>Fantasy Sports Events</strong> <br />
+              Basketball and Football
+            </Text>
+           
             </Flex>
 
             <Flex w="100%" px="2rem" mt="3.5rem">
@@ -224,7 +226,8 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Music and Film Festivals</strong> <br />
+                <strong>Featured Artists Festivals
+                </strong> <br />Earn rewards on viewership
               </Text>
             </Flex>
           </Flex>
@@ -266,7 +269,8 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Marketplace items</strong> <br /> Skins and NTFs
+                <strong>NFT & Item Marketplace
+               </strong> <br />  Buy, Sell, Trade
               </Text>
             </Flex>
 
@@ -328,7 +332,7 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Sci-Fi Car Race</strong>
+                <strong>Sci-Fi Vehicle Racing</strong>
               </Text>
             </Flex>
 
@@ -380,7 +384,7 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Marketplace items</strong> <br /> Skins and NTFs
+                <strong>Real Estate Development </strong> <br />Noluverse land ownership Property furnishing
               </Text>
             </Flex>
 
@@ -390,7 +394,7 @@ export default function NoluSaleRoadmap() {
               </Text>
 
               <Text w="80%" fontSize="lg" color="#000000">
-                <strong>Auction House</strong>
+                <strong>Property Design</strong>
               </Text>
             </Flex>
           </Flex>
@@ -412,7 +416,7 @@ export default function NoluSaleRoadmap() {
               *Phase 5
             </Text>
             <Text mt="0.5rem" fontSize="md" color="#FFFFFF">
-              Migrate to own NOLu Blockchain Protocol
+              Migrate to own NOLU Blockchain Protocol
             </Text>
           </Flex>
         </Flex>

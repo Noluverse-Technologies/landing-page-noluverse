@@ -25,6 +25,8 @@ export default function DesktopHeroSection({ children }) {
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
       w="100%"
+      px={[0,0, 0, "10rem",0]}
+      py={[0,0, 0, "1rem",0]}
     >
       {children}
 
@@ -55,7 +57,7 @@ export default function DesktopHeroSection({ children }) {
           <Flex>
             <Text mt="2rem" color="#fff" fontSize="lg">
               The most exciting virtual reality project is about to launch.
-              <br />
+         
               <br />
               Be part of it!
             </Text>
@@ -129,7 +131,7 @@ export default function DesktopHeroSection({ children }) {
             mt="1rem"
           >
             <Heading as="h4" size="md" fontWeight="600" color="white" mt="10">
-              TOTAL SALE START IN
+              TOTAL SALE ENDS IN
             </Heading>
 
             {/*   child flex of sale time flex */}
@@ -142,14 +144,15 @@ export default function DesktopHeroSection({ children }) {
               >
                 <Text
                   fontSize="lg"
-                  color="white"
+               
                   borderRadius="10px"
                   background=" rgba(255, 255, 255, 0.1);"
                   px="2rem"
                   py="0.5rem"
                   fontWeight="bold"
+                  color="rgba(255, 255, 255, 0.1)"
                 >
-                  3
+                  21
                 </Text>
                 <Text fontSize="xs" px="3" py="1" color="white">
                   DAYS

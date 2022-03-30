@@ -3,8 +3,8 @@ import { Flex, Image, Text } from "@chakra-ui/react";
 export default function NoluFeatures() {
   return (
     /*      mother flex for all */
-
-    <Flex direction="column" id="featsm"  pl={[0, 0, "10rem", "10rem", 0]}>
+    // pl={[0, 0, "10rem", "17rem", 0]}
+    <Flex direction="column" id="featsm">
       {/*  flex for feature heading  */}
 
       <Flex
@@ -18,13 +18,13 @@ export default function NoluFeatures() {
         </Text>
 
         <Text fontSize="xl" mt="1rem" fontWeight="bold" color="#5F72DB">
-          What You Get
+          What We Are Building
         </Text>
       </Flex>
 
       {/*  mother flex for nolu+*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]} >
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="nolu+.png" alt="nolu+" />
         </Flex>
@@ -46,12 +46,12 @@ export default function NoluFeatures() {
 
       {/*  mother flex for nolUpay*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%"  pl={[0, "6rem", "10rem", "17rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="noluPay.png" alt="noluPay" />
         </Flex>
 
-        <Flex direction="column" w="70%" mt="1rem">
+        <Flex direction="column" w="70%" mt="1rem" >
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NoluPay
           </Text>
@@ -67,7 +67,7 @@ export default function NoluFeatures() {
 
       {/*  mother flex for pixel*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]} >
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="pixel.png" alt="pixel" />
         </Flex>
@@ -87,7 +87,7 @@ export default function NoluFeatures() {
 
       {/*  mother flex for noluVerse*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="noluVerse.png" alt="noluVerse" />
         </Flex>
@@ -107,7 +107,7 @@ export default function NoluFeatures() {
 
       {/*  NFT marketplace */}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%" pl={[0, "6rem", "10rem", "17rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="30%">
           <Image w="3.50rem" h="3.50rem" src="nft.png" alt="nft" />
         </Flex>

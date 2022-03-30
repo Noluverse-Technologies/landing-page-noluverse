@@ -4,11 +4,11 @@ import { FaFacebook } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
 import { BsInstagram, BsYoutube } from "react-icons/bs";
 
-export default function MeetNoluTeam() {
+export default function DesktopMeetNoluTeam() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="3rem" mx="3rem" id="teamboth">
+    <Flex direction="column" my="3rem" id="teamboth" px={[0,0, 0, "7rem","0"]}>
       {/*   flex for team heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -29,7 +29,7 @@ export default function MeetNoluTeam() {
       <Flex
         alignSelf="center"
         mt="4rem"
-        direction={["column", "column", "column", "column", "row"]}
+        direction="row"
       >
         {/*    flex for 1st card  */}
 

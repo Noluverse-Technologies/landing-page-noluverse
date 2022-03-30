@@ -4,7 +4,7 @@ export default function MilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" mt="3rem" id="milestonesm"  pl={[0, 0, "10rem", "10rem", 0]}>
+    <Flex direction="column" mt="3rem" id="milestonesm"   >
       {/*   flex for milestone heading and subheading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -14,7 +14,7 @@ export default function MilestoneNolu() {
 
       {/*  mother flex for charcter development*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%" px={[0, "4rem", "8rem", "12rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
@@ -35,7 +35,7 @@ export default function MilestoneNolu() {
 
       {/*  mother flex for game script*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%"  px={[0, "4rem", "8rem", "12rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
@@ -53,7 +53,7 @@ export default function MilestoneNolu() {
 
       {/*  mother flex for combat ai*/}
 
-      <Flex my="1rem" w="100%">
+      <Flex my="1rem" w="100%" px={[0, "4rem", "8rem", "12rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
         </Flex>
@@ -71,21 +71,23 @@ export default function MilestoneNolu() {
 
       {/*   flex for milestone image  */}
 
-      <Flex w="100%" my="1rem"  ml="2.5rem">
-        <Image      w={["80%", "80%", "70%", "50%", "75%"]} src="milestone.png" alt="milestone" alignSelf="center" />
+      <Flex w="100%" my="1rem"  ml="2.5rem" px={[0, "4rem", "8rem", "12rem", 0]}>
+        <Image      w={["80%", "90%", "70%", "70%", "75%"]} src="milestone.png" alt="milestone" alignSelf="center" />
       </Flex>
 
       {/*   flex for button */}
 
-      <Flex alignItems="center" justifyContent="center">
+      <Flex  mb={[0, "2rem", "2rem", "2rem", 0] } alignItems="center" justifyContent="center" > 
         <Button
+        
           w="20.875rem"
           borderRadius="0.5rem"
           h="3.18rem"
           colorScheme="pink"
           variant="solid"
           bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-        >
+       
+          >
           Learn More
         </Button>
       </Flex>
@@ -96,7 +98,7 @@ export default function MilestoneNolu() {
         direction="column"
         h="32rem"
         backgroundImage="url('/footer.png')"
-        backgroundPosition="center"
+     backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
         w={["100%", "100%", "100vw", "100vw", "100vw"]}

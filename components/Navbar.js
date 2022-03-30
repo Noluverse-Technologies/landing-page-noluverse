@@ -101,7 +101,7 @@ export default function Navbar() {
               </Link>
             </HStack>
 
-            <Box display={{ base: "inline-flex", md: "none" } } zIndex="999">
+            <Box display={{ base: "inline-flex", md: "none"  } } zIndex="999">
               <IconButton
                 display={{ base: "flex", md: "none" }}
                 aria-label="Open menu"

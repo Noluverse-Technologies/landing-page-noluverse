@@ -18,7 +18,7 @@ export default function SaleTimeline() {
         <Image
    
           alignSelf="center"
-          w={["100%", "100%", "50%", "40%", "50%"]}
+          w={["100%", "60%", "40%", "40%", "50%"]}
           src="/stimelinesm.png"
           alt="saletimelinesm"
         />
