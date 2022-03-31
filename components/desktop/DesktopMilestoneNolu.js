@@ -96,7 +96,7 @@ export default function DesktopMilestoneNolu() {
             {/*   flex for button */}
 
             <Flex pt="2rem">
-              <Link href="https:ito.noluverse.com " isExternal>
+              <Link href="https://ito.noluverse.com" isExternal>
                 <Button
                   w="12rem"
                   borderRadius="0.5rem"

@@ -101,7 +101,7 @@ export default function DesktopHeroSection({ children }) {
 
           {/*   flex  for white button and paper  */}
           <Flex flexDir="row" gap="4" my="2rem">
-            <Link href="https:ito.noluverse.com " isExternal>
+            <Link href="https://ito.noluverse.com" isExternal>
               <Button
                 w="11.875rem"
                 borderRadius="0.5rem"

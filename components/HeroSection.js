@@ -100,7 +100,7 @@ export default function HeroSection({ children }) {
         my="4"
         pl={[0, "10rem", "15rem", "20rem", 0]}
       >
-        <Link href="https:ito.noluverse.com " isExternal>
+        <Link href="https://ito.noluverse.com " isExternal>
           <Button
             w="15rem"
             borderRadius="0.5rem"
