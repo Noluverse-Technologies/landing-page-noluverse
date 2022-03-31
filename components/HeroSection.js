@@ -63,10 +63,8 @@ export default function HeroSection({ children }) {
       backgroundSize="cover"
       w="100%"
     >
-      {children}
 
       {/*   flex  for heading */}
-
       <Flex
         mt="5rem"
         ml="1rem"

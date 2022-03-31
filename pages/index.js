@@ -52,9 +52,8 @@ export default function App() {
             backgroundSize="cover"
           ></Flex>
           <Flex direction="column" w="100%" maxW="1730px" minW="1280px">
-            <DesktopHeroSection>
-              <Navbar />
-            </DesktopHeroSection>
+            <Navbar />
+            <DesktopHeroSection />
             <DesktopNoluFeatures />
             <DesktopTokenSaleTerms />
             <DesktopBinanceSmartChain />
@@ -71,9 +70,8 @@ export default function App() {
       {/* for mobile------------------------- */}
       {isLessThan1100 ? (
         <Flex direction="column" w="100vw" overflow="hidden">
-          <HeroSection>
-            <Navbar />
-          </HeroSection>
+          <Navbar />
+          <HeroSection />
 
           <NoluFeatures />
 

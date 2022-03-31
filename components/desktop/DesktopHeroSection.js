@@ -54,6 +54,7 @@ export default function DesktopHeroSection({ children }) {
     /* mother box */
 
     <Box
+      marginTop={"70px"}
       h="80rem"
       backgroundImage="url('/bgHero.jpg')"
       backgroundPosition="center"
@@ -63,10 +64,8 @@ export default function DesktopHeroSection({ children }) {
       px={[0, 0, 0, "4rem", 0]}
       py={[0, 0, 0, "1rem", 0]}
     >
-      {children}
 
       {/*   mother  flex for left content and right side image with sale time  start*/}
-
       <Flex w="100%">
         {/*   left side content mother started */}
 
