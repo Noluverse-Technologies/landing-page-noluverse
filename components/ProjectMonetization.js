@@ -38,11 +38,11 @@ export default function ProjectMonetization() {
         mt="1rem"
         px={["1rem", "8rem", "5rem", "8rem", 0]}
       >
-        <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
-          <Text>01</Text>
+        <Flex w="12%" fontSize="xl" color="#2A408E" fontWeight="bold">
+          <Text>1</Text>
         </Flex>
 
-        <Flex w="90%" direction="column">
+        <Flex w="88%" direction="column">
           <Text color="#2A408E" fontSize="xl" fontWeight="bold">
             NoluPay
           </Text>
@@ -60,11 +60,11 @@ export default function ProjectMonetization() {
         mt="1.5rem"
         px={["1rem", "8rem", "5rem", "8rem", 0]}
       >
-        <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
-          <Text>02</Text>
+        <Flex w="12%" fontSize="xl" color="#2A408E" fontWeight="bold">
+          <Text>2</Text>
         </Flex>
 
-        <Flex w="90%" direction="column">
+        <Flex w="88%" direction="column">
           <Text color="#2A408E" fontSize="xl" fontWeight="bold">
             Nolu+
           </Text>
@@ -82,11 +82,11 @@ export default function ProjectMonetization() {
         mt="1.5rem"
         px={["1rem", "8rem", "5rem", "8rem", 0]}
       >
-        <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
-          <Text>03</Text>
+        <Flex w="12%" fontSize="xl" color="#2A408E" fontWeight="bold">
+          <Text>3</Text>
         </Flex>
 
-        <Flex w="90%" direction="column">
+        <Flex w="88%" direction="column">
           <Text color="#2A408E" fontSize="xl" fontWeight="bold">
             Pixel
           </Text>
@@ -104,11 +104,11 @@ export default function ProjectMonetization() {
         mt="1.5rem"
         px={["1rem", "8rem", "5rem", "8rem", 0]}
       >
-        <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
-          <Text>04</Text>
+        <Flex w="12%" fontSize="xl" color="#2A408E" fontWeight="bold">
+          <Text>4</Text>
         </Flex>
 
-        <Flex w="90%" direction="column">
+        <Flex w="88%" direction="column">
           <Text color="#2A408E" fontSize="xl" fontWeight="bold">
             Ad revenue
           </Text>
@@ -126,11 +126,11 @@ export default function ProjectMonetization() {
         mt="1.5rem"
         px={["1rem", "8rem", "5rem", "8rem", 0]}
       >
-        <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
-          <Text>05</Text>
+        <Flex w="12%" fontSize="xl" color="#2A408E" fontWeight="bold">
+          <Text>5</Text>
         </Flex>
 
-        <Flex w="90%" direction="column">
+        <Flex w="88%" direction="column">
           <Text color="#2A408E" fontSize="xl" fontWeight="bold">
             Nolu Merchandise
           </Text>
@@ -149,11 +149,11 @@ export default function ProjectMonetization() {
         mb="1rem"
         px={["1rem", "8rem", "5rem", "8rem", 0]}
       >
-        <Flex w="10%" fontSize="xl" color="#2A408E" fontWeight="bold">
-          <Text>06</Text>
+        <Flex w="12%" fontSize="xl" color="#2A408E" fontWeight="bold">
+          <Text>6</Text>
         </Flex>
 
-        <Flex w="90%" direction="column">
+        <Flex w="88%" direction="column">
           <Text color="#2A408E" fontSize="xl" fontWeight="bold">
             Nolu Blockchain
           </Text>
