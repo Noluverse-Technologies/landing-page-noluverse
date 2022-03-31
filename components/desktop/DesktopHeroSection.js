@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
 import {
   Flex,
@@ -15,6 +15,41 @@ import { FaDiscord, FaTelegramPlane } from "react-icons/fa";
 import { ImTwitter } from "react-icons/im";
 
 export default function DesktopHeroSection({ children }) {
+  const [partyTime, setPartyTime] = useState(false);
+  const [days, setDays] = useState(0);
+  const [hours, setHours] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(0);
+
+  useEffect(() => {
+    const target = new Date("4/21/2022 12:59:59 UTC-7");
+
+    const interval = setInterval(() => {
+      const now = new Date();
+      const difference = target.getTime() - now.getTime();
+
+      const d = Math.floor(difference / (1000 * 60 * 60 * 24));
+      setDays(d);
+
+      const h = Math.floor(
+        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      setHours(h);
+
+      const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      setMinutes(m);
+
+      const s = Math.floor((difference % (1000 * 60)) / 1000);
+      setSeconds(s);
+
+      if (d <= 0 && h <= 0 && m <= 0 && s <= 0) {
+        setPartyTime(true);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     /* mother box */
 
@@ -145,13 +180,13 @@ export default function DesktopHeroSection({ children }) {
                 <Text
                   fontSize="lg"
                   borderRadius="10px"
-                  background=" rgba(255, 255, 255, 0.1);"
+                  background="rgba(255, 255, 255, 0.1)"
                   px="2rem"
                   py="0.5rem"
                   fontWeight="bold"
-                  color="rgba(255, 255, 255, 0.1)"
+                  color="white"
                 >
-                  21
+                  {days}
                 </Text>
                 <Text fontSize="xs" px="3" py="1" color="white">
                   DAYS
@@ -167,12 +202,12 @@ export default function DesktopHeroSection({ children }) {
                   fontSize="lg"
                   color="white"
                   borderRadius="10px"
-                  background=" rgba(255, 255, 255, 0.1);"
+                  background="rgba(255, 255, 255, 0.1)"
                   px="2rem"
                   py="0.5rem"
                   fontWeight="bold"
                 >
-                  12
+                  {hours}
                 </Text>
                 <Text fontSize="xs" px="4" py="1" color="white">
                   HRS
@@ -192,7 +227,7 @@ export default function DesktopHeroSection({ children }) {
                   py="0.5rem"
                   fontWeight="bold"
                 >
-                  31
+                  {minutes}
                 </Text>
                 <Text fontSize="xs" px="4" py="1" color="white">
                   MIN
@@ -213,7 +248,7 @@ export default function DesktopHeroSection({ children }) {
                   py="0.5rem"
                   fontWeight="bold"
                 >
-                  28
+                  {seconds}
                 </Text>
                 <Text fontSize="xs" px="4" py="1" color="white">
                   SEC
