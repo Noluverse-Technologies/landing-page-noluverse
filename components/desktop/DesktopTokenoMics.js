@@ -1,4 +1,4 @@
-import { Flex, Image, Button, Text } from "@chakra-ui/react";
+import { Flex, Image, Button, Text, Link } from "@chakra-ui/react";
 
 export default function DesktopTokenoMics() {
   return (
@@ -51,16 +51,18 @@ export default function DesktopTokenoMics() {
         </Flex>
 
         <Flex pt="2rem">
-          <Button
-            w="12rem"
-            borderRadius="0.5rem"
-            h="3.18rem"
-            colorScheme="pink"
-            variant="solid"
-            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-          >
-            Buy Now
-          </Button>
+          <Link href="https:ito.noluverse.com " isExternal>
+            <Button
+              w="12rem"
+              borderRadius="0.5rem"
+              h="3.18rem"
+              colorScheme="pink"
+              variant="solid"
+              bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
+            >
+              Buy Now
+            </Button>
+          </Link>
         </Flex>
       </Flex>
     </Flex>

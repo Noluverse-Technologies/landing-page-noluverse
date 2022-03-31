@@ -100,28 +100,32 @@ export default function HeroSection({ children }) {
         my="4"
         pl={[0, "10rem", "15rem", "20rem", 0]}
       >
-        <Button
-          w="15rem"
-          borderRadius="0.5rem"
-          h="3.18rem"
-          colorScheme="pink"
-          variant="solid"
-          bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-        >
-          Learn More
-        </Button>
+        <Link href="https:ito.noluverse.com " isExternal>
+          <Button
+            w="20rem"
+            borderRadius="0.5rem"
+            h="3.18rem"
+            colorScheme="pink"
+            variant="solid"
+            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
+          >
+            Buy Nolu
+          </Button>
+        </Link>
 
         {/*   flex  for white paper ( child flex of buttons flex) */}
         <Flex w="100%" direction="row" gap="4" mt="1rem">
-          <Icon
-            as={AiOutlineDownload}
-            background="rgba(255, 255, 255, 0.14);"
-            w="20%"
-            h="4rem"
-            borderRadius="0.5rem"
-            fontSize="2xl"
-            color="#fff"
-          />
+          <Link href="/Noluverse White paper.pdf" isExternal>
+            <Icon
+              as={AiOutlineDownload}
+              background="rgba(255, 255, 255, 0.14);"
+              w="3.375rem"
+              h="4rem"
+              borderRadius="0.5rem"
+              fontSize="2xl"
+              color="#fff"
+            />
+          </Link>
 
           <Text color="#fff" w="80%" fontSize="lg" py="1rem" fontWeight="bold">
             View the White Paper
@@ -139,13 +143,13 @@ export default function HeroSection({ children }) {
         gap="8"
         pl={[0, "10rem", "15rem", "20rem", 0]}
       >
-        <Link href="" isExternal>
+        <Link href="https://discord.com/invite/6EXGNU8J" isExternal>
           <Icon as={FaDiscord} fontSize="2xl" />
         </Link>
-        <Link href="" isExternal>
+        <Link href="https://twitter.com/Noluverse/" isExternal>
           <Icon as={ImTwitter} fontSize="2xl" />
         </Link>
-        <Link href="" isExternal>
+        <Link href="https://t.me/+z5umLpKnnpgzNzcx" isExternal>
           <Icon as={FaTelegramPlane} borderRadius="8px" fontSize="2xl" />
         </Link>
       </Flex>
@@ -169,7 +173,7 @@ export default function HeroSection({ children }) {
         mt="1rem"
       >
         <Heading as="h4" size="md" fontWeight="600" color="white" mt="10">
-         TOKEN SALE ENDS IN
+          TOKEN SALE ENDS IN
         </Heading>
 
         {/*   child flex of sale time flex */}

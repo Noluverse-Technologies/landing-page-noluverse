@@ -1,4 +1,4 @@
-import { Flex, Image, Button, Text } from "@chakra-ui/react";
+import { Flex, Image, Button, Text, Link } from "@chakra-ui/react";
 
 export default function DesktopNoluSaleRoadmap() {
   return (
@@ -32,10 +32,8 @@ export default function DesktopNoluSaleRoadmap() {
 
       {/*  mother flex for  (phase 1 - phase 6) start */}
       <Flex direction="row" p="4rem" w="100%" h="70rem">
-        
         {/*   flex for mother phase 1  */}
         <Flex direction="column" w="16.66%">
-
           {/*   flex for phase 1  heading part */}
           <Flex
             backgroundColor="#3859C2"
@@ -116,7 +114,6 @@ export default function DesktopNoluSaleRoadmap() {
 
         {/*   flex for mother phase 2  */}
         <Flex direction="column" w="16.66%">
-          
           {/*   flex for phase 2  heading part */}
           <Flex
             backgroundColor="#4F68D1"
@@ -504,18 +501,18 @@ export default function DesktopNoluSaleRoadmap() {
       {/*   flex for button */}
 
       <Flex alignItems="center" justifyContent="center">
-        <Button
-          w="12rem"
-          borderRadius="0.5rem"
-          mt="3rem"
-          ml="1.5rem"
-          h="3.18rem"
-          colorScheme="pink"
-          variant="solid"
-          bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-        >
-          Learn More
-        </Button>
+        <Link href="https:ito.noluverse.com " isExternal>
+          <Button
+            w="11.875rem"
+            borderRadius="0.5rem"
+            h="3.18rem"
+            colorScheme="pink"
+            variant="solid"
+            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%)"
+          >
+            Buy Now
+          </Button>
+        </Link>
       </Flex>
     </Flex>
     /* mother flex for all  end  */

@@ -126,7 +126,6 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex
               mt="2rem"
-           
               direction="row"
               alignItems="center"
               justifyContent="center"
@@ -136,7 +135,7 @@ export default function DesktopMeetNoluTeam() {
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
                 isExternal
               >
-                <Icon as={RiYoutubeFill} fontSize="2xl"  />
+                <Icon as={RiYoutubeFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>
@@ -172,7 +171,7 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-                Metabit Studio
+                MetaBit Studio
               </Text>
             </Flex>
 
@@ -186,13 +185,12 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex
               mt="2rem"
-           
               direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"
             >
-              <Link href="" isExternal>
+              <Link href="https://www.facebook.com/metaBitStudio" isExternal>
                 <Icon as={RiFacebookCircleFill} fontSize="2xl" />
               </Link>
             </Flex>

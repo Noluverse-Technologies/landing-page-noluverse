@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <React.Fragment>
       <chakra.header
-        bgColor="transparent"
+        bgColor="#000044"
         px={{ base: 2, sm: 4 }}
         py={4}
         shadow="md"
@@ -44,14 +44,13 @@ export default function Navbar() {
                 src="nolutech.png"
                 alt="logo.png"
                 w={["9.356rem", "9.356rem", "13.875em"]}
-              
                 ml={[0, 0, 0, 0, "5rem"]}
               />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="lg" fontWeight="medium" ml="3" color={"white"}>
-            {/*   NOLUVERSE{" "}
+              {/*   NOLUVERSE{" "}
               <Text fontSize="xs" ml={1}>
                 {" "}
                 --Technologies--

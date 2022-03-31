@@ -1,4 +1,4 @@
-import { Flex, Image, Text, Heading, Button, Icon } from "@chakra-ui/react";
+import { Flex, Image, Text, Heading, Button, Link } from "@chakra-ui/react";
 export default function NoluSaleRoadmap() {
   return (
     /*      mother flex for all */
@@ -24,7 +24,7 @@ export default function NoluSaleRoadmap() {
       <Flex direction="column" alignItems="center" justifyContent="center">
         {/*   flex for mother phase 1  */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           {/*   flex for phase 1  heading part */}
 
           <Flex
@@ -98,7 +98,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 2  */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           {/*   flex for phase 2  heading part */}
 
           <Flex
@@ -173,7 +173,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 2 (2nd) (continued) */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           {/*   flex for phase 2 (2nd)  heading part */}
 
           <Flex
@@ -237,7 +237,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 3 */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           {/*   flex for phase 3  heading part */}
 
           <Flex
@@ -289,7 +289,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 4 */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           {/*   flex for phase 4  heading part */}
 
           <Flex
@@ -351,7 +351,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 5 */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           {/*   flex for phase 5  heading part */}
 
           <Flex
@@ -404,7 +404,7 @@ export default function NoluSaleRoadmap() {
 
         {/*   flex for mother phase 5  (architecture universe) */}
 
-        <Flex w={{base: "90%", md:"70%"}} direction="column">
+        <Flex w={{ base: "90%", md: "70%" }} direction="column">
           <Flex
             backgroundColor="#9797FF"
             h="5.87rem"
@@ -427,18 +427,20 @@ export default function NoluSaleRoadmap() {
       {/*   flex for button */}
 
       <Flex alignItems="center" justifyContent="center">
-        <Button
-          w="20.875rem"
-          borderRadius="0.5rem"
-          mt="1rem"
-          ml="1.5rem"
-          h="3.18rem"
-          colorScheme="pink"
-          variant="solid"
-          bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-        >
-          Learn More
-        </Button>
+        <Link href="https:ito.noluverse.com " isExternal>
+          <Button
+            w="20.875rem"
+            borderRadius="0.5rem"
+            mt="1rem"
+            ml="1.5rem"
+            h="3.18rem"
+            colorScheme="pink"
+            variant="solid"
+            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%)"
+          >
+            Buy Now
+          </Button>
+        </Link>
       </Flex>
     </Flex>
     /* mother flex for all  end  */

@@ -1,4 +1,4 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Image, Text, Button } from "@chakra-ui/react";
 
 export default function DesktopNoluFeatures() {
   return (
@@ -12,7 +12,18 @@ export default function DesktopNoluFeatures() {
       alignItems="center"
       justifyContent="center"
     >
-      <Flex>
+      <Button
+        w="11.875rem"
+        borderRadius="0.5rem"
+        h="3.18rem"
+        colorScheme="pink"
+        variant="solid"
+        bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%)"
+        cursor="none"
+      >
+        Learn More
+      </Button>
+      <Flex mt="2rem">
         <Image src="/nolufeat.png" />
       </Flex>
 
@@ -31,17 +42,17 @@ export default function DesktopNoluFeatures() {
 
       {/*   flex for DesktopNoluFeatures image  */}
 
-       {/* <Flex
+      {/* <Flex
         px="17rem"
         pt="5rem"
         pb="1rem"
         alignSelf="center"
         position="relative"
       > */}
-        {/* <Image src="/nolufeatures.png" alt="nolufeatures" /> */}
+      {/* <Image src="/nolufeatures.png" alt="nolufeatures" /> */}
 
-        {/*  mother flex for nolu+ start*/}
-        {/* <Flex direction="column" position="absolute" left="-1rem">
+      {/*  mother flex for nolu+ start*/}
+      {/* <Flex direction="column" position="absolute" left="-1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             Nolu+
           </Text>
@@ -54,11 +65,11 @@ export default function DesktopNoluFeatures() {
             releasing new benefits!
           </Text>
         </Flex> */}
-        {/*  mother flex for nolu+ end*/}
+      {/*  mother flex for nolu+ end*/}
 
-        {/*  mother flex for nolUpay start*/}
+      {/*  mother flex for nolUpay start*/}
 
-        {/* <Flex
+      {/* <Flex
           direction="column"
           position="absolute"
           left="-1rem"
@@ -76,11 +87,11 @@ export default function DesktopNoluFeatures() {
           </Text>
         </Flex> */}
 
-        {/*  mother flex for nolUpay end*/}
+      {/*  mother flex for nolUpay end*/}
 
-        {/* mother flex for NFT marketplace start */}
+      {/* mother flex for NFT marketplace start */}
 
-        {/* <Flex direction="column" position="absolute" right="-1rem">
+      {/* <Flex direction="column" position="absolute" right="-1rem">
           <Text fontSize="lg" fontWeight="bold" color="#151855">
             NFT Marketplace
           </Text>
@@ -92,11 +103,11 @@ export default function DesktopNoluFeatures() {
           </Text>
         </Flex> */}
 
-        {/* mother flex for NFT marketplace end */}
+      {/* mother flex for NFT marketplace end */}
 
-        {/*  mother flex for noluVerse start*/}
+      {/*  mother flex for noluVerse start*/}
 
-        {/* <Flex
+      {/* <Flex
           direction="column"
           position="absolute"
           right="-1rem"
@@ -113,7 +124,7 @@ export default function DesktopNoluFeatures() {
           </Text>
         </Flex> */}
 
-        {/*  mother flex for noluVerse end*/}
+      {/*  mother flex for noluVerse end*/}
       {/* </Flex> */}
 
       {/*  mother flex for pixel start (not include in position relative and absolute)*/}
@@ -125,7 +136,7 @@ export default function DesktopNoluFeatures() {
 
         <Text mt="0.5" fontSize="lg" fontWeight="300" color="#000000">
           Pixel holders earn exclusive
-          <br />  
+          <br />
           rewards from the Noluverse <br /> ecosystem.
         </Text>
       </Flex>

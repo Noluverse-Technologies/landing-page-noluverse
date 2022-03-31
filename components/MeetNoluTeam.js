@@ -1,7 +1,6 @@
 import { Icon, Box, Image, Flex, Text, Link } from "@chakra-ui/react";
 
-
-import { RiYoutubeFill ,RiFacebookCircleFill} from "react-icons/ri";
+import { RiYoutubeFill, RiFacebookCircleFill } from "react-icons/ri";
 
 export default function MeetNoluTeam() {
   return (
@@ -33,49 +32,49 @@ export default function MeetNoluTeam() {
         {/*    flex for 1st card  */}
 
         <Flex>
-        <Box
-          w="sm"
-          mx="auto"
-          ml="1rem"
-          py={8}
-          px={8}
-          bg={"linear-gradient(138.65deg, #9797FF 15.08%, #4169E1 85.18%)"}
-          shadow="lg"
-          boxShadow={
-            "0px 4px 54px rgba(97, 122, 236, 0.6), 0px 10px 46px rgba(19, 55, 91, 0.07)"
-          }
-          rounded="lg"
-          borderRadius="20px"
-        >
-          <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
-            <Image
-              w={20}
-              h={20}
-              fit="cover"
-              rounded="full"
-              borderStyle="solid"
-              alt="Marvin Yee"
-              src="marvin1.jpg"
-            />
-          </Flex>
+          <Box
+            w="sm"
+            mx="auto"
+            ml="1rem"
+            py={8}
+            px={8}
+            bg={"linear-gradient(138.65deg, #9797FF 15.08%, #4169E1 85.18%)"}
+            shadow="lg"
+            boxShadow={
+              "0px 4px 54px rgba(97, 122, 236, 0.6), 0px 10px 46px rgba(19, 55, 91, 0.07)"
+            }
+            rounded="lg"
+            borderRadius="20px"
+          >
+            <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
+              <Image
+                w={20}
+                h={20}
+                fit="cover"
+                rounded="full"
+                borderStyle="solid"
+                alt="Marvin Yee"
+                src="marvin1.jpg"
+              />
+            </Flex>
 
-          <Flex alignItems="center" justifyContent="center" mt="1rem">
-            <Text fontSize="xl" color="#FFFFFF" fontWeight="bold">
-              Marvin Yee
-            </Text>
-          </Flex>
+            <Flex alignItems="center" justifyContent="center" mt="1rem">
+              <Text fontSize="xl" color="#FFFFFF" fontWeight="bold">
+                Marvin Yee
+              </Text>
+            </Flex>
 
-          <Flex mt="1rem" alignItems="center" justifyContent="center">
-            {" "}
-            <Text fontSize="xl" color="#FFFFFF">
+            <Flex mt="1rem" alignItems="center" justifyContent="center">
               {" "}
-              14 years of valuable experience in <br /> marketing and sales
-              with <br /> expertise in consulting, product <br /> development,
-              and management.{" "}
-            </Text>
-          </Flex>
-        </Box>
-      </Flex>
+              <Text fontSize="xl" color="#FFFFFF">
+                {" "}
+                14 years of valuable experience in <br /> marketing and sales
+                with <br /> expertise in consulting, product <br /> development,
+                and management.{" "}
+              </Text>
+            </Flex>
+          </Box>
+        </Flex>
 
         {/*    flex for 1st card end  */}
 
@@ -121,17 +120,15 @@ export default function MeetNoluTeam() {
 
             <Flex
               mt="2rem"
-      
               direction="row"
               alignItems="center"
               justifyContent="center"
-           
             >
               <Link
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
                 isExternal
               >
-                <Icon  as={RiYoutubeFill} fontSize="2xl"   />
+                <Icon as={RiYoutubeFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>
@@ -167,7 +164,7 @@ export default function MeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-                Metabit Studio
+                MetaBit Studio
               </Text>
             </Flex>
 
@@ -181,14 +178,13 @@ export default function MeetNoluTeam() {
 
             <Flex
               mt="2rem"
-             
               direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"
             >
-              <Link href="" isExternal>
-                <Icon as={RiFacebookCircleFill} fontSize="2xl"  />
+              <Link href="https://www.facebook.com/metaBitStudio" isExternal>
+                <Icon as={RiFacebookCircleFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>
