@@ -102,7 +102,7 @@ export default function HeroSection({ children }) {
       >
         <Link href="https:ito.noluverse.com " isExternal>
           <Button
-            w="20rem"
+            w="15rem"
             borderRadius="0.5rem"
             h="3.18rem"
             colorScheme="pink"
