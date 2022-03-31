@@ -8,12 +8,12 @@ export default function DesktopBinanceSmartChain() {
       w="100%"
       mt="3rem"
       px={["5rem", "5rem", "5rem", "12rem", "5.5rem"]}
-      id="termslg"
+      id="binancesm"
     >
-      {/*  mother  flex for combined heading, paragraph, and crow salw and softcope  */}
+      {/*  mother  flex for combined heading, paragraph, and (token supply, BEP20 and Btc...)  */}
 
       <Flex w="50%" direction="column" pt="6rem">
-        {/*   flex for Token Sale Terms heading  */}
+        {/*   flex for  binance heading  */}
 
         <Flex
           alignItems="flex-start"
@@ -27,18 +27,20 @@ export default function DesktopBinanceSmartChain() {
           <Image mt="1rem" src="headingicon.png" alt="headingicon" />
         </Flex>
 
-        {/*   flex for Token Sale Terms paragraph  */}
+        {/*   flex for binance paragraph  */}
 
         <Flex w="70%" mt="2rem">
           <Text fontSize="md" color="#000000">
-          We accept ETH, BTC, BNB, BUSD, USDT, and transactions will take place on the Binance Smart Chain. If you’re interested in getting in on the project early, this is your perfect opportunity.
+            We accept ETH, BTC, BNB, BUSD, USDT, and transactions will take
+            place on the Binance Smart Chain. If you’re interested in getting in
+            on the project early, this is your perfect opportunity.
           </Text>
         </Flex>
 
-        {/*   mother flex for terms crowsale and softcat  */}
+        {/*   mother flex for (token supply, BEP20 and Btc...)  */}
 
         <Flex direction="row" gap="3rem">
-          {/*   flex for terms crowsale  */}
+          {/*   flex for terms token supply  */}
 
           <Flex
             alignItems="center"
@@ -55,7 +57,7 @@ export default function DesktopBinanceSmartChain() {
             </Text>
           </Flex>
 
-          {/*   flex for terms softcap  */}
+          {/*   flex for terms Bep20 */}
 
           <Flex
             alignItems="center"
@@ -72,7 +74,7 @@ export default function DesktopBinanceSmartChain() {
             </Text>
           </Flex>
 
-          {/*   flex for terms softcap  */}
+          {/*   flex for terms BTC,Eth....  */}
 
           <Flex
             alignItems="center"
@@ -90,9 +92,9 @@ export default function DesktopBinanceSmartChain() {
           </Flex>
         </Flex>
       </Flex>
-      {/*   mother flex for terms crowsale and softcat  end*/}
+      {/*   mother flex for(token supply, BEP20 and Btc...)  end*/}
 
-      {/*   flex for Token Sale Terms image  */}
+      {/*   flex binance image  */}
 
       <Flex w="50%" mt="1rem" px="2rem">
         <Image w="90%" src="binancechain.png" alt="lg binancechain" />

@@ -62,6 +62,8 @@ export default function DesktopHeroSection({ children }) {
       w="100%"
       px={[0, 0, 0, "4rem", 0]}
       py={[0, 0, 0, "1rem", 0]}
+      marginTop="5rem"
+      position={"relative"}
     >
       {children}
 
@@ -99,26 +101,30 @@ export default function DesktopHeroSection({ children }) {
 
           {/*   flex  for white button and paper  */}
           <Flex flexDir="row" gap="4" my="2rem">
-            <Button
-              w="11.875rem"
-              borderRadius="0.5rem"
-              h="3.18rem"
-              colorScheme="pink"
-              variant="solid"
-              bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-            >
-              Learn More
-            </Button>
+            <Link href="https://ito.noluverse.com" isExternal>
+              <Button
+                w="11.875rem"
+                borderRadius="0.5rem"
+                h="3.18rem"
+                colorScheme="pink"
+                variant="solid"
+                bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
+              >
+                Buy Nolu
+              </Button>
+            </Link>
 
-            <Icon
-              as={AiOutlineDownload}
-              background="rgba(255, 255, 255, 0.14);"
-              w="3.37rem"
-              h="3.18rem"
-              borderRadius="0.5rem"
-              fontSize="2xl"
-              color="#fff"
-            />
+            <Link href="/Noluverse White paper.pdf" isExternal>
+              <Icon
+                as={AiOutlineDownload}
+                background="rgba(255, 255, 255, 0.14);"
+                w="3.37rem"
+                h="3.18rem"
+                borderRadius="0.5rem"
+                fontSize="2xl"
+                color="#fff"
+              />
+            </Link>
 
             <Text color="#fff" fontSize="lg" py="1rem" fontWeight="bold">
               View the White Paper
@@ -128,13 +134,13 @@ export default function DesktopHeroSection({ children }) {
           {/*   flex  for social media icon */}
 
           <Flex mt="2rem" color="#fff" flexDir="row" gap="3rem">
-            <Link href="" isExternal>
+            <Link href="https://discord.com/invite/6EXGNU8J" isExternal>
               <Icon as={FaDiscord} fontSize="2xl" />
             </Link>
-            <Link href="" isExternal>
+            <Link href="https://twitter.com/Noluverse/" isExternal>
               <Icon as={ImTwitter} fontSize="2xl" />
             </Link>
-            <Link href="" isExternal>
+            <Link href="https://t.me/+z5umLpKnnpgzNzcx" isExternal>
               <Icon as={FaTelegramPlane} fontSize="2xl" />
             </Link>
           </Flex>
@@ -165,7 +171,7 @@ export default function DesktopHeroSection({ children }) {
             mt="1rem"
           >
             <Heading as="h4" size="md" fontWeight="600" color="white" mt="10">
-              TOTAL SALE ENDS IN
+              TOKEN SALE ENDS IN
             </Heading>
 
             {/*   child flex of sale time flex */}

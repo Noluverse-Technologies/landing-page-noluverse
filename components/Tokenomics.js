@@ -1,4 +1,4 @@
-import { Flex, Image, Button, Text, Show, Hide } from "@chakra-ui/react";
+import { Flex, Image, Button, Text, Link } from "@chakra-ui/react";
 
 export default function Tokenomics() {
   return (
@@ -54,16 +54,18 @@ export default function Tokenomics() {
       {/*   flex for tokenomics buttons  */}
 
       <Flex alignItems="center" justifyContent="center">
-        <Button
-          w="20.875rem"
-          borderRadius="0.5rem"
-          h="3.18rem"
-          colorScheme="pink"
-          variant="solid"
-          bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-        >
-          Buy Now
-        </Button>
+        <Link href="https://ito.noluverse.com" isExternal>
+          <Button
+            w="20.875rem"
+            borderRadius="0.5rem"
+            h="3.18rem"
+            colorScheme="pink"
+            variant="solid"
+            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%)"
+          >
+            Buy Now
+          </Button>
+        </Link>
       </Flex>
     </Flex>
     /* mother flex for all  end  */

@@ -25,12 +25,15 @@ export default function Navbar() {
   return (
     <React.Fragment>
       <chakra.header
-        bgColor="transparent"
+        bgColor="#000044"
         px={{ base: 2, sm: 4 }}
         py={4}
         shadow="md"
         position={"fixed"}
         width={"100%"}
+        left={"0"}
+        top={"0"}
+        zIndex={100}
       >
         <Flex alignItems="center" justifyContent="space-between" mx="auto">
           <Flex>
@@ -44,14 +47,13 @@ export default function Navbar() {
                 src="nolutech.png"
                 alt="logo.png"
                 w={["9.356rem", "9.356rem", "13.875em"]}
-              
                 ml={[0, 0, 0, 0, "5rem"]}
               />
 
               <VisuallyHidden>NOLUVERSE</VisuallyHidden>
             </chakra.a>
             <chakra.h1 fontSize="lg" fontWeight="medium" ml="3" color={"white"}>
-            {/*   NOLUVERSE{" "}
+              {/*   NOLUVERSE{" "}
               <Text fontSize="xs" ml={1}>
                 {" "}
                 --Technologies--
@@ -65,39 +67,39 @@ export default function Navbar() {
               mr={[20, 0, 0, 0, 20]}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Link href="#featlg">
+              <Link href="#featsm">
                 <Button variant="link" color="#FFFFFF">
                   Features
                 </Button>
               </Link>
 
-              <Link href="#termslg">
+              <Link href="#termssm">
                 <Button variant="link" color="#FFFFFF">
                   Terms
                 </Button>
               </Link>
-              <Link href="#timelinelg">
+              <Link href="#timelinesm">
                 <Button variant="link" color="#FFFFFF">
                   Timelines
                 </Button>
               </Link>
 
-              <Link href="#roadmaplg">
+              <Link href="#roadmapsm">
                 <Button variant="link" color="#FFFFFF">
                   Roadmap
                 </Button>
               </Link>
-              <Link href="#monetizationlg">
+              <Link href="#monetizationsm">
                 <Button variant="link" color="#FFFFFF">
                   Monetization
                 </Button>
               </Link>
-              <Link href="#teamboth">
+              <Link href="#teamsm">
                 <Button variant="link" color="#FFFFFF">
                   Team
                 </Button>
               </Link>
-              <Link href="#milestonelg">
+              <Link href="#milestonesm">
                 <Button variant="link" color="#FFFFFF">
                   Milestones
                 </Button>
@@ -161,7 +163,7 @@ export default function Navbar() {
                     Monetization
                   </Button>
                 </Link>
-                <Link href="#teamboth">
+                <Link href="#teamsm">
                   <Button w="full" variant="ghost">
                     Team
                   </Button>

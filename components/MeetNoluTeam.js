@@ -1,14 +1,12 @@
 import { Icon, Box, Image, Flex, Text, Link } from "@chakra-ui/react";
 
-import { FaFacebook } from "react-icons/fa";
-import { ImTwitter } from "react-icons/im";
-import { BsInstagram, BsYoutube } from "react-icons/bs";
+import { RiYoutubeFill, RiFacebookCircleFill } from "react-icons/ri";
 
 export default function MeetNoluTeam() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="3rem" mx="3rem" id="teamboth">
+    <Flex direction="column" my="3rem" mx="3rem" id="teamsm">
       {/*   flex for team heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
@@ -37,8 +35,7 @@ export default function MeetNoluTeam() {
           <Box
             w="sm"
             mx="auto"
-            ml="1rem"
-            py={4}
+            py={8}
             px={8}
             bg={"linear-gradient(138.65deg, #9797FF 15.08%, #4169E1 85.18%)"}
             shadow="lg"
@@ -122,17 +119,15 @@ export default function MeetNoluTeam() {
 
             <Flex
               mt="2rem"
-              color="#fff"
               direction="row"
               alignItems="center"
               justifyContent="center"
-              gap="8"
             >
               <Link
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
                 isExternal
               >
-                <Icon as={BsYoutube} fontSize="2xl" background="#C9D2F5" />
+                <Icon as={RiYoutubeFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>
@@ -168,7 +163,7 @@ export default function MeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-                Metabit Studio
+                MetaBit Studio
               </Text>
             </Flex>
 
@@ -182,14 +177,13 @@ export default function MeetNoluTeam() {
 
             <Flex
               mt="2rem"
-              color="#fff"
               direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"
             >
-              <Link href="" isExternal>
-                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              <Link href="https://www.facebook.com/metaBitStudio" isExternal>
+                <Icon as={RiFacebookCircleFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>

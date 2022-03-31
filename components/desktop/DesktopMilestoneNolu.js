@@ -4,19 +4,14 @@ export default function DesktopMilestoneNolu() {
   return (
     /*mother flex for all */
 
-    <Flex
-      direction="column"
-      mt="5rem"
-      
-      id="milestonelg"
-    >
+    <Flex direction="column" mt="5rem" id="milestonesm">
       {/*  mother flex for combined milestone nolu pard and images  start (upper part of full page) */}
 
       <Flex direction="column">
         {/*   flex for milestone heading and subheading  */}
         <Flex alignItems="center" justifyContent="center" direction="column">
           <Text fontSize="3xl" fontWeight="bold" color="#151855">
-            Milestone in Nolu
+            Milestones in Nolu
           </Text>
         </Flex>
 
@@ -101,17 +96,19 @@ export default function DesktopMilestoneNolu() {
             {/*   flex for button */}
 
             <Flex pt="2rem">
-              <Button
-                w="12rem"
-                borderRadius="0.5rem"
-                ml="1.5rem"
-                h="3.18rem"
-                colorScheme="pink"
-                variant="solid"
-                bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-              >
-                Learn More
-              </Button>
+              <Link href="https://ito.noluverse.com" isExternal>
+                <Button
+                  w="12rem"
+                  borderRadius="0.5rem"
+                  ml="1.5rem"
+                  h="3.18rem"
+                  colorScheme="pink"
+                  variant="solid"
+                  bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%)"
+                >
+                  Buy Now
+                </Button>
+              </Link>
             </Flex>
           </Flex>
 

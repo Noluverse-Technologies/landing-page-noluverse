@@ -1,8 +1,6 @@
 import { Icon, Box, Image, Flex, Text, Link } from "@chakra-ui/react";
 
-import { FaFacebook } from "react-icons/fa";
-import { ImTwitter } from "react-icons/im";
-import { BsInstagram, BsYoutube } from "react-icons/bs";
+import { RiFacebookCircleFill, RiYoutubeFill } from "react-icons/ri";
 
 export default function DesktopMeetNoluTeam() {
   return (
@@ -11,7 +9,7 @@ export default function DesktopMeetNoluTeam() {
     <Flex
       direction="column"
       my="3rem"
-      id="teamboth"
+      id="teamsm"
       px={[0, 0, "8rem", "8rem", "0"]}
     >
       {/*   flex for team heading  */}
@@ -88,7 +86,7 @@ export default function DesktopMeetNoluTeam() {
 
         {/*    flex for 2nd card start  */}
 
-        <Flex mt="5rem">
+        <Flex>
           <Box
             w="sm"
             mx="auto"
@@ -128,7 +126,6 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex
               mt="2rem"
-              color="#fff"
               direction="row"
               alignItems="center"
               justifyContent="center"
@@ -138,7 +135,7 @@ export default function DesktopMeetNoluTeam() {
                 href="https://www.youtube.com/channel/UC334vi8250UOjtuvhuxtzQg"
                 isExternal
               >
-                <Icon as={BsYoutube} fontSize="2xl" background="#C9D2F5" />
+                <Icon as={RiYoutubeFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>
@@ -148,7 +145,7 @@ export default function DesktopMeetNoluTeam() {
 
         {/*    flex for 3rd card start  */}
 
-        <Flex mt="5rem">
+        <Flex>
           <Box
             w="sm"
             mx="auto"
@@ -174,7 +171,7 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex alignItems="center" justifyContent="center" mt="1rem">
               <Text fontSize="xl" color="#151855" fontWeight="bold">
-                Metabit Studio
+                MetaBit Studio
               </Text>
             </Flex>
 
@@ -188,14 +185,13 @@ export default function DesktopMeetNoluTeam() {
 
             <Flex
               mt="2rem"
-              color="#fff"
               direction="row"
               alignItems="center"
               justifyContent="center"
               gap="8"
             >
-              <Link href="" isExternal>
-                <Icon as={FaFacebook} fontSize="2xl" background="#C9D2F5" />
+              <Link href="https://www.facebook.com/metaBitStudio" isExternal>
+                <Icon as={RiFacebookCircleFill} fontSize="2xl" />
               </Link>
             </Flex>
           </Box>

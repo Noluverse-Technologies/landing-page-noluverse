@@ -1,10 +1,27 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Image, Text, Button } from "@chakra-ui/react";
 
 export default function NoluFeatures() {
   return (
     /*      mother flex for all */
     // pl={[0, 0, "10rem", "17rem", 0]}
-    <Flex direction="column" id="featsm">
+    <Flex
+      direction="column"
+      id="featsm"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <Button
+        w="20.875rem"
+        borderRadius="0.5rem"
+        h="3.18rem"
+        colorScheme="pink"
+        variant="solid"
+        bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%)"
+        cursor="none"
+      >
+        Learn More
+      </Button>
+
       {/*  flex for feature heading  */}
 
       <Flex
@@ -12,6 +29,7 @@ export default function NoluFeatures() {
         justifyContent="center"
         color={"black"}
         direction="column"
+        mt="2rem"
       >
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Nolu Features

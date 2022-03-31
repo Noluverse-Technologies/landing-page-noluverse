@@ -8,7 +8,7 @@ export default function MilestoneNolu() {
       {/*   flex for milestone heading and subheading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
-          Milestone in Nolu
+          Milestones in Nolu
         </Text>
       </Flex>
 
@@ -92,16 +92,18 @@ export default function MilestoneNolu() {
         alignItems="center"
         justifyContent="center"
       >
-        <Button
-          w="20.875rem"
-          borderRadius="0.5rem"
-          h="3.18rem"
-          colorScheme="pink"
-          variant="solid"
-          bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-        >
-          Learn More
-        </Button>
+        <Link href="https://ito.noluverse.com" isExternal>
+          <Button
+            w="20.875rem"
+            borderRadius="0.5rem"
+            h="3.18rem"
+            colorScheme="pink"
+            variant="solid"
+            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
+          >
+            Buy Now
+          </Button>
+        </Link>
       </Flex>
 
       {/*   mother flex for footer */}
