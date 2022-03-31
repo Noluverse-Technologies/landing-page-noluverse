@@ -31,6 +31,9 @@ export default function Navbar() {
         shadow="md"
         position={"fixed"}
         width={"100%"}
+        left={"0"}
+        top={"0"}
+        zIndex={100}
       >
         <Flex alignItems="center" justifyContent="space-between" mx="auto">
           <Flex>

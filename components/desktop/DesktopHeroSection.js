@@ -62,6 +62,8 @@ export default function DesktopHeroSection({ children }) {
       w="100%"
       px={[0, 0, 0, "4rem", 0]}
       py={[0, 0, 0, "1rem", 0]}
+      marginTop="5rem"
+      position={"relative"}
     >
       {children}
 
