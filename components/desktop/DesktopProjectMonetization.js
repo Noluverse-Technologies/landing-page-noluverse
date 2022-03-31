@@ -8,7 +8,7 @@ export default function DesktopProjectMonetization() {
       direction="column"
       my="5rem"
       px={[0, 0, 0, "9rem", "3rem"]}
-      id="monetizationlg"
+      id="monetizationsm"
     >
       {/*   flex for project heading  */}
       <Flex direction="column" px="2.5rem">

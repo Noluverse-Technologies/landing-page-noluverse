@@ -9,7 +9,7 @@ export default function DesktopMeetNoluTeam() {
     <Flex
       direction="column"
       my="3rem"
-      id="teamboth"
+      id="teamsm"
       px={[0, 0, "8rem", "8rem", "0"]}
     >
       {/*   flex for team heading  */}

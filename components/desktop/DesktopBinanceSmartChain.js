@@ -8,7 +8,7 @@ export default function DesktopBinanceSmartChain() {
       w="100%"
       mt="3rem"
       px={["5rem", "5rem", "5rem", "12rem", "5.5rem"]}
-      id="termslg"
+      id="binancesm"
     >
       {/*  mother  flex for combined heading, paragraph, and (token supply, BEP20 and Btc...)  */}
 

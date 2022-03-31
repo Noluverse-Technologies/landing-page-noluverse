@@ -8,7 +8,7 @@ export default function DesktopNoluSaleRoadmap() {
       direction="column"
       my="3rem"
       px={[0, 0, 0, "7rem", "3rem"]}
-      id="roadmaplg"
+      id="roadmapsm"
     >
       {/*   flex for roadmap heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">

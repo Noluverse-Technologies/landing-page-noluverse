@@ -6,7 +6,7 @@ export default function MeetNoluTeam() {
   return (
     /*mother flex for all */
 
-    <Flex direction="column" my="3rem" mx="3rem" id="teamboth">
+    <Flex direction="column" my="3rem" mx="3rem" id="teamsm">
       {/*   flex for team heading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">

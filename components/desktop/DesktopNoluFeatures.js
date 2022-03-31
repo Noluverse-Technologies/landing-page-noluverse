@@ -5,7 +5,7 @@ export default function DesktopNoluFeatures() {
     /*      mother flex for all */
 
     <Flex
-      id="featlg"
+      id="featsm"
       direction="column"
       px={[0, 0, 0, "12rem", "7rem"]}
       py={[0, 0, 0, "2", , "6rem"]}

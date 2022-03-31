@@ -2,7 +2,7 @@ import { Flex, Image, Text } from "@chakra-ui/react";
 
 export default function DesktopNoluSaletime() {
   return (
-    <Flex direction="column" w="100%" p="5rem" id="timelinelg">
+    <Flex direction="column" w="100%" p="5rem" id="timelinesm">
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
           Nolu Sale Timeline

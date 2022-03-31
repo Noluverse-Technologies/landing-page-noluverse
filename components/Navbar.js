@@ -67,39 +67,39 @@ export default function Navbar() {
               mr={[20, 0, 0, 0, 20]}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Link href="#featlg">
+              <Link href="#featsm">
                 <Button variant="link" color="#FFFFFF">
                   Features
                 </Button>
               </Link>
 
-              <Link href="#termslg">
+              <Link href="#termssm">
                 <Button variant="link" color="#FFFFFF">
                   Terms
                 </Button>
               </Link>
-              <Link href="#timelinelg">
+              <Link href="#timelinesm">
                 <Button variant="link" color="#FFFFFF">
                   Timelines
                 </Button>
               </Link>
 
-              <Link href="#roadmaplg">
+              <Link href="#roadmapsm">
                 <Button variant="link" color="#FFFFFF">
                   Roadmap
                 </Button>
               </Link>
-              <Link href="#monetizationlg">
+              <Link href="#monetizationsm">
                 <Button variant="link" color="#FFFFFF">
                   Monetization
                 </Button>
               </Link>
-              <Link href="#teamboth">
+              <Link href="#teamsm">
                 <Button variant="link" color="#FFFFFF">
                   Team
                 </Button>
               </Link>
-              <Link href="#milestonelg">
+              <Link href="#milestonesm">
                 <Button variant="link" color="#FFFFFF">
                   Milestones
                 </Button>
@@ -163,7 +163,7 @@ export default function Navbar() {
                     Monetization
                   </Button>
                 </Link>
-                <Link href="#teamboth">
+                <Link href="#teamsm">
                   <Button w="full" variant="ghost">
                     Team
                   </Button>
