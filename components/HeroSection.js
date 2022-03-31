@@ -134,7 +134,7 @@ export default function HeroSection({ children }) {
         mt="1rem"
       >
         <Heading as="h4" size="md" fontWeight="600" color="white" mt="10">
-          TOTAL SALE ENDS IN
+         TOKEN SALE ENDS IN
         </Heading>
 
         {/*   child flex of sale time flex */}

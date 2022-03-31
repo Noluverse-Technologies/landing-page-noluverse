@@ -88,7 +88,7 @@ export default function DesktopMeetNoluTeam() {
 
         {/*    flex for 2nd card start  */}
 
-        <Flex mt="5rem">
+        <Flex>
           <Box
             w="sm"
             mx="auto"
@@ -148,7 +148,7 @@ export default function DesktopMeetNoluTeam() {
 
         {/*    flex for 3rd card start  */}
 
-        <Flex mt="5rem">
+        <Flex>
           <Box
             w="sm"
             mx="auto"

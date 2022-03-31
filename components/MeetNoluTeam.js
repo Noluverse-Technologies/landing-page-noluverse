@@ -34,49 +34,49 @@ export default function MeetNoluTeam() {
         {/*    flex for 1st card  */}
 
         <Flex>
-          <Box
-            w="sm"
-            mx="auto"
-            ml="1rem"
-            py={4}
-            px={8}
-            bg={"linear-gradient(138.65deg, #9797FF 15.08%, #4169E1 85.18%)"}
-            shadow="lg"
-            boxShadow={
-              "0px 4px 54px rgba(97, 122, 236, 0.6), 0px 10px 46px rgba(19, 55, 91, 0.07)"
-            }
-            rounded="lg"
-            borderRadius="20px"
-          >
-            <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
-              <Image
-                w={20}
-                h={20}
-                fit="cover"
-                rounded="full"
-                borderStyle="solid"
-                alt="Marvin Yee"
-                src="marvin1.jpg"
-              />
-            </Flex>
+        <Box
+          w="sm"
+          mx="auto"
+          ml="1rem"
+          py={4}
+          px={8}
+          bg={"linear-gradient(138.65deg, #9797FF 15.08%, #4169E1 85.18%)"}
+          shadow="lg"
+          boxShadow={
+            "0px 4px 54px rgba(97, 122, 236, 0.6), 0px 10px 46px rgba(19, 55, 91, 0.07)"
+          }
+          rounded="lg"
+          borderRadius="20px"
+        >
+          <Flex justifyContent={{ base: "center", md: "center" }} mt={-16}>
+            <Image
+              w={20}
+              h={20}
+              fit="cover"
+              rounded="full"
+              borderStyle="solid"
+              alt="Marvin Yee"
+              src="marvin1.jpg"
+            />
+          </Flex>
 
-            <Flex alignItems="center" justifyContent="center" mt="1rem">
-              <Text fontSize="xl" color="#FFFFFF" fontWeight="bold">
-                Marvin Yee
-              </Text>
-            </Flex>
+          <Flex alignItems="center" justifyContent="center" mt="1rem">
+            <Text fontSize="xl" color="#FFFFFF" fontWeight="bold">
+              Marvin Yee
+            </Text>
+          </Flex>
 
-            <Flex mt="1rem" alignItems="center" justifyContent="center">
+          <Flex mt="1rem" alignItems="center" justifyContent="center">
+            {" "}
+            <Text fontSize="xl" color="#FFFFFF">
               {" "}
-              <Text fontSize="xl" color="#FFFFFF">
-                {" "}
-                14 years of valuable experience in <br /> marketing and sales
-                with <br /> expertise in consulting, product <br /> development,
-                and management.{" "}
-              </Text>
-            </Flex>
-          </Box>
-        </Flex>
+              14 years of valuable experience in <br /> marketing and sales
+              with <br /> expertise in consulting, product <br /> development,
+              and management.{" "}
+            </Text>
+          </Flex>
+        </Box>
+      </Flex>
 
         {/*    flex for 1st card end  */}
 

@@ -117,6 +117,7 @@ export default function DesktopHeroSection({ children }) {
             alignItems="center"
             mt="0.5rem"
             justifyContent="center"
+          
           >
             <Image w="80%" src="hero.png" alt="hero" />
           </Flex>
@@ -130,7 +131,7 @@ export default function DesktopHeroSection({ children }) {
             mt="1rem"
           >
             <Heading as="h4" size="md" fontWeight="600" color="white" mt="10">
-              TOTAL SALE ENDS IN
+              TOKEN SALE ENDS IN
             </Heading>
 
             {/*   child flex of sale time flex */}

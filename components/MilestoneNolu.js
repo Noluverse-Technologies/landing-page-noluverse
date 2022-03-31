@@ -8,7 +8,7 @@ export default function MilestoneNolu() {
       {/*   flex for milestone heading and subheading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
         <Text fontSize="3xl" fontWeight="bold" color="#151855">
-          Milestone in Nolu
+          Milestones in Nolu
         </Text>
       </Flex>
 
