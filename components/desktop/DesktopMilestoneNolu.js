@@ -166,39 +166,39 @@ export default function DesktopMilestoneNolu() {
 
         {/*    flex for footer nav button (child flex of footer) */}
         <Flex direction="row" wrap="wrap" gap="10" pt="19rem" pr="3rem">
-          <Link href="#featlg">
+          <Link href="#featsm">
             <Button variant="link" color="#FFFFFF">
               Features
             </Button>
           </Link>
 
-          <Link href="#termslg">
+          <Link href="#termssm">
             <Button variant="link" color="#FFFFFF">
               Terms
             </Button>
           </Link>
-          <Link href="#timelinelg">
+          <Link href="#timelinesm">
             <Button variant="link" color="#FFFFFF">
               Timelines
             </Button>
           </Link>
 
-          <Link href="#roadmaplg">
+          <Link href="#roadmapsm">
             <Button variant="link" color="#FFFFFF">
               Roadmap
             </Button>
           </Link>
-          <Link href="#monetizationlg">
+          <Link href="#monetizationsm">
             <Button variant="link" color="#FFFFFF">
               Monetization
             </Button>
           </Link>
-          <Link href="#teamboth">
+          <Link href="#teamsm">
             <Button variant="link" color="#FFFFFF">
               Team
             </Button>
           </Link>
-          <Link href="#milestonelg">
+          <Link href="#milestonesm">
             <Button variant="link" color="#FFFFFF">
               Milestones
             </Button>

@@ -10,7 +10,7 @@ export default function NoluFeatures() {
       alignItems="center"
       justifyContent="center"
     >
-      <Button
+      {/* <Button
         w="20.875rem"
         borderRadius="0.5rem"
         h="3.18rem"
@@ -20,7 +20,7 @@ export default function NoluFeatures() {
         cursor="none"
       >
         Learn More
-      </Button>
+      </Button> */}
 
       {/*  flex for feature heading  */}
 
