@@ -22,7 +22,7 @@ export default function HeroSection({ children }) {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("4/21/2022 12:59:59 UTC-7");
+    const target = new Date("4/22/2022 23:50:00 UTC-7");
 
     const interval = setInterval(() => {
       const now = new Date();
