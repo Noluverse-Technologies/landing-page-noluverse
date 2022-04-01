@@ -92,7 +92,7 @@ export default function MilestoneNolu() {
         alignItems="center"
         justifyContent="center"
       >
-        <Link href="https:ito.noluverse.com " isExternal>
+        <Link href="https://ito.noluverse.com" isExternal>
           <Button
             w="20.875rem"
             borderRadius="0.5rem"

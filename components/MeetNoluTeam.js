@@ -35,7 +35,6 @@ export default function MeetNoluTeam() {
           <Box
             w="sm"
             mx="auto"
-            ml="1rem"
             py={8}
             px={8}
             bg={"linear-gradient(138.65deg, #9797FF 15.08%, #4169E1 85.18%)"}

@@ -501,7 +501,7 @@ export default function DesktopNoluSaleRoadmap() {
       {/*   flex for button */}
 
       <Flex alignItems="center" justifyContent="center">
-        <Link href="https:ito.noluverse.com " isExternal>
+        <Link href="https://ito.noluverse.com" isExternal>
           <Button
             w="11.875rem"
             borderRadius="0.5rem"
