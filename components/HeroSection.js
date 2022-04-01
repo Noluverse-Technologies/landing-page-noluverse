@@ -100,18 +100,20 @@ export default function HeroSection({ children }) {
         my="4"
         pl={[0, "10rem", "15rem", "20rem", 0]}
       >
-        <Link href="https://ito.noluverse.com " isExternal>
-          <Button
-            w="15rem"
-            borderRadius="0.5rem"
-            h="3.18rem"
-            colorScheme="pink"
-            variant="solid"
-            bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
-          >
-            Buy Nolu
-          </Button>
-        </Link>
+
+      <Link href="#featsm">
+      <Button
+      w="15rem"
+      borderRadius="0.5rem"
+      h="3.18rem"
+      colorScheme="pink"
+      variant="solid"
+      bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
+    >
+    Learn More
+    </Button>
+      </Link>
+      
 
         {/*   flex  for white paper ( child flex of buttons flex) */}
         <Flex w="100%" direction="row" gap="4" mt="1rem">

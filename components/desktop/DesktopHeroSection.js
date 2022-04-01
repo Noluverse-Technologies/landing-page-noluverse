@@ -101,7 +101,7 @@ export default function DesktopHeroSection({ children }) {
 
           {/*   flex  for white button and paper  */}
           <Flex flexDir="row" gap="4" my="2rem">
-            <Link href="https://ito.noluverse.com" isExternal>
+            <Link href="#featsm" >
               <Button
                 w="11.875rem"
                 borderRadius="0.5rem"
@@ -110,7 +110,7 @@ export default function DesktopHeroSection({ children }) {
                 variant="solid"
                 bgGradient="linear-gradient(135deg, #FE6684 -3.52%, #FFBB8E 100.09%);"
               >
-                Buy Nolu
+              Learn More
               </Button>
             </Link>
 

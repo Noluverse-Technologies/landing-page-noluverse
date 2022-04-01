@@ -12,7 +12,7 @@ export default function DesktopNoluFeatures() {
       alignItems="center"
       justifyContent="center"
     >
-      <Button
+     {/*  <Button
         w="11.875rem"
         borderRadius="0.5rem"
         h="3.18rem"
@@ -22,7 +22,7 @@ export default function DesktopNoluFeatures() {
         cursor="none"
       >
         Learn More
-      </Button>
+      </Button> */}
       <Flex mt="2rem">
         <Image src="/nolufeat.png" />
       </Flex>
