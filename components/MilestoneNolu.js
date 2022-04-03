@@ -1,9 +1,11 @@
 import { Flex, Image, Text, Button, Link } from "@chakra-ui/react";
+import { YouTubeLite } from 'react-youtube-lite';
 
 export default function MilestoneNolu() {
-  return (
-    /*mother flex for all */
 
+  return (
+    
+    /*mother flex for all */
     <Flex direction="column" mt="3rem" id="milestonesm">
       {/*   flex for milestone heading and subheading  */}
       <Flex alignItems="center" justifyContent="center" direction="column">
@@ -12,8 +14,8 @@ export default function MilestoneNolu() {
         </Text>
       </Flex>
 
+      
       {/*  mother flex for charcter development*/}
-
       <Flex my="1rem" w="100%" px={[0, "4rem", "12rem", "16rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
@@ -33,8 +35,8 @@ export default function MilestoneNolu() {
         </Flex>
       </Flex>
 
+      
       {/*  mother flex for game script*/}
-
       <Flex my="1rem" w="100%" px={[0, "4rem", "12rem", "16rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
@@ -51,8 +53,8 @@ export default function MilestoneNolu() {
         </Flex>
       </Flex>
 
+      
       {/*  mother flex for combat ai*/}
-
       <Flex my="1rem" w="100%" px={[0, "4rem", "12rem", "16rem", 0]}>
         <Flex ml="1.5rem" mt="1.5rem" w="10%">
           <Image w="1.3rem" h="1.3rem" src="m_righticon.png" alt="righticon" />
@@ -69,24 +71,25 @@ export default function MilestoneNolu() {
         </Flex>
       </Flex>
 
+      
       {/*   flex for milestone image  */}
-
       <Flex
         w="100%"
         my="1rem"
-        ml="2.5rem"
         px={[0, "4rem", "12rem", "16rem", 0]}
       >
-        <Image
+        {/* <Image
           w={["80%", "90%", "70%", "70%", "75%"]}
           src="milestone.png"
           alt="milestone"
           alignSelf="center"
-        />
+        /> */}
+        {/* <YouTube videoId="h-n5ivz_CIw" /> */}
+        <YouTubeLite url="h-n5ivz_CIw" Title="Noluverse"/>
       </Flex>
 
+      
       {/*   flex for button */}
-
       <Flex
         mb={[0, "2rem", "2rem", "2rem", 0]}
         alignItems="center"
@@ -106,8 +109,8 @@ export default function MilestoneNolu() {
         </Link>
       </Flex>
 
+      
       {/*   mother flex for footer */}
-
       <Flex
         direction="column"
         h="32rem"

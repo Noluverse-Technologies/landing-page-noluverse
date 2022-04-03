@@ -22,7 +22,7 @@ export default function DesktopHeroSection({ children }) {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("4/22/2022 23:50:00 UTC-7");
+    const target = new Date("5/1/2022 23:50:00 UTC-7");
 
     const interval = setInterval(() => {
       const now = new Date();
