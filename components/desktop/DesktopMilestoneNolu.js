@@ -1,19 +1,7 @@
 import { Flex, Image, Button, Text, Link } from "@chakra-ui/react";
-import YouTube from "react-youtube";
+import { YouTubeLite } from 'react-youtube-lite';
 
 export default function DesktopMilestoneNolu() {
-
-  const opts = {
-    height: "390",
-    width: "640",
-    playerVars: {
-      autoplay: 1,
-    },
-  };
-
-  function _onReady(e) {
-    e.target.pauseVideo();
-  }
 
   return (
     /*mother flex for all */
@@ -130,7 +118,7 @@ export default function DesktopMilestoneNolu() {
 
           {/*   flex for milestone image start (right portion)  */}
 
-          <Flex w="50%">
+          <Flex w="50%" marginRight={"2rem"}>
             {/* <Image
               w="100%"
               pr="5rem"
@@ -138,8 +126,8 @@ export default function DesktopMilestoneNolu() {
               src="milestone.png"
               alt="milestone"
             /> */}
-            <YouTube videoId="h-n5ivz_CIw" 
-            opts={opts} onReady={_onReady} />
+            {/* <YouTube videoId="h-n5ivz_CIw" /> */}
+            <YouTubeLite url="h-n5ivz_CIw" Title="Noluverse"/>
           </Flex>
 
           {/*   flex for milestone image end (right portion)  */}
