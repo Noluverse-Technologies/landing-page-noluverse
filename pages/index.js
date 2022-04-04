@@ -11,6 +11,10 @@ import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
 import MeetNoluTeam from "../components/MeetNoluTeam";
 
+import PracticeSaleTimeline from "../components/PracticeSaleTimeline";
+import  PracTiceFooter from "../components/PracTiceFooter";
+
+
 import { Flex, useMediaQuery } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 
@@ -91,3 +95,5 @@ export default function App() {
     </>
   );
 }
+
+

@@ -30,7 +30,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor="#3859C2"
             h="5.87rem"
-            ml="1.2rem"
             mt="1rem"
             borderRadius={"20px 20px 0px 0px"}
             direction="column"
@@ -51,7 +50,6 @@ export default function NoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex w="100%" px="2rem" mt="1rem">
@@ -104,7 +102,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor="#4F68D1"
             h="5.87rem"
-            ml="1.2rem"
             direction="column"
             alignItems="center"
             justifyContent="center"
@@ -123,7 +120,6 @@ export default function NoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex w="100%" px="2rem" mt="1rem">
@@ -179,7 +175,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor=" #5F72DB"
             h="5.87rem"
-            ml="1.2rem"
             direction="column"
             alignItems="center"
             justifyContent="center"
@@ -198,7 +193,6 @@ export default function NoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex w="100%" px="2rem" mt="1rem">
@@ -243,7 +237,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor="#6E7CE5"
             h="5.87rem"
-            ml="1.2rem"
             direction="column"
             alignItems="center"
             justifyContent="center"
@@ -262,7 +255,6 @@ export default function NoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex w="100%" px="2rem" mt="1rem">
@@ -295,7 +287,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor="#7E87EF"
             h="5.87rem"
-            ml="1.2rem"
             direction="column"
             alignItems="center"
             justifyContent="center"
@@ -314,7 +305,6 @@ export default function NoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex w="100%" px="2rem" mt="1rem">
@@ -357,7 +347,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor="#9797FF"
             h="5.87rem"
-            ml="1.2rem"
             direction="column"
             alignItems="center"
             justifyContent="center"
@@ -376,7 +365,6 @@ export default function NoluSaleRoadmap() {
             backgroundColor="#FAFAFF"
             border="1px solid #EDF2F7"
             py="1.5rem"
-            ml="1.2rem"
             direction="column"
           >
             <Flex w="100%" px="2rem" mt="1rem">
@@ -408,7 +396,6 @@ export default function NoluSaleRoadmap() {
           <Flex
             backgroundColor="#9797FF"
             h="5.87rem"
-            ml="1.2rem"
             borderRadius={"0px 0px 20px 20px"}
             direction="column"
             alignItems="center"
@@ -432,7 +419,6 @@ export default function NoluSaleRoadmap() {
             w="20.875rem"
             borderRadius="0.5rem"
             mt="1rem"
-            ml="1.5rem"
             h="3.18rem"
             colorScheme="pink"
             variant="solid"
