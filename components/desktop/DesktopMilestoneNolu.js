@@ -207,7 +207,7 @@ export default function DesktopMilestoneNolu() {
               Milestones
             </Button>
           </Link>
-        </Flex>
+        </Flex>        
       </Flex>
 
       {/*   mother flex for footer end(lower part of page) */}

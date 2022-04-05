@@ -11,6 +11,12 @@ import ProjectMonetization from "../components/ProjectMonetization";
 import MilestoneNolu from "../components/MilestoneNolu";
 import MeetNoluTeam from "../components/MeetNoluTeam";
 
+import PracticeSaleTimeline from "../components/PracticeSaleTimeline";
+import  PracticeFooter from "../components/PracticeFooter";
+import  Pfooter from "../components/Pfooter";
+import  Footertest from "../components/Footertest";
+
+
 import { Flex, useMediaQuery } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 
@@ -41,28 +47,13 @@ export default function App() {
       {isLargerThan1100 ? (
         <Flex w="100vw" justifyContent="center">
           <Flex
-            zIndex={"-9999"}
-            height={"35vh"}
-            width={"100%"}
-            position={"absolute"}
-            backgroundImage="url('/bgHero.jpg')"
-            backgroundPosition="center"
-            backgroundRepeat="no-repeat"
-            backgroundSize="cover"
+           
           ></Flex>
           <Flex direction="column" w="100%" maxW="1730px" minW="1280px">
-            <DesktopHeroSection>
-              <Navbar />
-            </DesktopHeroSection>
-            <DesktopNoluFeatures />
-            <DesktopTokenSaleTerms />
-            <DesktopBinanceSmartChain />
-            <DesktopTokenoMics />
-            <DesktopNoluSaletime />
-            <DesktopNoluSaleRoadmap />
-            <DesktopProjectMonetization />
-            <DesktopMeetNoluTeam />
-            <DesktopMilestoneNolu />
+          <PracticeSaleTimeline/>
+      
+          <PracticeFooter/>
+         
           </Flex>
         </Flex>
       ) : null}
@@ -70,22 +61,11 @@ export default function App() {
       {/* for mobile------------------------- */}
       {isLessThan1100 ? (
         <Flex direction="column" w="100vw" overflow="hidden">
-          <HeroSection>
-            <Navbar />
-          </HeroSection>
+        <PracticeSaleTimeline/>
 
-          <NoluFeatures />
+ <PracticeFooter/>
 
-          <TokenSaleTerms />
-
-          <BinanceSmartChain />
-          <Tokenomics />
-          <SaleTimeline />
-          <NoluSaleRoadmap />
-
-          <ProjectMonetization />
-          <MeetNoluTeam />
-          <MilestoneNolu />
+   
         </Flex>
       ) : null}
     </>

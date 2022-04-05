@@ -113,7 +113,7 @@ export default function MilestoneNolu() {
       {/*   mother flex for footer */}
       <Flex
         direction="column"
-        h="32rem"
+        h="32rem"    
         backgroundImage="url('/footer.png')"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
